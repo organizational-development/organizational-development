@@ -1,6 +1,17 @@
 # Burke-Litwin Causal Model
 
 The Burke-Litwin Causal Model of Organizational Performance and Change is a system-based diagnostic framework created by W. Warner Burke and George H. Litwin in 1992. Unlike static checklists, it maps explicit cause-and-effect relationships among twelve specific organizational dimensions to explain how external forces cascade through an enterprise to influence individual motivation and final performance. [1, 2, 3] 
+**Evidence: Mixed.** More empirically ambitious than most diagnostics here,
+and only partly validated. The transformational versus transactional
+distinction is the best-supported element: it corresponds to a real and
+repeatedly observed failure pattern, in which structural or procedural fixes
+are applied to problems rooted in leadership, strategy, or culture. The full
+twelve-factor causal structure — including the specific direction and strength
+of each path — has not been confirmed, and some published tests find the
+hypothesized causal ordering only partially supported. Treat the tiers as
+sound and the individual arrows as hypotheses.
+
+
 ## The Input, Throughput, and Output Architecture
 The model is structured hierarchically, showing that changes at the top or outer rings exert a dominant causal flow downward into internal operations and individual behaviors. [2] 
 
@@ -27,6 +38,12 @@ These everyday operational mechanisms respond to the transformational tier and d
 
 * Transformational vs. Transactional: A key utility of the model is telling leaders when they face a transformational challenge (requiring shifts in strategy, leadership, or culture) versus a transactional challenge (tweaking structure, systems, or climate). Trying to fix a cultural or strategic misfit with a surface-level restructuring will stall out. [6] 
 * Motivation as a Mediator: Employee motivation sits near the bottom as a central clearinghouse. How workers experience the upstream structure, climate, and management practices directly dictates their motivation, which dictates performance. [3] 
+
+## Questionnaire
+
+A paired, copy-and-use diagnostic instrument for this model:
+[burke-litwin-causal-model-questionnaire](burke-litwin-causal-model-questionnaire.md).
+
 
 ## Sources
 

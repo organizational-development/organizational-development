@@ -1,95 +1,373 @@
-# Organizational development
+# Organizational Development — specification index
 
-[Understanding the Organizational Development Process ...](https://www.creativesafetysupply.com/articles/organizational-development-process/)
-[Organizational Development Guide Definition, Process, Models ...](https://online.maryville.edu/online-masters-degrees/management-and-leadership/resources/organizational-development-guide/)
-[Key Benefits of Organizational Development | UpRaise](https://upraise.io/blog/15-key-benefits-of-organizational-development/)
-[What is Organizational Development (OD) in HR?](https://www.linkedin.com/pulse/what-organizational-development-od-hr-sabir-rajpoot)
-[Organizational Development: Definition, Uses and Techniques ...](https://hrdevelopmentinfo.com/organizational-development-definition-uses-and-techniques/)
+This directory is the working specification for the repository. The deliverable
+is the top-level `README.md`: a comprehensive, self-contained organizational
+development (OD) guide for knowledge workers.
 
-Organisational development (OD) is a planned, systematic, and evidence-based approach designed to improve an organisation's capability, effectiveness, and long-term health through the alignment of its strategy, structure, culture, and people. Grounded in behavioural sciences like psychology and sociology, OD moves away from quick fixes to foster continuous improvement and adaptive capacity. [1, 2, 3, 4, 5, 6]
+Contents:
 
-## Core Distinction: OD vs. Organisation Design
+* [Original prompt](#original-prompt)
+* [Decisions](#decisions)
+* [Findings](#findings)
+* [Deliverable outline](#deliverable-outline)
+* [Spec file inventory](#spec-file-inventory)
+* [Tasks](#tasks)
+* [Suggested improvements](#suggested-improvements)
+* [Open questions](#open-questions)
 
-- Organisation Design: Focuses on the structural mechanics—building operating models, reporting lines, formal processes, and metrics.
-- Organisation Development (ODV): Focuses on the human and cultural elements—shaping values, behaviours, team dynamics, and ways of working. [7]
 
-## Common Types of Interventions
+## Original prompt
 
-- Human Process: Coaching, mentoring, action learning, team building, and reflective group facilitation.
-- Human Resource: Performance management revamps, engagement surveys, reward frameworks, and psychometric assessments.
-- Techno-Structural: Job redesign, Lean/Six Sigma processes, and workflow optimization.
-- Strategic: Large-scale cultural transformation, vision alignment, and future-state planning. [1, 8]
+- Research spec/*.md specification-driven-development.
+- Research organizational development.
+  - Ask me questions as you think.
+  - Suggest improvements as you think.
+  - Update this file spec/index.md with your findings, plans, tasks, etc.
+- Write a comprehensive organizational development guide.
+- Target audience is knowledge workers such as:
+  - health care professionals e.g. doctors, nurses, administration
+  - software engineers e.g. designers, developers, testers
+  - senior executives e.g. CEO, CIO, CTO, CHRO.
+- Output file is markdown and name is README.md.
 
-## Sources
+Follow-up instructions:
 
-[1] [https://www.cipd.org](https://www.cipd.org/uk/knowledge/factsheets/organisational-development-factsheet/)
-[2] [https://www.aihr.com](https://www.aihr.com/blog/organizational-development/)
-[3] [https://www.cipd.org](https://www.cipd.org/en/views-and-insights/thought-leadership/insight/organisational-development-boost-skills/)
-[4] [https://www.youtube.com](https://www.youtube.com/watch?v=aLh4lvXZNzo&t=450)
-[5] [https://www.ibm.com](https://www.ibm.com/think/topics/organizational-development)
-[6] [https://uk.indeed.com](https://uk.indeed.com/career-advice/career-development/organisation-development)
-[7] [https://www.cipd.org](https://www.cipd.org/en/the-people-profession/the-profession-map/explore-the-profession-map/specialist-knowledge/organisational-development-design/)
-[8] [https://www.roffeypark.com](https://www.roffeypark.com/articles/what-is-organisational-development/)
-[9] [https://www.cipd.org](https://www.cipd.org/en/topics/organisational-development-design/)
-[10] [https://shop.cipd.org](https://shop.cipd.org/product?catalog=Organisation-Development)
-[11] [https://www.bmc.net](https://www.bmc.net/blog/general-blog-posts/hr-courses-online)
+- Add more files to spec/, one file per model, or framework, or system, etc.
+- Cover the "Process, measurement & ethics" family in full.
 
-## Professional Resources & Standards
 
-In the UK, professional competencies and structured credentials for practitioners are spearheaded by the [Chartered Institute of Personnel and Development (CIPD)](https://www.cipd.org/uk/), which integrates OD into its professional framework. For comprehensive guidance on building capabilities, tools, and change frameworks, you can review the [CIPD Organisation Development Factsheet](https://www.cipd.org/uk/knowledge/factsheets/organisational-development-factsheet/) or explore training options via the [CIPD Organisation Development Course](https://shop.cipd.org/product?catalog=Organisation-Development). [1, 9, 10, 11]
-If you'd like to proceed, tell me:
+## Decisions
 
-Applying diagnostic models to an organizational change project—such as shifting to a permanent hybrid work model or post-merger integration—requires choosing a lens that matches your specific transformation goals. The [McKinsey 7S Framework](https://en.wikipedia.org/wiki/McKinsey_7S_Framework) and the [Burke-Litwin Causal Model](https://www.12manage.com/methods_burke_litwin_model.html) offer two distinct diagnostic routes for analyzing and resolving alignment issues. [1, 2, 3, 4]
+Decisions confirmed with the repository owner:
 
-## The McKinsey 7S Framework
+* **Structure**: `README.md` is a self-contained comprehensive guide. A reader
+  should be able to act without following any link. `spec/` holds one reference
+  file per model, framework, method, or system, plus these working notes.
 
-- Best used for: Evaluating internal structural alignment during strategy execution or process-heavy transformations. [3, 4]
-- The 7 Elements: Divided into Hard Elements (Strategy, Structure, Systems) which are easy to identify and manage, and Soft Elements (Shared Values, Style, Staff, Skills) driven by culture. [4, 5]
-- Application in a Hybrid Shift: You check if your Strategy (remote flexibility) matches your formal Structure (reporting lines), whether digital collaboration Systems support the setup, and if leadership Style and staff Skills sync with the core Shared Values.
-- Limitation: It is a static snapshot that omits external market drivers and does not establish clear cause-and-effect hierarchies. [6]
+* **Audience handling**: interleave concrete examples from all three audiences
+  throughout the body, rather than segregating audiences into separate chapters.
+  Every substantial model gets health care, software, and executive examples.
 
-## The Burke-Litwin Causal Model
+* **Coverage**: all four framework families.
+  1. Diagnostic models.
+  2. Change models.
+  3. Culture, team, and human models.
+  4. Process, measurement, and ethics.
 
-- Best used for: Deep cultural overhauls or diagnosing complex performance declines by mapping direct cause-and-effect linkages. [3, 7]
-- The 12 Factors: Explicitly separates drivers into the External Environment (input), Transformational Factors (culture, leadership, strategy/mission), and Transactional Factors (structure, management practices, climate, motivation) leading to Performance (output). [1, 8]
-- Application in a Hybrid Shift: It shows how an external shift (External Environment) forces a change in top Leadership behavior, which alters the deep Organizational Culture, which subsequently trickles down to change day-to-day Management Practices and employee Motivation. [8, 9]
-- Limitation: Highly complex and data-heavy; it requires significant time and stakeholder consultation to diagnose all 12 feedback loops accurately. [10]
+* **Style**: house style plus depth. Terse bullet-driven sections, bold lead-ins,
+  heavy linking, `See ...` references — but with enough explanation, tables, and
+  worked examples that the guide teaches rather than merely indexes.
 
-[1] [https://www.toolshero.com](https://www.toolshero.com/strategy/mckinsey-7s-framework/)
-[2] [https://umbrex.com](https://umbrex.com/resources/frameworks/organization-frameworks/burke-litwin-model-of-organizational-performance-and-change/)
-[3] [https://umbrex.com](https://umbrex.com/resources/frameworks/project-management-frameworks/mckinsey-7s/)
-[4] [https://medium.com](https://medium.com/better-humans/5-frameworks-for-solving-business-problems-that-will-make-you-stand-out-8690f4cc55c7)
-[5] [https://www.toolshero.com](https://www.toolshero.com/strategy/mckinsey-7s-framework/)
-[6] [https://umbrex.com](https://umbrex.com/resources/frameworks/organization-frameworks/burke-litwin-model-of-organizational-performance-and-change/)
+* **Conventions**: kebab-case filenames; one topic per file; each spec file
+  carries a short definition, an origin, the model content, a
+  "When to use / when not to use" pair, limitations, and sources.
 
-## Sources
+* **Evidence labelling**: every model, framework, method, and system file
+  carries a `**Evidence: <strength>.**` block placed immediately before the
+  "Use when" line. It states plainly what is supported, what is not, and what
+  the specific methodological objections are. Strength values in use, from
+  strongest to weakest: `Strong`, `Good`, `Moderate`, `Mixed`, `Contested`,
+  `Weak`, `Very weak`, plus split labels of the form
+  "Weak as a model, moderate in components" where a blanket rating would
+  mislead, and `Not an empirical model` for taxonomies, checklists, methods,
+  and normative material. The current distribution across 68 labelled files is
+  4 Strong, 5 Good, 8 Moderate, 5 Mixed, 1 Contested, 20 Weak, 2 Very weak,
+  plus 16 split labels and 7 non-empirical.
 
-[1] [https://mutomorro.com](https://mutomorro.com/tools/burke-litwin-change-model)
-[2] [https://thechangecompass.com](https://thechangecompass.com/how-to-diagnose-for-change/)
-[3] [https://www.publicwise.online](https://www.publicwise.online/post/organizational-diagnostic-models-a-comprehensive-review)
-[4] [https://www.youtube.com](https://www.youtube.com/watch?v=mwyf8JSJxGc&t=21)
-[5] [https://www.youtube.com](https://www.youtube.com/watch?v=DFNJypMOIMI&t=613)
-[6] [https://www.youtube.com](https://www.youtube.com/watch?v=SeezaUIPN6Y)
-[7] [https://umbrex.com](https://umbrex.com/resources/change-management-frameworks/what-is-burke-litwin-model/)
-[8] [https://www.youtube.com](https://www.youtube.com/shorts/OCJ3C-ua3gg)
-[9] [https://www.aicura.com](https://www.aicura.com/eleadership/change-management/burke-litwin-the-performance-and-change-model/)
-[10] [https://www.youtube.com](https://www.youtube.com/watch?v=c92YT92uFvs)
+* **Questionnaire pairing**: every diagnostic model has a paired
+  `<model>-questionnaire.md` operational instrument, cross-linked from a
+  `## Questionnaire` section in the model file. Questionnaires use a 1–5 rating
+  scale, numbered steps, and a closing analysis step that says how to read the
+  scores, following the two original questionnaire files.
 
-## McKinsey 7S vs Burke-Litwin
 
-The McKinsey 7S and Burke-Litwin questionnaires offer two distinct diagnostic approaches: the 7S assessment is a compact, categorical snapshot of internal alignment, while Burke-Litwin is a deep, cascading causal map linking external pressures to individual output.
+## Findings
 
-| Feature           | McKinsey 7S Questionnaire                                                                | Burke-Litwin Questionnaire                                                                                        |
-| ----------------- | ---------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
-| Structure & Scope | 7 dimensions split equally between hard and soft components.                             | 12 dimensions arrayed in a sequential input-throughput-output hierarchy.                                          |
-| Core Focus        | Internal alignment (checking if tangible structures and intangible values match).        | Cause-and-effect cascade (tracing how environmental changes alter culture, climate, and motivation).              |
-| Diagnostic Lens   | Static/Holistic: Treats all elements as a balanced web with shared values at the center. | Dynamic/Causal: Establishes a flow where upper tiers (culture/leadership) drive lower tiers (climate/motivation). |
+### On specification-driven development in this repository
 
-## Comparison
+The `spec/` directory functions as the specification for the artifact, not as
+the artifact. The pattern observed in the pre-existing files:
 
-- Breadth vs. Depth: The 7S questionnaire is fast to deploy and easy for teams to digest, focusing purely on internal organizational harmony. The Burke-Litwin questionnaire requires more analytical effort because it forces respondents to evaluate external drivers and granular psychological factors like individual needs and motivation.
-- Actionability of Results: A low score in 7S highlights where harmony is broken (e.g., systems don't match skills), but doesn't tell you which fix comes first. Burke-Litwin explicitly separates transformational triggers from transactional symptoms, preventing leaders from misapplying surface-level fixes to deep cultural problems. [1, 2]
+* One file per concept, named for the concept.
+* Prose definition first, then enumerated structure, then application notes,
+  then limitations, then numbered sources.
+* Paired `*-questionnaire.md` files turn a descriptive model into an
+  operational instrument with 1–5 rating scales.
 
-## Synthesis
+This is worth preserving and extending: the *model file* explains, the
+*questionnaire file* operationalizes. The pairing is the repository's most
+distinctive asset, because most public OD writing stops at explanation.
 
-You can use these two tools together in a phased organizational development strategy. Deploy the McKinsey 7S Framework first as a rapid, high-level screening tool to find where internal friction or misalignments exist across the business. Once a specific performance breakdown or deep cultural resistance is flagged, deploy the Burke-Litwin Causal Model to trace the root cause upstream and design a targeted, sequential intervention plan. [3, 4, 5, 6]
+### On organizational development as a field
+
+* **OD is not change management.** OD is the broader discipline of building an
+  organization's capability to adapt; change management is the narrower practice
+  of moving a population from one defined state to another. Most confusion in
+  practice comes from applying a change-management tool (ADKAR, Kotter) to what
+  is actually an OD problem (the organization cannot learn), or vice versa.
+
+* **OD is not organization design.** Design is structural: operating models,
+  reporting lines, decision rights. Development is behavioral: values, norms,
+  team dynamics. The two are complements; most real programs need both, and
+  most failures come from doing only design.
+
+* **The field has a diagnosis deficit.** Practitioners reach for interventions
+  (offsites, training, restructures) before diagnosis. The diagnostic model
+  chapter is therefore load-bearing for the guide, and should come before the
+  intervention catalog.
+
+* **Transformational vs. transactional is the single most useful distinction.**
+  Burke-Litwin's separation explains the most common failure in the field:
+  applying a transactional fix (reorg, new tool, new policy) to a
+  transformational problem (culture, leadership, mission).
+
+* **The three target audiences share more than they differ.** All three are
+  knowledge-work settings with high autonomy, high interdependence, high
+  consequence of error, and professional identities that outrank organizational
+  identity. A physician, a staff engineer, and a CTO all resist change that
+  threatens professional judgment. This is the through-line for the guide.
+
+* **Audience-specific pressures worth naming:**
+  * *Health care*: safety and harm, shift-based work with no shared meeting
+    time, strict hierarchy alongside licensure-based autonomy, regulation,
+    burnout, and the fact that the customer can die.
+  * *Software*: Conway's law, delivery pressure, on-call load, rapid
+    technology churn, remote and hybrid distribution, and tooling that
+    encodes process.
+  * *Executive*: board and investor expectations, portfolio-level tradeoffs,
+    succession, the distortion of information as it travels up, and the fact
+    that the executive is usually the intervention's subject and its sponsor.
+
+* **Evidence quality varies enormously across popular models.** Psychological
+  safety, self-determination theory, and job characteristics have substantial
+  empirical support. Kübler-Ross applied to organizations, Tuckman's stages,
+  and most maturity models have little. The guide should say so plainly rather
+  than presenting all models as equally sound; this is a differentiator.
+
+* **Measurement is where OD programs die.** Programs are launched with no
+  baseline, no control comparison, and lagging-only metrics. A dedicated
+  measurement chapter with leading indicators and a warning about survey
+  misuse is essential.
+
+
+## Deliverable outline
+
+`README.md` sections, in order:
+
+1. **Introduction** — what this is, who it is for, how to use it.
+2. **Foundations** — what OD is and is not; adjacent disciplines; values and
+   ethics; evidence-based practice; systems thinking.
+3. **The OD process** — entry and contracting, diagnosis, feedback,
+   intervention design, implementation, evaluation, sustaining, exit.
+4. **Diagnostic frameworks** — how to choose; then each model.
+5. **Change frameworks** — how to choose; then each model.
+6. **Culture** — what culture is, how to read it, how to change it.
+7. **Teams and individuals** — safety, team models, motivation, learning.
+8. **Interventions** — catalog by family; large-group methods; facilitation.
+9. **Measurement** — what to measure, leading vs. lagging, survey practice,
+   domain metric sets, evaluating an OD program honestly.
+10. **Where to start** — a compact role-based decision aid.
+11. **Anti-patterns** — the recurring failure modes, with tells and remedies.
+12. **Questionnaires and templates** — inline, copy-paste ready.
+13. **Glossary**.
+14. **See also** — spec files and related repositories.
+
+
+## Spec file inventory
+
+Legend: `[x]` written, `[ ]` planned.
+
+### Foundations, process, ethics
+
+* [x] `od-process-cycle.md`
+* [x] `entry-and-contracting.md`
+* [x] `action-research.md`
+* [x] `evidence-based-practice.md`
+* [x] `od-ethics.md`
+* [x] `systems-thinking.md`
+* [x] `sociotechnical-systems.md`
+* [x] `conways-law.md`
+* [x] `interventions-catalog.md`
+
+### Diagnostic models
+
+Each is paired with a questionnaire of the same name plus `-questionnaire`.
+
+* [x] `mckinsey-7s-framework.md` · [x] `-questionnaire.md`
+* [x] `burke-litwin-causal-model.md` · [x] `-questionnaire.md`
+* [x] `weisbord-six-box-model.md` · [x] `-questionnaire.md`
+* [x] `nadler-tushman-congruence-model.md` · [x] `-questionnaire.md`
+* [x] `galbraith-star-model.md` · [x] `-questionnaire.md`
+* [x] `leavitt-diamond-model.md` · [x] `-questionnaire.md`
+* [x] `maturity-models.md` · [x] `-questionnaire.md`
+* [x] `force-field-analysis.md` · [x] `-questionnaire.md`
+* [x] `swot-analysis.md` · [x] `-questionnaire.md`
+* [x] `pestle-analysis.md` · [x] `-questionnaire.md`
+* [x] `cynefin-framework.md` · [x] `-questionnaire.md`
+* [x] `viable-system-model.md` · [x] `-questionnaire.md`
+* [x] `organizational-network-analysis.md` · [x] `-questionnaire.md`
+* [x] `team-topologies.md` · [x] `-questionnaire.md`
+
+Some questionnaires depart from the plain 1–5 rating form where that form would
+be dishonest, and say so in the file:
+
+* `leavitt-diamond-model-questionnaire.md` inverts the scale — a high score is
+  a warning about an unplanned second-order effect, not a good result.
+* `maturity-models-questionnaire.md` has two parts: a generic capability
+  self-assessment, and a critical appraisal of any maturity model you have been
+  handed, because appraising the model matters at least as much as scoring
+  against it.
+* `swot-analysis-questionnaire.md` and `pestle-analysis-questionnaire.md` are
+  worksheets with evidence and confidence columns, since the value is in the
+  TOWS pairing and the impact-versus-confidence plot rather than in a score.
+* `force-field-analysis-questionnaire.md` rates the strength of each force and
+  requires a named owner per restraining force.
+* `cynefin-framework-questionnaire.md` places a situation in a domain rather
+  than scoring a scale, then checks the domain against the management approach
+  actually in use.
+* `organizational-network-analysis-questionnaire.md` has a practitioner ethics
+  and readiness check that must be completed *before* the participant survey,
+  with two items that are hard stops rather than trade-offs.
+
+### Change models
+
+* [x] `lewin-change-model.md`
+* [x] `kotter-8-step-change-model.md`
+* [x] `adkar-change-management-model.md`
+* [x] `bridges-transition-model.md`
+* [x] `kubler-ross-change-curve.md`
+* [x] `satir-change-model.md`
+* [x] `beckhard-harris-change-equation.md`
+* [x] `rogers-diffusion-of-innovations.md`
+* [x] `switch-framework.md`
+* [x] `mckinsey-influence-model.md`
+* [x] `theory-of-change.md`
+* [x] `plan-do-study-act.md`
+* [x] `improvement-kata.md`
+
+### Culture, team, and human models
+
+* [x] `schein-model-of-organizational-culture.md`
+* [x] `competing-values-framework.md`
+* [x] `westrum-organizational-culture-typology.md`
+* [x] `hofstede-cultural-dimensions.md`
+* [x] `just-culture.md`
+* [x] `psychological-safety.md`
+* [x] `tuckman-stages-of-group-development.md`
+* [x] `lencioni-five-dysfunctions-of-a-team.md`
+* [x] `drexler-sibbet-team-performance-model.md`
+* [x] `google-project-aristotle.md`
+* [x] `crew-resource-management.md`
+* [x] `thomas-kilmann-conflict-modes.md`
+* [x] `self-determination-theory.md`
+* [x] `herzberg-two-factor-theory.md`
+* [x] `maslow-hierarchy-of-needs.md`
+* [x] `job-characteristics-model.md`
+* [x] `immunity-to-change.md`
+* [x] `situational-leadership-model.md`
+* [x] `learning-organization.md`
+* [x] `double-loop-learning.md`
+* [x] `process-consultation.md`
+
+### Large-group and facilitation methods
+
+* [x] `appreciative-inquiry.md`
+* [x] `open-space-technology.md`
+* [x] `world-cafe.md`
+* [x] `future-search.md`
+* [x] `after-action-review.md`
+* [x] `survey-feedback-method.md`
+
+### Measurement
+
+* [x] `measurement-and-metrics.md`
+* [x] `employee-engagement-surveys.md`
+* [x] `dora-metrics.md`
+* [x] `space-framework.md`
+* [x] `high-reliability-organizations.md`
+
+
+## Tasks
+
+* [x] Read existing spec files and infer conventions.
+* [x] Confirm structure, audience handling, coverage, and style with the owner.
+* [x] Write `spec/index.md` as the plan of record.
+* [x] Write one spec file per model, framework, method, and system.
+* [x] Write `README.md` as the comprehensive guide.
+* [x] Label evidence strength on every model, framework, method, and system
+      file, saying plainly where it is strong and where it is weak.
+* [x] Add a questionnaire file for each diagnostic model, matching the two
+      existing questionnaires, and cross-link each model to its questionnaire.
+* [x] Add a `LICENSE.md`.
+* [ ] Optional: add worked case studies, one per audience, running a single
+      scenario end to end through the OD process.
+* [ ] Optional: add a `CONTRIBUTING.md`.
+* [ ] Optional: split the culture and team instruments already embedded in
+      their model files — the psychological safety seven-item scale, the
+      Westrum six-item scale, and the Edmondson safety/accountability grid —
+      into standalone `-questionnaire.md` files, for symmetry with the
+      diagnostic family.
+* [ ] Optional: add a short `evidence.md` summarizing all labels in one table,
+      so a reader can see the whole distribution without opening 68 files.
+
+
+## Suggested improvements
+
+Recorded here rather than acted on, so the owner can choose.
+
+1. ~~**Pair every diagnostic model with a questionnaire.**~~ **Done.** All
+   fourteen diagnostic models now have a paired questionnaire, cross-linked
+   from a `## Questionnaire` section in the model file. The culture and team
+   instruments — psychological safety, Westrum — remain embedded in their model
+   files rather than split out; see the optional task above.
+
+2. **Add a "choosing" decision table at the top of each family.** Readers do
+   not need twelve diagnostic models; they need to pick one in five minutes.
+   Implemented in `README.md`; could be pulled into spec files too.
+
+3. ~~**Label evidence strength on every model.**~~ **Done.** Every model file
+   now carries an `**Evidence:**` block stating plainly what is supported and
+   what is not. This is the repository's clearest point of difference from
+   typical OD content, most of which presents every framework as equally sound.
+   Note the distribution is unflattering to the field: 20 files are flatly
+   `Weak` and only 4 are `Strong`. That is an accurate picture, and it should
+   not be softened.
+
+4. **Cross-link to the owner's related repositories** rather than duplicating
+   them: ADKAR, maturity models, company culture, OKRs, KPIs, KRIs, decision
+   records, stakeholder analysis, value stream mapping, and others.
+
+5. **Add anti-patterns as first-class content.** Most OD guides describe what
+   to do. Describing the recognizable failure modes, with their tells, is more
+   useful to a practitioner who has inherited a mess.
+
+6. **Consider a one-page printable "OD canvas"** that walks a team from
+   presenting problem, to diagnosis, to hypothesis, to intervention, to
+   measure. This would make the repository operational for a workshop.
+
+7. **Add worked end-to-end case studies**, one per audience, so readers see a
+   full cycle rather than isolated frameworks.
+
+
+## Open questions
+
+* Should the guide keep the legacy HTML comment header block (browser, tracker,
+  version, updated, contact, options) used in older repositories? It is omitted
+  for now in new files.
+* Should `README.md` include images or diagrams? Currently text-only for
+  portability and diff-friendliness.
+* Should the evidence labels be surfaced in `README.md` per model, or is the
+  single summary table in the Foundations chapter sufficient? Currently the
+  README carries the summary table and states the strength inline for the
+  models where it changes how the model should be used.
+* Should culture and team instruments be split into `-questionnaire.md` files
+  too, or does the diagnostic family alone satisfy the pairing convention?
+
+
+## Resolved
+
+* **Questionnaire pairing** — resolved 2026-08-12: yes, every diagnostic model
+  gets one. Twelve new questionnaires written.
+* **Evidence labelling** — resolved 2026-08-12: yes, on every model file, with
+  the plain statement rather than a bare rating.
+* **License** — resolved 2026-08-12: `LICENSE.md` added by the repository owner.
