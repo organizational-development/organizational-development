@@ -5,11 +5,11 @@ premise: organizational change only happens when individuals change, so manage
 the change one person at a time, in sequence.
 
 **Evidence: Weak.** Commercially developed, with essentially no independent
-validation. The sequential barrier logic is plausible and clinically useful,
-and the specific distinction between Knowledge and Ability is well supported
-by the training transfer literature, which finds repeatedly that classroom
-learning does not survive contact with real conditions without practice and
-environmental support. The five-element structure itself is unproven.
+validation. The sequential barrier logic is plausible and clinically useful, and
+the specific distinction between Knowledge and Ability is well supported by the
+training transfer literature, which finds repeatedly that classroom learning
+does not survive contact with real conditions without practice and environmental
+support. The five-element structure itself is unproven.
 
 Use when: a defined change affects a defined population and you need to find
 where individuals are stuck.
@@ -70,14 +70,14 @@ is not being able to do it under pressure at 3 a.m. with an interruption.
 * Assess each element 1–5 per group, or per person for key individuals.
 * Score below 3 marks the barrier point; stop there and work it.
 * Reassess after each intervention; barrier points move.
-* Combine with an organization-level model. ADKAR tells you about people;
-  it says nothing about structure, strategy, or systems.
+* Combine with an organization-level model. ADKAR tells you about people; it
+  says nothing about structure, strategy, or systems.
 
 
 ## Limitations
 
 * Practitioner-derived with limited independent validation. See
-  [evidence-based-practice](evidence-based-practice.md).
+  [evidence-based-practice](../evidence-based-practice/).
 * Individual focus omits structural causes; a person can have all five elements
   and still fail inside a system that prevents the behavior.
 * Presumes the change is correct, and offers no mechanism for the possibility
@@ -86,7 +86,7 @@ is not being able to do it under pressure at 3 a.m. with an interruption.
 
 ## See also
 
-* [kotter-8-step-change-model](kotter-8-step-change-model.md)
-* [bridges-transition-model](bridges-transition-model.md)
+* [kotter-8-step-change-model](../kotter-8-step-change-model/)
+* [bridges-transition-model](../bridges-transition-model/)
 * <https://github.com/joelparkerhenderson/adkar-change-management-model>
 * <https://www.prosci.com/methodology/adkar>

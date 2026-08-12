@@ -10,7 +10,7 @@ are considering adopting, scoring from 1 (badly flawed) to 5 (sound). Given how
 weak the evidence for maturity models is, Part B matters at least as much as
 Part A.
 
-See [maturity-models](maturity-models.md).
+See [maturity-models](../maturity-models/).
 
 **Evidence: Weak.** Maturity models are descriptive conventions. Level
 progression rarely predicts outcomes, and the levels are usually authored by
@@ -144,15 +144,16 @@ Use this before adopting any published or vendor maturity model.
   aspiration, not an obligation. The right target is the level at which the
   capability stops causing you problems.
 
-* **Part B: a total below 18 out of 30 means write your own.** Build it bottom-up
-  from characteristics your own people recognize, then cluster them into levels.
-  A model that fits your context and was written by your own practitioners will
-  be used; a model imported wholesale will be filled in and filed.
+* **Part B: a total below 18 out of 30 means write your own.** Build it
+  bottom-up from characteristics your own people recognize, then cluster them
+  into levels. A model that fits your context and was written by your own
+  practitioners will be used; a model imported wholesale will be filled in and
+  filed.
 
-* **A low B6 score is disqualifying.** If low scores carry consequences, you will
-  measure compliance and reporting behavior rather than capability. See
-  [measurement-and-metrics](measurement-and-metrics.md).
+* **A low B6 score is disqualifying.** If low scores carry consequences, you
+  will measure compliance and reporting behavior rather than capability. See
+  [measurement-and-metrics](../measurement-and-metrics/).
 
 * **For delivery capability specifically, prefer outcome measures to maturity
-  levels.** See [dora-metrics](dora-metrics.md), which measures what a team
+  levels.** See [dora-metrics](../dora-metrics/), which measures what a team
   achieves rather than which practices it conforms to.

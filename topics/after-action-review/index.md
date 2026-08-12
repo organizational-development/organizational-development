@@ -7,9 +7,9 @@ the one most often degraded into a status report.
 
 **Evidence: Good.** One of the better-evidenced interventions in this
 collection. Meta-analyses of structured team debriefs find substantial and
-consistent improvements in team performance, on the order of a 20 to 25
-percent improvement over teams that do not debrief, across military, medical,
-and aviation settings. The effect depends on the conditions described here —
+consistent improvements in team performance, on the order of a 20 to 25 percent
+improvement over teams that do not debrief, across military, medical, and
+aviation settings. The effect depends on the conditions described here —
 blameless framing, facilitation, participation regardless of rank, and
 follow-through — and an AAR that degrades into a status report should not be
 expected to produce it.
@@ -35,10 +35,10 @@ people meant to do.
 
 ## Ground rules
 
-* **No blame.** Focus on the system and the decisions, not the individuals.
-  See [just-culture](just-culture.md).
-* **Everyone participates**, and rank is left outside. In the Army version,
-  a private may contradict a colonel; that is the point.
+* **No blame.** Focus on the system and the decisions, not the individuals. See
+  [just-culture](../just-culture/).
+* **Everyone participates**, and rank is left outside. In the Army version, a
+  private may contradict a colonel; that is the point.
 * **Facilitated, not chaired**, and preferably not by the person who led the
   event.
 * **Soon after the event**, while memory is fresh — hours to days, not weeks.
@@ -97,7 +97,8 @@ the mechanism is producing documents, not change.
 * **Health care**: a debrief after a cardiac arrest call, run for five minutes
   in the corridor, is a hot wash and is standard good practice in many units.
   The full AAR for a serious incident must be separated in time and personnel
-  from any disciplinary process, and everyone must be told which one they are in.
+  from any disciplinary process, and everyone must be told which one they are
+  in.
 
 * **Software**: blameless post-incident review is the mature default. The single
   highest-value practice is publishing them internally in full — including the
@@ -113,6 +114,6 @@ the mechanism is producing documents, not change.
 
 ## See also
 
-* [just-culture](just-culture.md)
-* [learning-organization](learning-organization.md)
-* [high-reliability-organizations](high-reliability-organizations.md)
+* [just-culture](../just-culture/)
+* [learning-organization](../learning-organization/)
+* [high-reliability-organizations](../high-reliability-organizations/)

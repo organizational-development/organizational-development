@@ -8,7 +8,7 @@ Run it **with the people who will be restrained**, not about them. A restraining
 forces list written by leadership alone is nearly always wrong, and its errors
 are systematic: leadership over-weights attitude and under-weights capacity.
 
-See [force-field-analysis](force-field-analysis.md).
+See [force-field-analysis](../force-field-analysis/).
 
 **Evidence: Weak as a measurement tool, moderate as a principle.** The ratings
 are subjective. The underlying principle — that removing barriers changes
@@ -21,8 +21,8 @@ research on friction and defaults.
 Write the change as a specific target state, not as a slogan or a value.
 
 * Weak: "improve our safety culture"
-* Strong: "every drug round is completed without interruption on ward B by
-  1 March"
+* Strong: "every drug round is completed without interruption on ward B by 1
+  March"
 
 Target state: __________________________________________________
 
@@ -122,9 +122,9 @@ Prompts, ordered by how often each turns out to be the real constraint:
   driving force. Added pressure raises tension in the system and provokes
   counter-pressure; removing a barrier does not.
 
-* **Assign every restraining force a named owner and a date**, or the analysis is
-  decorative. This single step is the difference between a useful session and a
-  flip chart nobody looks at again.
+* **Assign every restraining force a named owner and a date**, or the analysis
+  is decorative. This single step is the difference between a useful session and
+  a flip chart nobody looks at again.
 
 * **If Capacity scored 4 or 5, stop and address it.** People are not resisting;
   they have no room. Every other intervention will fail against this one, and
@@ -133,9 +133,9 @@ Prompts, ordered by how often each turns out to be the real constraint:
 * **If Rewards scored 4 or 5, the change is being asked for and paid against.**
   Fix the measurement before asking again.
 
-* **Take the legitimate objection seriously.** If item 7 scores 3 or above,
-  test the objection on its merits before treating it as resistance. Sometimes
-  the people closest to the work are right, and discovering that is the most
+* **Take the legitimate objection seriously.** If item 7 scores 3 or above, test
+  the objection on its merits before treating it as resistance. Sometimes the
+  people closest to the work are right, and discovering that is the most
   valuable outcome this exercise can produce.
 
 * **Re-run it after four weeks.** Forces change as the change proceeds, and a

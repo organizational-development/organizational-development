@@ -2,18 +2,18 @@
 
 PESTLE scans the external macro-environment across six categories. It supplies
 the "external environment" input that
-[burke-litwin-causal-model](burke-litwin-causal-model.md) treats as the ultimate
-trigger for change, and that
-[mckinsey-7s-framework](mckinsey-7s-framework.md) omits entirely.
+[burke-litwin-causal-model](../burke-litwin-causal-model/) treats as the
+ultimate trigger for change, and that
+[mckinsey-7s-framework](../mckinsey-7s-framework/) omits entirely.
 
 Variants: PEST (original), PESTEL, STEEPLE (adds Ethics), PESTLIED.
 
 **Evidence: Not an empirical model — a checklist.** The six categories are an
-arbitrary but reasonably exhaustive partition, with no validation and no
-theory behind the specific cuts. The broader practice of environmental
-scanning has modest support in the strategy literature, associated with better
-adaptation in turbulent environments. The value is in the
-impact-versus-confidence step, not in the categories.
+arbitrary but reasonably exhaustive partition, with no validation and no theory
+behind the specific cuts. The broader practice of environmental scanning has
+modest support in the strategy literature, associated with better adaptation in
+turbulent environments. The value is in the impact-versus-confidence step, not
+in the categories.
 
 Use when: setting strategy, planning a multi-year program, or explaining to an
 internally-focused leadership team why change is arriving regardless of their
@@ -31,8 +31,8 @@ document that changes nothing.
    rates, funding availability, customer purchasing power.
 3. **Social**: demographics, health trends, attitudes to work, education levels,
    expectations of employers, public trust.
-4. **Technological**: automation, AI, platform shifts, R&D intensity, obsolescence
-   rates, security threats.
+4. **Technological**: automation, AI, platform shifts, R&D intensity,
+   obsolescence rates, security threats.
 5. **Legal**: employment law, data protection, safety regulation, licensing,
    liability, sector-specific statute.
 6. **Environmental**: climate, sustainability targets, energy cost, supply chain
@@ -69,8 +69,8 @@ action.
   set the cost of capital and therefore the tolerance for long-payback work.
 
 * **Executive**: use PESTLE to force the board past the current quarter, and
-  specifically to name which external factors would invalidate the strategy.
-  A strategy with no stated invalidation condition is a wish.
+  specifically to name which external factors would invalidate the strategy. A
+  strategy with no stated invalidation condition is a wish.
 
 
 ## Limitations
@@ -84,11 +84,11 @@ action.
 ## Questionnaire
 
 A paired, copy-and-use diagnostic instrument for this model:
-[pestle-analysis-questionnaire](pestle-analysis-questionnaire.md).
+[pestle-analysis-questionnaire](../pestle-analysis-questionnaire/).
 
 
 ## See also
 
-* [swot-analysis](swot-analysis.md)
-* [burke-litwin-causal-model](burke-litwin-causal-model.md)
-* [cynefin-framework](cynefin-framework.md)
+* [swot-analysis](../swot-analysis/)
+* [burke-litwin-causal-model](../burke-litwin-causal-model/)
+* [cynefin-framework](../cynefin-framework/)

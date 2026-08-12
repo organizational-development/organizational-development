@@ -12,10 +12,10 @@ outcomes.**
 **Evidence: Moderate.** Well grounded in safety science and human factors
 research, which robustly supports the core premise that most errors are
 system-produced and that punishing error suppresses reporting without reducing
-error. Direct outcome evidence for just culture programs specifically is
-limited and confounded, since they are rarely implemented alone. The
-three-behavior classification is a decision aid with fuzzy boundaries, and can
-be applied post-hoc to justify a decision already made.
+error. Direct outcome evidence for just culture programs specifically is limited
+and confounded, since they are rarely implemented alone. The three-behavior
+classification is a decision aid with fuzzy boundaries, and can be applied
+post-hoc to justify a decision already made.
 
 Use when: designing incident response, after a serious failure, or when
 reporting rates are low and you suspect fear.
@@ -29,28 +29,28 @@ treat people; it does not fix the system that produced the error.
 David Marx's widely used classification:
 
 1. **Human error** — an inadvertent slip, lapse, or mistake. Doing other than
-   what should have been done, unintentionally.
-   **Response: console.** Then fix the system that made the error likely and
-   its detection unlikely. Punishing human error is both unjust and useless: it
-   does not reduce error, it reduces reporting.
+   what should have been done, unintentionally. **Response: console.** Then fix
+   the system that made the error likely and its detection unlikely. Punishing
+   human error is both unjust and useless: it does not reduce error, it reduces
+   reporting.
 
 2. **At-risk behavior** — a choice that increases risk where the risk is not
    recognized or is mistakenly believed justified. Drifting from procedure
-   because it is slow and nothing bad has happened yet.
-   **Response: coach.** Understand why the shortcut was rational locally, and
-   remove the incentive. At-risk behavior is usually a system signal: if
-   everyone drifts the same way, the procedure is the problem.
+   because it is slow and nothing bad has happened yet. **Response: coach.**
+   Understand why the shortcut was rational locally, and remove the incentive.
+   At-risk behavior is usually a system signal: if everyone drifts the same way,
+   the procedure is the problem.
 
 3. **Reckless behavior** — conscious disregard of a substantial and
-   unjustifiable risk.
-   **Response: discipline.** Rare, and genuinely warranted when present.
+   unjustifiable risk. **Response: discipline.** Rare, and genuinely warranted
+   when present.
 
 
 ## The substitution test
 
-Before attributing an outcome to an individual, ask: would three other
-similarly trained, similarly experienced peers, in the same situation with the
-same information and the same pressures, have done the same thing?
+Before attributing an outcome to an individual, ask: would three other similarly
+trained, similarly experienced peers, in the same situation with the same
+information and the same pressures, have done the same thing?
 
 If yes, the individual is not the cause. This test is the single most useful
 tool in the set, and it survives contact with lawyers and regulators.
@@ -95,9 +95,9 @@ then that it matters most.
   now understands the failure best.
 
 * **Executive**: the executive test is what happens the first time a serious
-  failure is publicly embarrassing. Every prior statement about learning
-  culture is settled in that moment, and the organization will calibrate on it
-  for years.
+  failure is publicly embarrassing. Every prior statement about learning culture
+  is settled in that moment, and the organization will calibrate on it for
+  years.
 
 
 ## Limitations
@@ -111,8 +111,9 @@ then that it matters most.
 
 ## See also
 
-* [westrum-organizational-culture-typology](westrum-organizational-culture-typology.md)
-* [psychological-safety](psychological-safety.md)
-* [high-reliability-organizations](high-reliability-organizations.md)
-* [after-action-review](after-action-review.md)
-* Sidney Dekker, *Just Culture*; David Marx, *Patient Safety and the Just Culture*.
+* [westrum-organizational-culture-typology](../westrum-organizational-culture-typology/)
+* [psychological-safety](../psychological-safety/)
+* [high-reliability-organizations](../high-reliability-organizations/)
+* [after-action-review](../after-action-review/)
+* Sidney Dekker, *Just Culture*; David Marx, *Patient Safety and the Just
+  Culture*.

@@ -1,18 +1,18 @@
 # Galbraith Star Model Questionnaire
 
 To run a star model design diagnostic, use this questionnaire. It assesses the
-five design policy areas and their alignment, from 1 (badly misaligned) to
-5 (fully aligned).
+five design policy areas and their alignment, from 1 (badly misaligned) to 5
+(fully aligned).
 
 Use it before a reorganization, not after. Its main practical purpose is to
 prevent a structure-only change — the most common and most expensive design
 failure.
 
-See [galbraith-star-model](galbraith-star-model.md).
+See [galbraith-star-model](../galbraith-star-model/).
 
-**Evidence: Moderate.** The underlying information-processing theory has support;
-the five-point framework is a design heuristic and has not been tested as a
-model.
+**Evidence: Moderate.** The underlying information-processing theory has
+support; the five-point framework is a design heuristic and has not been tested
+as a model.
 
 
 ## Step 1: Strategy
@@ -53,8 +53,8 @@ model.
 
 3. Distribution of power
 
-- Question: Are decisions made at the level with the relevant information, and is
-  centralization vs. decentralization a deliberate choice rather than an
+- Question: Are decisions made at the level with the relevant information, and
+  is centralization vs. decentralization a deliberate choice rather than an
   accident?
   - Rating (1–5): [ ]
 
@@ -136,9 +136,9 @@ model.
   point behaves like the weak point.
 
 * **Check Rewards specifically.** Rewards is the point most commonly left
-  untouched during a redesign, and it silently vetoes the other four. If
-  Step 4 scores below 3 while Structure scores above 4, expect the
-  reorganization to fail and to be blamed on culture.
+  untouched during a redesign, and it silently vetoes the other four. If Step 4
+  scores below 3 while Structure scores above 4, expect the reorganization to
+  fail and to be blamed on culture.
 
 * **Low Step 3 lateral process scores with high Structure scores** mean you have
   drawn boxes and not designed coordination. This is the cheapest thing to fix:
@@ -149,8 +149,8 @@ model.
   escalation.** If the leadership team cannot agree which dimension wins, the
   organization has a matrix in which every conflict routes to the top.
 
-* **Low Step 1 scores mean stop.** Design arguments without strategy criteria are
-  unresolvable, and the loudest or most senior person will win by default.
+* **Low Step 1 scores mean stop.** Design arguments without strategy criteria
+  are unresolvable, and the loudest or most senior person will win by default.
 
 * **Name what will get worse.** Every design accepts a tradeoff. Before
   proceeding, write down what this design is deliberately choosing to be worse

@@ -9,8 +9,8 @@ diffusion studies.
 synthesized from hundreds of empirical diffusion studies across agriculture,
 medicine, and communications, and extended by thousands since. The five
 attributes that predict adoption rate — relative advantage, compatibility,
-complexity, trialability, observability — are the most robust part and explain
-a substantial share of variance in adoption. The adopter categories and their
+complexity, trialability, observability — are the most robust part and explain a
+substantial share of variance in adoption. The adopter categories and their
 percentages are a statistical convention rather than a law, and the categories
 are retrospective rather than stable traits.
 
@@ -68,8 +68,9 @@ completeness and support, not more evangelism.
 
 * **Health care**: clinical practice change spreads through respected clinicians
   and specialty networks, not through management communication. Identify the
-  early adopters with [organizational-network-analysis](organizational-network-analysis.md),
-  and note that observability is often low in clinical work — make the results
+  early adopters with
+  [organizational-network-analysis](../organizational-network-analysis/), and
+  note that observability is often low in clinical work — make the results
   visible with local data.
 
 * **Software**: internal platform adoption follows this precisely. Trialability
@@ -94,6 +95,6 @@ completeness and support, not more evangelism.
 
 ## See also
 
-* [organizational-network-analysis](organizational-network-analysis.md)
-* [kotter-8-step-change-model](kotter-8-step-change-model.md)
-* [improvement-kata](improvement-kata.md)
+* [organizational-network-analysis](../organizational-network-analysis/)
+* [kotter-8-step-change-model](../kotter-8-step-change-model/)
+* [improvement-kata](../improvement-kata/)

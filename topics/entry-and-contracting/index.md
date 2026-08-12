@@ -8,12 +8,12 @@ Contracting is the stage practitioners most often skip and most often regret
 skipping. Nearly every stalled OD effort can be traced back to a contract that
 was never made explicit.
 
-**Evidence: Weak as research, strong as practitioner consensus.** No
-controlled studies show that explicit contracting improves outcomes. It is
-nonetheless endorsed near-unanimously across the practitioner literature, and
-the failure mode it prevents — a diagnosis that implicates a sponsor who never
-agreed to be examined — is well documented in case reports. Use it because the
-downside of skipping it is severe and the cost is ten minutes.
+**Evidence: Weak as research, strong as practitioner consensus.** No controlled
+studies show that explicit contracting improves outcomes. It is nonetheless
+endorsed near-unanimously across the practitioner literature, and the failure
+mode it prevents — a diagnosis that implicates a sponsor who never agreed to be
+examined — is well documented in case reports. Use it because the downside of
+skipping it is severe and the cost is ten minutes.
 
 Use when: starting any OD engagement, internal or external.
 
@@ -93,7 +93,7 @@ A usable contracting conversation is two lists, spoken aloud:
 
 ## See also
 
-* [od-process-cycle](od-process-cycle.md)
-* [od-ethics](od-ethics.md)
-* [process-consultation](process-consultation.md)
+* [od-process-cycle](../od-process-cycle/)
+* [od-ethics](../od-ethics/)
+* [process-consultation](../process-consultation/)
 * Peter Block, *Flawless Consulting*.

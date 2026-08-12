@@ -12,11 +12,11 @@ Organizations manage change and neglect transition, then are baffled when a
 technically successful implementation produces a demoralized workforce.
 
 **Evidence: Weak.** Not validated as a staged theory, and the phases have no
-established durations or boundaries. The change-versus-transition distinction
-is conceptually useful and consistent with the job insecurity and
-organizational grief literatures, which document real performance and
-wellbeing effects from loss during restructuring. The specific three-phase
-structure is a clinical framework, not a finding.
+established durations or boundaries. The change-versus-transition distinction is
+conceptually useful and consistent with the job insecurity and organizational
+grief literatures, which document real performance and wellbeing effects from
+loss during restructuring. The specific three-phase structure is a clinical
+framework, not a finding.
 
 Use when: the change is done and it is not working; when people who agreed with
 the change are behaving as though they did not; when there has been loss.
@@ -33,14 +33,14 @@ plans.
 
 2. **The neutral zone.** The old is gone, the new is not yet operational.
    Productivity drops, anxiety rises, old weaknesses resurface, and people are
-   simultaneously exhausted and creative. This phase is the hardest and the
-   most important. It is also where most organizations declare the change
-   complete and withdraw support.
+   simultaneously exhausted and creative. This phase is the hardest and the most
+   important. It is also where most organizations declare the change complete
+   and withdraw support.
 
-3. **The new beginning.** New identity, new energy, new sense of purpose.
-   Cannot be forced or scheduled; it emerges when people have made sense of the
-   neutral zone. Bridges: beginnings occur *after* endings and the neutral zone,
-   never before.
+3. **The new beginning.** New identity, new energy, new sense of purpose. Cannot
+   be forced or scheduled; it emerges when people have made sense of the neutral
+   zone. Bridges: beginnings occur *after* endings and the neutral zone, never
+   before.
 
 The phases overlap and different people are in different phases at once,
 including within one team.
@@ -99,7 +99,7 @@ including within one team.
 
 ## See also
 
-* [kubler-ross-change-curve](kubler-ross-change-curve.md)
-* [satir-change-model](satir-change-model.md)
-* [adkar-change-management-model](adkar-change-management-model.md)
+* [kubler-ross-change-curve](../kubler-ross-change-curve/)
+* [satir-change-model](../satir-change-model/)
+* [adkar-change-management-model](../adkar-change-management-model/)
 * William Bridges, *Managing Transitions*.

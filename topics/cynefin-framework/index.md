@@ -8,9 +8,9 @@ appropriate.
 **Evidence: Weak empirically, high conceptual utility.** Not validated, and
 probably not validatable in its current form: domain assignment is a judgment,
 and two competent people can disagree. What it does well is name a real and
-costly mistake — managing a complex problem as though it were merely
-complicated — that is otherwise hard to articulate. Use it to structure an
-argument about method, not as a classification instrument.
+costly mistake — managing a complex problem as though it were merely complicated
+— that is otherwise hard to articulate. Use it to structure an argument about
+method, not as a classification instrument.
 
 Use when: a group is arguing about method — best practice vs. experimentation,
 analysis vs. action — and the real disagreement is about the nature of the
@@ -23,26 +23,26 @@ situational and move.
 ## The five domains
 
 1. **Clear** (formerly Simple/Obvious): cause and effect are obvious to all.
-   Response: **sense — categorize — respond**. Apply best practice.
-   Danger: complacency, and the cliff into Chaotic when conditions change and
-   nobody notices.
+   Response: **sense — categorize — respond**. Apply best practice. Danger:
+   complacency, and the cliff into Chaotic when conditions change and nobody
+   notices.
 
 2. **Complicated**: cause and effect are knowable with expertise or analysis.
    Response: **sense — analyze — respond**. Apply good practice; there are
-   several valid answers. Domain of experts.
-   Danger: expert overconfidence; entrained thinking.
+   several valid answers. Domain of experts. Danger: expert overconfidence;
+   entrained thinking.
 
 3. **Complex**: cause and effect are only coherent in retrospect. The system
-   responds to your intervention, so you cannot predict it in advance.
-   Response: **probe — sense — respond**. Run safe-to-fail experiments in
-   parallel; amplify what works, dampen what does not. Emergent practice.
-   Danger: demanding a business case and a guaranteed outcome, which forces the
-   problem to be treated as Complicated.
+   responds to your intervention, so you cannot predict it in advance. Response:
+   **probe — sense — respond**. Run safe-to-fail experiments in parallel;
+   amplify what works, dampen what does not. Emergent practice. Danger:
+   demanding a business case and a guaranteed outcome, which forces the problem
+   to be treated as Complicated.
 
 4. **Chaotic**: no discernible cause and effect; the situation is unravelling.
    Response: **act — sense — respond**. Do something, stabilize, then move the
-   situation into Complex. Novel practice.
-   Danger: enjoying the authority that crisis grants, and manufacturing more.
+   situation into Complex. Novel practice. Danger: enjoying the authority that
+   crisis grants, and manufacturing more.
 
 5. **Confused** (formerly Disorder): you do not know which domain you are in.
    The default state, and the most dangerous, because each person applies the
@@ -82,10 +82,10 @@ An experiment needs, written down in advance:
   Treating the whole incident as one domain is why post-incident actions often
   fail to stick.
 
-* **Executive**: a merger's legal and financial integration is Complicated.
-  The cultural integration is Complex. Running both under one program plan with
-  one set of milestones guarantees the cultural half is judged by the wrong
-  criteria and declared complete when it is not.
+* **Executive**: a merger's legal and financial integration is Complicated. The
+  cultural integration is Complex. Running both under one program plan with one
+  set of milestones guarantees the cultural half is judged by the wrong criteria
+  and declared complete when it is not.
 
 
 ## Limitations
@@ -99,12 +99,12 @@ An experiment needs, written down in advance:
 ## Questionnaire
 
 A paired, copy-and-use diagnostic instrument for this model:
-[cynefin-framework-questionnaire](cynefin-framework-questionnaire.md).
+[cynefin-framework-questionnaire](../cynefin-framework-questionnaire/).
 
 
 ## See also
 
-* [systems-thinking](systems-thinking.md)
-* [action-research](action-research.md)
-* [plan-do-study-act](plan-do-study-act.md)
+* [systems-thinking](../systems-thinking/)
+* [action-research](../action-research/)
+* [plan-do-study-act](../plan-do-study-act/)
 * <https://thecynefin.co>

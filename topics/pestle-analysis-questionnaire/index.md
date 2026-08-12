@@ -7,7 +7,7 @@ and our confidence in the assessment (1–5), plus a named owner.
 The exercise earns its keep in Step 8, where high-impact and low-confidence
 factors are assigned a watcher, an indicator, and a trigger threshold.
 
-See [pestle-analysis](pestle-analysis.md).
+See [pestle-analysis](../pestle-analysis/).
 
 **Evidence: Not an empirical model — a checklist.** The six categories are an
 arbitrary but reasonably exhaustive partition, with no validation. The wider
@@ -150,12 +150,12 @@ most valuable one on the sheet.
   confidence, high impact, and routinely ignored because they are not urgent
   yet.
 
-* **PESTLE says nothing about competitors specifically.** Pair with Porter's five
-  forces if competitive dynamics are the live question.
+* **PESTLE says nothing about competitors specifically.** Pair with Porter's
+  five forces if competitive dynamics are the live question.
 
 * **Feed the output into the diagnostic.** The external environment is the input
   factor in
-  [burke-litwin-causal-model-questionnaire](burke-litwin-causal-model-questionnaire.md),
+  [burke-litwin-causal-model-questionnaire](../burke-litwin-causal-model-questionnaire/),
   and it is the term that
-  [mckinsey-7s-framework-questionnaire](mckinsey-7s-framework-questionnaire.md)
+  [mckinsey-7s-framework-questionnaire](../mckinsey-7s-framework-questionnaire/)
   omits entirely.

@@ -9,11 +9,11 @@ the most widely used and most widely abused strategy tool.
 * **Threats**: external, harmful.
 
 **Evidence: Very weak.** There is no evidence that SWOT improves decision
-quality, and some reason to think it harms it: it produces unranked lists,
-mixes magnitudes, invites consensus platitudes, and encourages internal
-factors to be labelled strengths with no comparison point. Its survival is due
-to familiarity and low cost. If you use it, the TOWS pairing step is the only
-part that produces a decision.
+quality, and some reason to think it harms it: it produces unranked lists, mixes
+magnitudes, invites consensus platitudes, and encourages internal factors to be
+labelled strengths with no comparison point. Its survival is due to familiarity
+and low cost. If you use it, the TOWS pairing step is the only part that
+produces a decision.
 
 Use when: opening a strategy or diagnosis conversation with a mixed group who
 need a low-barrier shared frame.
@@ -72,19 +72,19 @@ Each pairing should yield a named option with an owner. That is the deliverable.
 
 * No causal structure, no prioritization, no data requirement.
 * Encourages consensus lists that hide disagreement.
-* Better external analysis: [pestle-analysis](pestle-analysis.md), Porter's five
-  forces. Better internal analysis:
-  [mckinsey-7s-framework](mckinsey-7s-framework.md).
+* Better external analysis: [pestle-analysis](../pestle-analysis/), Porter's
+  five forces. Better internal analysis:
+  [mckinsey-7s-framework](../mckinsey-7s-framework/).
 
 
 ## Questionnaire
 
 A paired, copy-and-use diagnostic instrument for this model:
-[swot-analysis-questionnaire](swot-analysis-questionnaire.md).
+[swot-analysis-questionnaire](../swot-analysis-questionnaire/).
 
 
 ## See also
 
-* [pestle-analysis](pestle-analysis.md)
-* [force-field-analysis](force-field-analysis.md)
+* [pestle-analysis](../pestle-analysis/)
+* [force-field-analysis](../force-field-analysis/)
 * <https://github.com/joelparkerhenderson/critical-success-factor>

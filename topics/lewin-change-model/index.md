@@ -28,8 +28,8 @@ Do not use when: you need operational detail. It is a frame, not a method.
 
 2. **Change (transition)**: the movement itself. New behaviors are tried,
    competence is temporarily low, and performance usually dips. This is the
-   stage most programs under-resource, because it looks like failure while it
-   is working. See [satir-change-model](satir-change-model.md).
+   stage most programs under-resource, because it looks like failure while it is
+   working. See [satir-change-model](../satir-change-model/).
 
 3. **Refreeze**: stabilize the new state so it becomes the default. Update
    policies, metrics, incentives, onboarding, and stories. Without refreeze the
@@ -61,9 +61,9 @@ joining next month does the new thing without being told.
 ## Related: force field analysis
 
 Lewin's own operational tool for stage 1. See
-[force-field-analysis](force-field-analysis.md). His key claim: reduce
-restraining forces rather than increasing driving forces, because added
-driving force raises tension and provokes counter-pressure.
+[force-field-analysis](../force-field-analysis/). His key claim: reduce
+restraining forces rather than increasing driving forces, because added driving
+force raises tension and provokes counter-pressure.
 
 
 ## Examples by audience
@@ -76,7 +76,7 @@ driving force raises tension and provokes counter-pressure.
 * **Software**: unfreeze with the team's own delivery telemetry — lead time,
   change failure rate. Refreeze by encoding the change in the pipeline, the
   templates, and the definition of done, so the new way is the path of least
-  resistance. See [dora-metrics](dora-metrics.md).
+  resistance. See [dora-metrics](../dora-metrics/).
 
 * **Executive**: executives typically unfreeze themselves months before the
   organization, then mistake their own readiness for shared readiness. The
@@ -90,11 +90,11 @@ driving force raises tension and provokes counter-pressure.
 * Later scholarship disputes how much of the simplified "three-step model" is
   Lewin's own formulation versus a posthumous simplification.
 * Silent on individual psychology; pair with
-  [bridges-transition-model](bridges-transition-model.md).
+  [bridges-transition-model](../bridges-transition-model/).
 
 
 ## See also
 
-* [kotter-8-step-change-model](kotter-8-step-change-model.md)
-* [action-research](action-research.md)
-* [beckhard-harris-change-equation](beckhard-harris-change-equation.md)
+* [kotter-8-step-change-model](../kotter-8-step-change-model/)
+* [action-research](../action-research/)
+* [beckhard-harris-change-equation](../beckhard-harris-change-equation/)

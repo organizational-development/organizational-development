@@ -10,12 +10,12 @@ its overall functioning, because good information flow requires everything else
 to be working.
 
 **Evidence: Good.** Unusually strong for a culture model. Developed from
-safety-critical industry case studies, then operationalized as a six-item
-scale and validated in large-sample software delivery research, where
-generative culture statistically predicts both delivery performance and
-organizational performance. The evidence is correlational and self-report, and
-the typology flattens what is really a continuum, but the construct-to-outcome
-chain is better established here than almost anywhere else in this collection.
+safety-critical industry case studies, then operationalized as a six-item scale
+and validated in large-sample software delivery research, where generative
+culture statistically predicts both delivery performance and organizational
+performance. The evidence is correlational and self-report, and the typology
+flattens what is really a continuum, but the construct-to-outcome chain is
+better established here than almost anywhere else in this collection.
 
 Use when: assessing whether an organization can learn from problems; predicting
 whether risk information reaches decision-makers; measuring safety or delivery
@@ -45,12 +45,12 @@ follow from a power orientation.
 ## Why "failure leads to inquiry" is the key row
 
 In a pathological culture, the question after a failure is *who*. In a
-bureaucratic culture, it is *which rule was broken*. In a generative culture,
-it is *what about our system made this the reasonable thing to do*.
+bureaucratic culture, it is *which rule was broken*. In a generative culture, it
+is *what about our system made this the reasonable thing to do*.
 
 Only the third produces learning. The first two produce hidden information,
 which is the precondition for the next, larger failure. See
-[just-culture](just-culture.md).
+[just-culture](../just-culture/).
 
 
 ## Evidence
@@ -59,7 +59,7 @@ Unusually strong for a culture model. Nicole Forsgren, Jez Humble, and Gene
 Kim's DevOps research found Westrum generative culture statistically predicts
 both software delivery performance and organizational performance, using a
 six-item survey scale. This makes it one of the few culture constructs with a
-demonstrated link to outcomes. See [dora-metrics](dora-metrics.md).
+demonstrated link to outcomes. See [dora-metrics](../dora-metrics/).
 
 
 ## The six-item measure
@@ -84,7 +84,7 @@ The type is produced by leader behavior, especially under pressure.
 * Respond to bad news with curiosity and visible thanks — every time, including
   when the news is inconvenient and the messenger is annoying.
 * Make failure reviews blameless by design and by facilitation, not by slogan.
-  See [after-action-review](after-action-review.md).
+  See [after-action-review](../after-action-review/).
 * Reward the person who surfaces a problem early, publicly, in front of peers.
 * Remove the mechanisms that punish disclosure: individual blame in incident
   reports, performance consequences for reporting, "no surprises" norms that
@@ -120,9 +120,18 @@ That asymmetry is the whole problem.
 * Typology, so it flattens the continuum.
 
 
+## Questionnaire
+
+A paired, copy-and-use instrument for this model:
+[westrum-organizational-culture-typology-questionnaire](../westrum-organizational-culture-typology-questionnaire/).
+It carries the validated six-item scale, a placement grid across all seven
+dimensions, and behavioral evidence to check the scale against.
+
+
 ## See also
 
-* [psychological-safety](psychological-safety.md)
-* [just-culture](just-culture.md)
-* [high-reliability-organizations](high-reliability-organizations.md)
-* Westrum, "A typology of organisational cultures", *Qual Saf Health Care* (2004).
+* [psychological-safety](../psychological-safety/)
+* [just-culture](../just-culture/)
+* [high-reliability-organizations](../high-reliability-organizations/)
+* Westrum, "A typology of organisational cultures", *Qual Saf Health Care*
+  (2004).

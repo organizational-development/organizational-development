@@ -15,8 +15,8 @@ D × V × F > R
 Change occurs only when the product of the first three exceeds resistance.
 
 **Evidence: Weak, and deliberately non-quantitative.** The multiplicative form
-is a metaphor; nothing here is measurable in a rigorous sense, and the terms
-are not independent. Its value is diagnostic: the claim that a zero on any of
+is a metaphor; nothing here is measurable in a rigorous sense, and the terms are
+not independent. Its value is diagnostic: the claim that a zero on any of
 dissatisfaction, vision, or first steps blocks change regardless of the others
 corresponds to three recognizable and distinct failure patterns. Use the
 structure, ignore the algebra.
@@ -54,11 +54,11 @@ Resistance is not a personality trait. Decompose it:
 * **Risk**: what happens to me if this fails, or if I am bad at it initially.
 * **History**: previous failed changes here, and what happened to their
   champions.
-* **Legitimate objection**: sometimes the change is a bad idea. Test this
-  before treating it as resistance.
+* **Legitimate objection**: sometimes the change is a bad idea. Test this before
+  treating it as resistance.
 
-See [force-field-analysis](force-field-analysis.md) and
-[immunity-to-change](immunity-to-change.md).
+See [force-field-analysis](../force-field-analysis/) and
+[immunity-to-change](../immunity-to-change/).
 
 
 ## Practical use
@@ -94,6 +94,6 @@ organizations do, because leaders have been discussing both for months.
 
 ## See also
 
-* [lewin-change-model](lewin-change-model.md)
-* [force-field-analysis](force-field-analysis.md)
-* [kotter-8-step-change-model](kotter-8-step-change-model.md)
+* [lewin-change-model](../lewin-change-model/)
+* [force-field-analysis](../force-field-analysis/)
+* [kotter-8-step-change-model](../kotter-8-step-change-model/)

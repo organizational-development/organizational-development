@@ -9,10 +9,10 @@ beyond software because the research established a statistical link between
 **Evidence: Good.** Large-sample, multi-year, repeatedly replicated across
 annual cohorts, and the finding that speed and stability move together rather
 than trading off has held up across many years of data. The evidence is
-correlational and originally survey-based with self-selected respondents, so
-the causal chain from culture to delivery to organizational performance is
-argued rather than experimentally established. Strong by the standards of this
-field; not a randomized trial.
+correlational and originally survey-based with self-selected respondents, so the
+causal chain from culture to delivery to organizational performance is argued
+rather than experimentally established. Strong by the standards of this field;
+not a randomized trial.
 
 Use when: measuring software delivery capability; making the case that culture
 work has operational consequences.
@@ -45,7 +45,7 @@ The research found that **Westrum generative culture** predicts software
 delivery performance, and that delivery performance predicts organizational
 performance — profitability, productivity, market share, and non-commercial
 mission outcomes. See
-[westrum-organizational-culture-typology](westrum-organizational-culture-typology.md).
+[westrum-organizational-culture-typology](../westrum-organizational-culture-typology/).
 
 This is one of the few places in the OD literature with a quantified chain from
 a culture construct to a business outcome, on a large sample, across many
@@ -56,7 +56,7 @@ Other organizational capabilities the research identified as predictive:
 * Continuous delivery practices and trunk-based development.
 * Loosely coupled architecture and team autonomy — teams able to change and
   deploy without coordinating with other teams. See
-  [conways-law](conways-law.md), [team-topologies](team-topologies.md).
+  [conways-law](../conways-law/), [team-topologies](../team-topologies/).
 * Lightweight change approval; formal change approval boards were found to be
   *negatively* associated with performance, which is an uncomfortable and
   well-replicated finding.
@@ -68,13 +68,13 @@ Other organizational capabilities the research identified as predictive:
 
 * **Team level, not individual.** Never per-person. There is no defensible
   individual DORA metric.
-* **Trend, not target.** Set a direction, not a number to hit, and expect
-  gaming if you set a number.
+* **Trend, not target.** Set a direction, not a number to hit, and expect gaming
+  if you set a number.
 * **All four together.** Deployment frequency alone incentivizes trivial
   deployments; change failure rate alone incentivizes never shipping.
 * **Instrument, do not survey.** Derive from the pipeline where possible.
 * **Pair with human measures.** Speed achieved by burning people is not a win.
-  See [space-framework](space-framework.md).
+  See [space-framework](../space-framework/).
 
 
 ## The common misuses
@@ -117,7 +117,9 @@ Other organizational capabilities the research identified as predictive:
 
 ## See also
 
-* [space-framework](space-framework.md)
-* [westrum-organizational-culture-typology](westrum-organizational-culture-typology.md)
-* [measurement-and-metrics](measurement-and-metrics.md)
+* [space-framework](../space-framework/)
+* [westrum-organizational-culture-typology](../westrum-organizational-culture-typology/)
+* [measurement-and-metrics](../measurement-and-metrics/)
+* [transformational-leadership](../transformational-leadership/) — identified
+  in the same research as predictive of delivery performance.
 * Forsgren, Humble & Kim, *Accelerate*.

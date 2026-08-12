@@ -10,13 +10,13 @@ Two behavioral dimensions:
 * **Supportive behavior**: listening, encouraging, facilitating, involving.
 
 **Evidence: Weak.** Several empirical tests have failed to confirm the
-style-to-development-level matching prescriptions, the underlying constructs
-are loosely defined and inconsistently measured, and the model has been
-revised repeatedly without new evidence. Its real value is as a conversation
-structure that gives a manager and a report shared language for asking for
-more support or less supervision — a genuine service that does not require the
-four-quadrant theory to be true. Better-evidenced neighbors are goal setting
-theory and leader-member exchange.
+style-to-development-level matching prescriptions, the underlying constructs are
+loosely defined and inconsistently measured, and the model has been revised
+repeatedly without new evidence. Its real value is as a conversation structure
+that gives a manager and a report shared language for asking for more support or
+less supervision — a genuine service that does not require the four-quadrant
+theory to be true. Better-evidenced neighbors are goal setting theory and
+leader-member exchange.
 
 Use when: coaching managers who apply one style to everyone; when a capable
 person is being micromanaged, or a struggling person is being abandoned in the
@@ -51,8 +51,8 @@ popular and weakly supported.
 The critical nuance: **development level is per task, not per person.** A senior
 clinician is D4 in clinic and D1 on a new digital system. A staff engineer is D4
 in their domain and D1 leading their first team. Treating the person rather than
-the task is the model's most common misuse — and it is a misuse of the model, not
-a limitation of it.
+the task is the model's most common misuse — and it is a misuse of the model,
+not a limitation of it.
 
 
 ## Using it well
@@ -76,10 +76,10 @@ a limitation of it.
 Evidence: weak. Its real value is as a **conversation structure** that gives a
 manager and a report language for "I need more support here" and "I need you to
 back off there" — a genuine service, independent of whether the four-quadrant
-theory is true. See [evidence-based-practice](evidence-based-practice.md).
+theory is true. See [evidence-based-practice](../evidence-based-practice/).
 
 Better-evidenced neighbors: goal setting theory (specific, difficult goals with
-feedback), [self-determination-theory](self-determination-theory.md) for the
+feedback), [self-determination-theory](../self-determination-theory/) for the
 autonomy-support mechanism, and leader-member exchange research.
 
 
@@ -95,11 +95,14 @@ autonomy-support mechanism, and leader-member exchange research.
 
 * **Executive**: newly appointed executives are D1 on the political system of
   the organization, whatever their track record. The first ninety days need S2,
-  and executives are rarely offered it because asking for it looks like weakness.
+  and executives are rarely offered it because asking for it looks like
+  weakness.
 
 
 ## See also
 
-* [self-determination-theory](self-determination-theory.md)
-* [maturity-models](maturity-models.md)
+* [self-determination-theory](../self-determination-theory/)
+* [maturity-models](../maturity-models/)
+* [transformational-leadership](../transformational-leadership/) — the other
+  dominant leadership framework, better evidenced and still contested.
 * <https://github.com/joelparkerhenderson/leadership>

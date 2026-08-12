@@ -1,15 +1,15 @@
 # Weisbord Six-Box Model Questionnaire
 
 To run a Weisbord six-box diagnostic, use this questionnaire. It evaluates the
-six boxes plus the environment ring, scoring each from 1 (badly broken) to
-5 (working well).
+six boxes plus the environment ring, scoring each from 1 (badly broken) to 5
+(working well).
 
 The distinctive move in this model is that each box is scored **twice**: once
 for the **formal system** (what the documents, policies, and org charts say) and
-once for the **informal system** (what actually happens). The gap between the two
-scores is the diagnosis, not the scores themselves.
+once for the **informal system** (what actually happens). The gap between the
+two scores is the diagnosis, not the scores themselves.
 
-See [weisbord-six-box-model](weisbord-six-box-model.md).
+See [weisbord-six-box-model](../weisbord-six-box-model/).
 
 **Evidence: Weak.** The model has never been validated as a measurement
 instrument. Treat the scores as a structured way to surface disagreement in a
@@ -159,4 +159,4 @@ group, not as measurement.
 
 * **The model gives no causal ordering.** It tells you where friction is, not
   what to fix first. If you need cause and effect, follow up with
-  [burke-litwin-causal-model-questionnaire](burke-litwin-causal-model-questionnaire.md).
+  [burke-litwin-causal-model-questionnaire](../burke-litwin-causal-model-questionnaire/).

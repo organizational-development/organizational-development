@@ -8,12 +8,12 @@ positioned on two axes:
   concerns.
 
 **Evidence: Weak instrument, useful taxonomy.** The five-mode scheme is widely
-used and intuitively sound, but the TKI is a forced-choice ipsative
-instrument, which limits its psychometric properties and makes between-person
-comparison inappropriate. There is little evidence that mode preference is
-stable or predictive. The better-supported complement is principled
-negotiation's interests-versus-positions distinction, which has substantial
-support in negotiation research.
+used and intuitively sound, but the TKI is a forced-choice ipsative instrument,
+which limits its psychometric properties and makes between-person comparison
+inappropriate. There is little evidence that mode preference is stable or
+predictive. The better-supported complement is principled negotiation's
+interests-versus-positions distinction, which has substantial support in
+negotiation research.
 
 Use when: a specific conflict is stuck, or when a team or leader habitually uses
 one mode regardless of the situation.
@@ -36,14 +36,14 @@ personality types, despite how the instrument is often used.
 ## The two most useful observations
 
 **Collaborating is not always right.** It is expensive in time and energy. A
-leader who collaborates on everything cannot decide, and a team that collaborates
-on trivia exhausts itself. Match the mode to the stakes.
+leader who collaborates on everything cannot decide, and a team that
+collaborates on trivia exhausts itself. Match the mode to the stakes.
 
 **Compromising is not collaborating.** Compromise splits the difference and
-leaves both parties partly unsatisfied; it settles positions. Collaboration
-digs beneath positions to interests and can produce an option neither party
-brought. Most groups that believe they collaborated actually compromised, and
-the tell is that no new option appeared.
+leaves both parties partly unsatisfied; it settles positions. Collaboration digs
+beneath positions to interests and can produce an option neither party brought.
+Most groups that believe they collaborated actually compromised, and the tell is
+that no new option appeared.
 
 
 ## Diagnosing habitual overuse
@@ -59,8 +59,8 @@ the tell is that no new option appeared.
 
 ## Interests, not positions
 
-The complement to this model is principled negotiation (Fisher and Ury,
-*Getting to Yes*):
+The complement to this model is principled negotiation (Fisher and Ury, *Getting
+to Yes*):
 
 * Separate the people from the problem.
 * Focus on interests, not positions.
@@ -84,11 +84,11 @@ career progression, both satisfiable without the headcount.
   conflict into the open while it is still cheap. See
   <https://github.com/joelparkerhenderson/decision-record>.
 
-* **Executive**: executives commonly overuse compromising in resource
-  allocation — every unit gets a proportional cut, nobody is happy, and the
-  strategy is not served. Strategy requires competing choices, which means
-  someone loses. An executive team that has never had a genuine loser has not
-  made a strategic choice.
+* **Executive**: executives commonly overuse compromising in resource allocation
+  — every unit gets a proportional cut, nobody is happy, and the strategy is not
+  served. Strategy requires competing choices, which means someone loses. An
+  executive team that has never had a genuine loser has not made a strategic
+  choice.
 
 
 ## Limitations
@@ -102,6 +102,6 @@ career progression, both satisfiable without the headcount.
 
 ## See also
 
-* [lencioni-five-dysfunctions-of-a-team](lencioni-five-dysfunctions-of-a-team.md)
-* [psychological-safety](psychological-safety.md)
+* [lencioni-five-dysfunctions-of-a-team](../lencioni-five-dysfunctions-of-a-team/)
+* [psychological-safety](../psychological-safety/)
 * <https://github.com/joelparkerhenderson/crucial-conversations>

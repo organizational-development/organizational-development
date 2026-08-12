@@ -6,11 +6,11 @@ originally from IBM employee surveys across 40+ countries in the 1960s–70s.
 **Evidence: Contested.** Enormously influential and seriously criticized. The
 main methodological objections stand: a single company, a single era, a mostly
 male professional sample, dimensions derived by factor analysis on limited
-items, and nations treated as though they were cultures. The decisive
-practical objection is the ecological fallacy — within-country variance
-exceeds between-country variance on most dimensions, so applying a national
-score to an individual is invalid. Use it to generate questions about
-cross-border friction; never to characterize a person.
+items, and nations treated as though they were cultures. The decisive practical
+objection is the ecological fallacy — within-country variance exceeds
+between-country variance on most dimensions, so applying a national score to an
+individual is invalid. Use it to generate questions about cross-border friction;
+never to characterize a person.
 
 Use when: working across national boundaries — multinational teams, offshore
 delivery, cross-border merger integration — as a source of hypotheses about
@@ -24,7 +24,8 @@ culture. Both are misuses, and both are extremely common.
 
 1. **Power distance**: the extent to which less powerful members accept unequal
    power distribution. High: hierarchy expected, deference normal, disagreement
-   with a superior is costly. Low: flatter expectations, challenge is acceptable.
+   with a superior is costly. Low: flatter expectations, challenge is
+   acceptable.
 
 2. **Individualism vs. collectivism**: ties to self and immediate family, versus
    integration into cohesive in-groups with mutual obligation.
@@ -72,8 +73,8 @@ State these whenever you use the model.
 
 * **Ecological fallacy**: scores are national averages. Within-country variance
   exceeds between-country variance on most dimensions. Applying a national score
-  to the person in front of you is straightforwardly invalid, and is stereotyping
-  with a citation attached.
+  to the person in front of you is straightforwardly invalid, and is
+  stereotyping with a citation attached.
 * **Method**: single company (IBM), single era, mostly male professional
   respondents, dimensions derived by factor analysis on limited items.
 * **Nation as unit**: nations are not cultures. India, Nigeria, and Belgium each
@@ -91,7 +92,7 @@ State these whenever you use the model.
   clinician — a patient safety issue, not a diversity nicety. The remedy is
   structural: graded assertiveness protocols and read-backs, which work
   regardless of cultural background. See
-  [crew-resource-management](crew-resource-management.md).
+  [crew-resource-management](../crew-resource-management/).
 
 * **Software**: distributed teams across time zones and cultures need explicit
   norms about who speaks, how disagreement is registered, and whether silence
@@ -104,6 +105,6 @@ State these whenever you use the model.
 
 ## See also
 
-* [schein-model-of-organizational-culture](schein-model-of-organizational-culture.md)
-* [psychological-safety](psychological-safety.md)
+* [schein-model-of-organizational-culture](../schein-model-of-organizational-culture/)
+* [psychological-safety](../psychological-safety/)
 * <https://www.hofstede-insights.com>

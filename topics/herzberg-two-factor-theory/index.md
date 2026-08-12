@@ -15,15 +15,14 @@ The practical consequence: **fixing hygiene factors does not motivate anyone.**
 It moves people from dissatisfied to neutral. Motivation requires the other
 scale.
 
-**Evidence: Mixed, tending weak.** The specific two-factor structure is
-probably a method artifact: it was derived from the critical incident
-technique, in which people attribute good outcomes to themselves and bad
-outcomes to circumstances, and studies using other methods often fail to
-replicate the clean separation. The sample was engineers and accountants in
-1950s Pittsburgh. What survives is the practical distinction between removing
-pain and creating meaning, which is better grounded by
-[self-determination-theory](self-determination-theory.md) and
-[job-characteristics-model](job-characteristics-model.md).
+**Evidence: Mixed, tending weak.** The specific two-factor structure is probably
+a method artifact: it was derived from the critical incident technique, in which
+people attribute good outcomes to themselves and bad outcomes to circumstances,
+and studies using other methods often fail to replicate the clean separation.
+The sample was engineers and accountants in 1950s Pittsburgh. What survives is
+the practical distinction between removing pain and creating meaning, which is
+better grounded by [self-determination-theory](../self-determination-theory/)
+and [job-characteristics-model](../job-characteristics-model/).
 
 Use when: an organization is repeatedly investing in perks, pay, and facilities
 and getting no engagement improvement.
@@ -71,8 +70,8 @@ stops. Motivation is a self-charging generator.
 Evidence: mixed. The specific two-factor structure is not well supported; the
 practical distinction between "removing pain" and "creating meaning" remains
 useful, and is better grounded by
-[self-determination-theory](self-determination-theory.md) and the
-[job-characteristics-model](job-characteristics-model.md).
+[self-determination-theory](../self-determination-theory/) and the
+[job-characteristics-model](../job-characteristics-model/).
 
 
 ## Examples by audience
@@ -83,9 +82,9 @@ useful, and is better grounded by
   practice, opportunity to develop, and recognition of clinical achievement.
 
 * **Software**: free food, good hardware, and competitive salary are hygiene.
-  Interesting problems, ownership of a system, and visible impact are motivators.
-  Firms that compete only on hygiene experience high turnover to firms that
-  offer the second column, at similar pay.
+  Interesting problems, ownership of a system, and visible impact are
+  motivators. Firms that compete only on hygiene experience high turnover to
+  firms that offer the second column, at similar pay.
 
 * **Executive**: use the two lists to audit last year's people investment. If
   more than about half went to the hygiene column, that explains the flat
@@ -94,6 +93,6 @@ useful, and is better grounded by
 
 ## See also
 
-* [self-determination-theory](self-determination-theory.md)
-* [job-characteristics-model](job-characteristics-model.md)
-* [maslow-hierarchy-of-needs](maslow-hierarchy-of-needs.md)
+* [self-determination-theory](../self-determination-theory/)
+* [job-characteristics-model](../job-characteristics-model/)
+* [maslow-hierarchy-of-needs](../maslow-hierarchy-of-needs/)

@@ -26,8 +26,8 @@ when the situation is an emergency requiring command decisions.
 2. **Action planning**: design a change, and state what you expect to happen.
 3. **Taking action**: implement it, at a scale small enough to learn from.
 4. **Evaluating**: collect data on what actually happened.
-5. **Specifying learning**: name what you now believe, and feed it back into
-   the next cycle.
+5. **Specifying learning**: name what you now believe, and feed it back into the
+   next cycle.
 
 The cycle is a spiral, not a loop: each pass should leave the system more able
 to run the next pass without you.
@@ -44,18 +44,20 @@ Participation is not politeness. It is a method claim:
 
 That last point is why "just do a survey first" is never neutral. Asking a
 question raises an expectation. See
-[survey-feedback-method](survey-feedback-method.md).
+[survey-feedback-method](../survey-feedback-method/).
 
 
 ## Variants
 
 * **Participatory action research**: members of the system lead the research.
 * **Appreciative inquiry**: an asset-based variant that studies what works
-  rather than what is broken. See [appreciative-inquiry](appreciative-inquiry.md).
+  rather than what is broken. See
+  [appreciative-inquiry](../appreciative-inquiry/).
 * **Improvement science / PDSA**: the health care and manufacturing lineage of
-  the same idea, with tighter cycles. See [plan-do-study-act](plan-do-study-act.md).
+  the same idea, with tighter cycles. See
+  [plan-do-study-act](../plan-do-study-act/).
 * **Improvement kata**: the Toyota lineage, with an explicit target condition.
-  See [improvement-kata](improvement-kata.md).
+  See [improvement-kata](../improvement-kata/).
 
 
 ## Examples by audience
@@ -67,7 +69,7 @@ question raises an expectation. See
 
 * **Software**: a team forms a hypothesis that review latency, not build time,
   dominates lead time; instruments both; changes review assignment; and
-  re-measures. See [dora-metrics](dora-metrics.md).
+  re-measures. See [dora-metrics](../dora-metrics/).
 
 * **Executive**: a leadership team treats its own meeting as the unit of study,
   records decisions made vs. revisited over a quarter, and redesigns the forum
@@ -84,6 +86,6 @@ question raises an expectation. See
 
 ## See also
 
-* [od-process-cycle](od-process-cycle.md)
-* [evidence-based-practice](evidence-based-practice.md)
-* [lewin-change-model](lewin-change-model.md)
+* [od-process-cycle](../od-process-cycle/)
+* [evidence-based-practice](../evidence-based-practice/)
+* [lewin-change-model](../lewin-change-model/)

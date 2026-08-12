@@ -8,17 +8,17 @@ curve", plotting morale or performance over time during organizational change.
 **Evidence: Very weak.** The stages were not empirically validated even for
 grief, Kübler-Ross herself denied they were a linear sequence, and bereavement
 research has since largely rejected stage models. The transfer from terminal
-illness to organizational change is an analogy with no supporting study. It
-also carries an active harm: labelling a colleague as being 'in denial'
-converts a substantive objection into a psychological symptom. Prefer
-[bridges-transition-model](bridges-transition-model.md) or
-[satir-change-model](satir-change-model.md).
+illness to organizational change is an analogy with no supporting study. It also
+carries an active harm: labelling a colleague as being 'in denial' converts a
+substantive objection into a psychological symptom. Prefer
+[bridges-transition-model](../bridges-transition-model/) or
+[satir-change-model](../satir-change-model/).
 
 Use when: helping managers develop empathy for reactions they are experiencing
 as irrational, and to normalize a performance dip.
 
-Do not use when: predicting behavior, planning interventions, or explaining
-away disagreement. The evidence does not support it.
+Do not use when: predicting behavior, planning interventions, or explaining away
+disagreement. The evidence does not support it.
 
 
 ## The adapted curve
@@ -51,17 +51,16 @@ the change or escalate pressure at the worst moment.
   colleague "in denial" or "at anger" converts a substantive argument into a
   psychological symptom. This is a real harm, and it is common.
 
-Evidence: very weak. See
-[evidence-based-practice](evidence-based-practice.md).
+Evidence: very weak. See [evidence-based-practice](../evidence-based-practice/).
 
 
 ## Better alternatives for the same job
 
-* [bridges-transition-model](bridges-transition-model.md) — same empathy value,
+* [bridges-transition-model](../bridges-transition-model/) — same empathy value,
   better structure, actionable management guidance per phase.
-* [satir-change-model](satir-change-model.md) — explicitly models the
+* [satir-change-model](../satir-change-model/) — explicitly models the
   performance dip and what ends it.
-* [immunity-to-change](immunity-to-change.md) — treats resistance as a rational
+* [immunity-to-change](../immunity-to-change/) — treats resistance as a rational
   competing commitment rather than a stage.
 
 
@@ -89,5 +88,5 @@ front of others.
 
 ## See also
 
-* [bridges-transition-model](bridges-transition-model.md)
-* [satir-change-model](satir-change-model.md)
+* [bridges-transition-model](../bridges-transition-model/)
+* [satir-change-model](../satir-change-model/)

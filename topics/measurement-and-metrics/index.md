@@ -4,12 +4,12 @@ Most OD programs are evaluated badly or not at all: no baseline, no comparison,
 lagging indicators only, and a definition of success that shifts to match the
 result. This file covers how to measure honestly.
 
-**Evidence: Not a model — measurement guidance.** The components have
-different pedigrees. Statistical process control and time-series analysis are
-formally sound. Goodhart's law is an observation with abundant documented
-instances rather than a theorem. Kirkpatrick's four levels are a widely used
-convention with known weaknesses, chiefly that the levels are not causally
-linked as often assumed. The staggered-rollout design advice reflects standard
+**Evidence: Not a model — measurement guidance.** The components have different
+pedigrees. Statistical process control and time-series analysis are formally
+sound. Goodhart's law is an observation with abundant documented instances
+rather than a theorem. Kirkpatrick's four levels are a widely used convention
+with known weaknesses, chiefly that the levels are not causally linked as often
+assumed. The staggered-rollout design advice reflects standard
 quasi-experimental methodology and is well founded.
 
 Use when: designing any program you will later be asked to justify.
@@ -25,16 +25,16 @@ distort the behavior more than it would inform. Both happen.
 * **Predict, then measure.** Write down the expected direction and magnitude in
   advance. Retrospective interpretation always finds success.
 * **Leading and lagging.** Lagging indicators (turnover, harm events, revenue)
-  confirm; leading indicators (reporting rate, cycle time, participation)
-  steer. You need both, and only the leading ones let you act in time.
+  confirm; leading indicators (reporting rate, cycle time, participation) steer.
+  You need both, and only the leading ones let you act in time.
 * **Balancing measures.** What could this make worse? Every improvement can
   export harm. Measure the export.
 * **Plot over time, not before-and-after.** Two bars cannot distinguish a real
   shift from normal variation. Use run charts or control charts. See
-  [plan-do-study-act](plan-do-study-act.md).
+  [plan-do-study-act](../plan-do-study-act/).
 * **Aggregate, do not surveil.** Team level and above. Individual-level OD
   metrics change behavior toward the metric and destroy the data. See
-  [od-ethics](od-ethics.md).
+  [od-ethics](../od-ethics/).
 
 
 ## Categories of OD measure
@@ -82,8 +82,8 @@ A rising reporting rate is therefore success and looks like failure.
 Agree the interpretation with the board *before* the data moves. Pair reporting
 rate with a severity-weighted harm measure: reports up, serious harm flat or
 down, is the signature of a healthy system. See
-[psychological-safety](psychological-safety.md),
-[westrum-organizational-culture-typology](westrum-organizational-culture-typology.md).
+[psychological-safety](../psychological-safety/),
+[westrum-organizational-culture-typology](../westrum-organizational-culture-typology/).
 
 
 ## Evaluating a program honestly
@@ -98,8 +98,8 @@ Kirkpatrick's four levels, applied to OD rather than training:
    measured.
 4. **Results**: did the organizational outcome change?
 
-Add a fifth question that Kirkpatrick does not: **would it have changed anyway?**
-Options for causal confidence, in ascending order:
+Add a fifth question that Kirkpatrick does not: **would it have changed
+anyway?** Options for causal confidence, in ascending order:
 
 * Pre/post in one unit — weakest; confounded by everything.
 * Pre/post with a comparison unit — much better, usually feasible.
@@ -119,8 +119,8 @@ Stagger deliberately, and you get a natural experiment for free.
   comparison.
 
 * **Software**: DORA metrics are flow and outcome measures with published
-  benchmarks. See [dora-metrics](dora-metrics.md). Pair with
-  [space-framework](space-framework.md) so that speed measures do not silently
+  benchmarks. See [dora-metrics](../dora-metrics/). Pair with
+  [space-framework](../space-framework/) so that speed measures do not silently
   cost wellbeing.
 
 * **Executive**: demand three things of any people program — the baseline, the
@@ -130,8 +130,8 @@ Stagger deliberately, and you get a natural experiment for free.
 
 ## See also
 
-* [theory-of-change](theory-of-change.md)
-* [evidence-based-practice](evidence-based-practice.md)
+* [theory-of-change](../theory-of-change/)
+* [evidence-based-practice](../evidence-based-practice/)
 * <https://github.com/joelparkerhenderson/key-performance-indicator>
 * <https://github.com/joelparkerhenderson/key-risk-indicator>
 * <https://github.com/joelparkerhenderson/outputs-vs-outcomes>

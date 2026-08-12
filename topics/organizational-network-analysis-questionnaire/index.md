@@ -10,7 +10,7 @@ ready) to 5 (ready). **Complete Part B before sending Part A.** ONA data is the
 most sensitive material in this collection, and a badly run ONA does lasting
 damage.
 
-See [organizational-network-analysis](organizational-network-analysis.md).
+See [organizational-network-analysis](../organizational-network-analysis/).
 
 **Evidence: Good as a method.** Social network analysis is a mature, validated
 research methodology with robust organizational findings. The weaknesses are
@@ -60,12 +60,13 @@ ties differ from actual ties.
 
 ### B5. Data handling
 
-- Question: Are retention period, storage location, deletion date, and applicable
-  regime (GDPR/UK GDPR, HIPAA, works council or union agreements) all settled?
+- Question: Are retention period, storage location, deletion date, and
+  applicable regime (GDPR/UK GDPR, HIPAA, works council or union agreements) all
+  settled?
   - Rating (1–5): [ ]
 
 **Any B2 or B3 item scoring below 5 stops the exercise.** These are not
-trade-offs; they are preconditions. See [od-ethics](od-ethics.md).
+trade-offs; they are preconditions. See [od-ethics](../od-ethics/).
 
 
 ## Part A: The participant survey
@@ -78,8 +79,8 @@ Suggested cap: three networks, five names each.
 
 ### A1. Information network
 
-- Question: Who do you go to for the information you need to do your job?
-  Name up to five people.
+- Question: Who do you go to for the information you need to do your job? Name
+  up to five people.
   1. ____________________
   2. ____________________
   3. ____________________
@@ -148,7 +149,7 @@ has agreed.
 * **Silos** — dense internal ties, sparse external ties. Predicts handoff
   failures precisely at the boundary. Compare against your system or service
   boundaries; the correspondence is usually uncomfortable. See
-  [conways-law](conways-law.md).
+  [conways-law](../conways-law/).
 
 * **Peripheral nodes** — weakly connected. Distinguish the three causes before
   acting: new joiners still connecting, deep specialists who are fine, and
@@ -161,9 +162,9 @@ has agreed.
   single most useful output of an ONA, and the one most likely to change how
   leadership plans a change programme.
 
-* **Recruit early adopters from the map, not from the hierarchy.** Change spreads
-  through respected connectors. See
-  [rogers-diffusion-of-innovations](rogers-diffusion-of-innovations.md).
+* **Recruit early adopters from the map, not from the hierarchy.** Change
+  spreads through respected connectors. See
+  [rogers-diffusion-of-innovations](../rogers-diffusion-of-innovations/).
 
 * **Report a response rate with every map.** Below 70%, say plainly that the map
   is indicative and not reliable, every time it is presented. Attractive network

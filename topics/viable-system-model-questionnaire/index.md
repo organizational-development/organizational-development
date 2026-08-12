@@ -1,14 +1,14 @@
 # Viable System Model Questionnaire
 
 To run a VSM diagnostic, use this questionnaire. It assesses whether each of the
-five systems exists and functions, scoring from 1 (absent or dysfunctional) to
-5 (present and working).
+five systems exists and functions, scoring from 1 (absent or dysfunctional) to 5
+(present and working).
 
 Run it at one **recursion level** at a time — one team, or one department, or
 the whole enterprise. Running it across levels simultaneously produces
 confusion, which is itself a common finding.
 
-See [viable-system-model](viable-system-model.md).
+See [viable-system-model](../viable-system-model/).
 
 **Evidence: Weak.** Internally coherent and derived rigorously from cybernetics,
 with almost no independent empirical validation. Use it to structure a
@@ -127,8 +127,8 @@ Level being assessed: _________________________________________
 
 3. Connection
 
-- Question: Does System 4's work actually influence decisions, or does it produce
-  documents that are filed?
+- Question: Does System 4's work actually influence decisions, or does it
+  produce documents that are filed?
   - Rating (1–5): [ ]
 
 
@@ -149,8 +149,8 @@ Level being assessed: _________________________________________
 
 3. Distinctness
 
-- Question: Has System 5 remained distinct, or has it collapsed into System 3 and
-  become another operational review meeting?
+- Question: Has System 5 remained distinct, or has it collapsed into System 3
+  and become another operational review meeting?
   - Rating (1–5): [ ]
 
 
@@ -183,8 +183,8 @@ Level being assessed: _________________________________________
   by the environment; missing System 3* shows up as leadership discovering
   problems from outside the organization.
 
-* **System 3 dominating System 4 is nearly universal.** Today's numbers crowd out
-  tomorrow's adaptation, because today's numbers are urgent and measurable.
+* **System 3 dominating System 4 is nearly universal.** Today's numbers crowd
+  out tomorrow's adaptation, because today's numbers are urgent and measurable.
   Look at the Step 6, item 2 estimate: if System 5's agenda is more than about
   80% operational, the organization is not holding its own future.
 
@@ -195,7 +195,7 @@ Level being assessed: _________________________________________
 * **A misused platform or shared service is System 2 acting as System 3.** It
   was created to reduce friction between units and has become a control point
   that units must ask permission from. Naming which one is intended settles a
-  large class of arguments. See [team-topologies](team-topologies.md).
+  large class of arguments. See [team-topologies](../team-topologies/).
 
 * **Low autonomy plus low local variety capacity predicts brittleness.** The
   organization will cope until conditions become unusual, then fail suddenly,

@@ -12,17 +12,17 @@ HROs are not error-free; they are error-catching.
 
 **Evidence: Moderate.** A rich and credible case study base from aircraft
 carriers, air traffic control, and nuclear operations, and the mindful
-organizing construct has been operationalized into validated survey scales
-with associations to safety outcomes in health care. Causal outcome evidence
-remains limited, and the founding organizations are unusual in resources and
-staffing, which complicates transfer. Normalization of deviance is well
-documented across multiple major accident investigations.
+organizing construct has been operationalized into validated survey scales with
+associations to safety outcomes in health care. Causal outcome evidence remains
+limited, and the founding organizations are unusual in resources and staffing,
+which complicates transfer. Normalization of deviance is well documented across
+multiple major accident investigations.
 
 Use when: the work has severe consequences of failure; when incidents recur
 despite procedural compliance; when an organization is "safe on paper".
 
-Do not use when: consequences of failure are low. HRO practices are expensive
-in attention, and attention is finite.
+Do not use when: consequences of failure are low. HRO practices are expensive in
+attention, and attention is finite.
 
 
 ## The five principles of mindful organizing
@@ -31,8 +31,8 @@ in attention, and attention is finite.
 
 1. **Preoccupation with failure.** Treat any lapse as a symptom of something
    systemic. Actively seek near misses and reward reporting. Success is
-   interpreted as a reason for vigilance, not for confidence — because a
-   long run without failure is exactly when drift accumulates unnoticed.
+   interpreted as a reason for vigilance, not for confidence — because a long
+   run without failure is exactly when drift accumulates unnoticed.
 
 2. **Reluctance to simplify.** Resist tidy explanations. "Human error" and
    "communication failure" are labels that end inquiry. HROs deliberately
@@ -74,12 +74,12 @@ The countermeasure is not more rules. It is:
 ## Practices that operationalize the principles
 
 * Near-miss reporting with visible, thanked reporters. See
-  [just-culture](just-culture.md).
+  [just-culture](../just-culture/).
 * Structured briefings and debriefings around every significant operation. See
-  [after-action-review](after-action-review.md),
-  [crew-resource-management](crew-resource-management.md).
-* Daily short safety huddles that surface anticipated risks for the coming
-  shift or day — cheap, and among the highest-yield HRO practices available.
+  [after-action-review](../after-action-review/),
+  [crew-resource-management](../crew-resource-management/).
+* Daily short safety huddles that surface anticipated risks for the coming shift
+  or day — cheap, and among the highest-yield HRO practices available.
 * Explicit stop authority, held by anyone, protected in policy and in practice.
 * Rotating an outside perspective through reviews to counter simplification.
 * Protected slack and cross-skilling for resilience.
@@ -89,10 +89,10 @@ The countermeasure is not more rules. It is:
 
 * **Health care**: the primary adopter outside the military. Daily safety
   huddles, escalation protocols, stop-the-line authority for any staff member,
-  and structured handover are all HRO practices. The frequent implementation
-  gap is deference to expertise: the principle is adopted in policy while a
-  junior who stops a procedure still faces career consequences. The policy is
-  not the practice.
+  and structured handover are all HRO practices. The frequent implementation gap
+  is deference to expertise: the principle is adopted in policy while a junior
+  who stops a procedure still faces career consequences. The policy is not the
+  practice.
 
 * **Software**: site reliability engineering is HRO applied. Error budgets are
   preoccupation with failure quantified; incident command is deference to
@@ -119,8 +119,8 @@ The countermeasure is not more rules. It is:
 
 ## See also
 
-* [just-culture](just-culture.md)
-* [westrum-organizational-culture-typology](westrum-organizational-culture-typology.md)
-* [psychological-safety](psychological-safety.md)
-* [systems-thinking](systems-thinking.md)
+* [just-culture](../just-culture/)
+* [westrum-organizational-culture-typology](../westrum-organizational-culture-typology/)
+* [psychological-safety](../psychological-safety/)
+* [systems-thinking](../systems-thinking/)
 * Weick & Sutcliffe, *Managing the Unexpected*.

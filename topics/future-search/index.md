@@ -5,15 +5,15 @@ large-group planning meeting that brings the **whole system into the room** to
 find common ground and produce action commitments.
 
 Distinctive feature among large-group methods: it is tightly designed. Unlike
-[open-space-technology](open-space-technology.md), the agenda is fixed; the
+[open-space-technology](../open-space-technology/), the agenda is fixed; the
 content is entirely the participants'.
 
 **Evidence: Weak.** Case-based, largely documented by its developers, with no
 controlled trials. Two design choices have independent support: getting the
-whole system in the room reflects the boundary-spanning finding that
-cross-unit contact reduces attribution error between groups, and the public
-admission step draws on well-established reciprocity and intergroup contact
-research. The three-day format and the five-task sequence are convention.
+whole system in the room reflects the boundary-spanning finding that cross-unit
+contact reduces attribution error between groups, and the public admission step
+draws on well-established reciprocity and intergroup contact research. The
+three-day format and the five-task sequence are convention.
 
 Use when: a complex issue crosses organizational boundaries, requires many
 parties to act, and no single party can solve it alone.
@@ -107,7 +107,7 @@ issue.
 
 ## See also
 
-* [open-space-technology](open-space-technology.md)
-* [appreciative-inquiry](appreciative-inquiry.md)
-* [weisbord-six-box-model](weisbord-six-box-model.md)
+* [open-space-technology](../open-space-technology/)
+* [appreciative-inquiry](../appreciative-inquiry/)
+* [weisbord-six-box-model](../weisbord-six-box-model/)
 * Weisbord & Janoff, *Future Search*.

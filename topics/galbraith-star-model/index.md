@@ -8,11 +8,11 @@ Galbraith's central argument: structure is only one fifth of design, and it is
 the fifth that leaders over-use.
 
 **Evidence: Moderate.** Rooted in Galbraith's information processing theory of
-organization design, which has real empirical grounding: coordination need
-rises with task uncertainty and interdependence, and structures that fail to
-match it underperform. The five-point framework itself is a design heuristic
-that has never been tested as a whole. The reward-alignment claim is supported
-indirectly by the large literature on incentive distortion.
+organization design, which has real empirical grounding: coordination need rises
+with task uncertainty and interdependence, and structures that fail to match it
+underperform. The five-point framework itself is a design heuristic that has
+never been tested as a whole. The reward-alignment claim is supported indirectly
+by the large literature on incentive distortion.
 
 Use when: making structural decisions, or when a reorganization has been
 announced and you want to prevent it from being the only change made.
@@ -64,15 +64,15 @@ shared metric — at a fraction of the cost of a restructure.
 ## Examples by audience
 
 * **Health care**: service line vs. professional hierarchy is a classic matrix.
-  A cancer service crosses surgery, oncology, radiology, and nursing. Whether
-  it works depends almost entirely on whether the lateral processes and the
-  reward system were designed, or whether only the box was drawn.
+  A cancer service crosses surgery, oncology, radiology, and nursing. Whether it
+  works depends almost entirely on whether the lateral processes and the reward
+  system were designed, or whether only the box was drawn.
 
 * **Software**: moving from functional teams to product-aligned teams is a
   Structure change. Without changing funding (Processes), performance criteria
   (Rewards), and career ladders (People), engineers keep optimizing for their
-  functional manager. See [conways-law](conways-law.md),
-  [team-topologies](team-topologies.md).
+  functional manager. See [conways-law](../conways-law/),
+  [team-topologies](../team-topologies/).
 
 * **Executive**: the single highest-leverage question in an executive design
   discussion is "which dimension gets primacy?" — function, product, geography,
@@ -82,8 +82,8 @@ shared metric — at a fraction of the cost of a restructure.
 
 ## Applying it
 
-1. Write the design criteria from strategy: three to five statements of what
-   the design must optimize for, and what it is allowed to sacrifice.
+1. Write the design criteria from strategy: three to five statements of what the
+   design must optimize for, and what it is allowed to sacrifice.
 2. Generate two or three genuinely different structural options.
 3. Score each against the criteria, naming the tradeoff each one accepts.
 4. For the chosen option, design the lateral processes, rewards, and people
@@ -95,20 +95,21 @@ shared metric — at a fraction of the cost of a restructure.
 ## Limitations
 
 * Says little about culture and informal power, which often decide the outcome.
-  Pair with [nadler-tushman-congruence-model](nadler-tushman-congruence-model.md)
-  or [schein-model-of-organizational-culture](schein-model-of-organizational-culture.md).
-* Assumes a leadership team with genuine authority over all five points; in
-  many organizations rewards and people policies are owned elsewhere.
+  Pair with
+  [nadler-tushman-congruence-model](../nadler-tushman-congruence-model/) or
+  [schein-model-of-organizational-culture](../schein-model-of-organizational-culture/).
+* Assumes a leadership team with genuine authority over all five points; in many
+  organizations rewards and people policies are owned elsewhere.
 
 
 ## Questionnaire
 
 A paired, copy-and-use diagnostic instrument for this model:
-[galbraith-star-model-questionnaire](galbraith-star-model-questionnaire.md).
+[galbraith-star-model-questionnaire](../galbraith-star-model-questionnaire/).
 
 
 ## See also
 
-* [conways-law](conways-law.md)
-* [leavitt-diamond-model](leavitt-diamond-model.md)
+* [conways-law](../conways-law/)
+* [leavitt-diamond-model](../leavitt-diamond-model/)
 * Galbraith, *Designing Organizations*.

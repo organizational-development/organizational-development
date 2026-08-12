@@ -7,11 +7,11 @@ the work itself**, which is more durable than motivating the person.
 
 **Evidence: Strong.** Meta-analytically supported across decades and many
 samples: the five characteristics relate reliably to satisfaction, motivation,
-and performance, and the mediating psychological states have held up
-reasonably well. Two caveats are real. Most measurement is self-report, so
-perception and objective job design are entangled. And growth need strength as
-a moderator has produced inconsistent results, so do not assume enrichment
-helps everyone equally — ask.
+and performance, and the mediating psychological states have held up reasonably
+well. Two caveats are real. Most measurement is self-report, so perception and
+objective job design are entangled. And growth need strength as a moderator has
+produced inconsistent results, so do not assume enrichment helps everyone
+equally — ask.
 
 Use when: engagement is poor and the causes are not pay, safety, or management
 behavior; when designing roles or team boundaries; when automation is changing
@@ -28,7 +28,8 @@ Do not use when: the constraint is workload volume rather than work design.
    identifiable piece of work with a visible outcome.
 3. **Task significance** — the degree to which the job substantially affects
    other people's lives or work.
-4. **Autonomy** — the degree of freedom in scheduling and determining procedures.
+4. **Autonomy** — the degree of freedom in scheduling and determining
+   procedures.
 5. **Feedback from the job itself** — the degree to which doing the work
    provides direct information about performance. Note: from the *work*, not
    from a manager. This is the most commonly missed characteristic.
@@ -91,9 +92,9 @@ Hackman and Oldham's five implementing concepts:
 * **Software**: "you build it, you run it" raises task identity, autonomy, and
   feedback simultaneously. Conversely, a team that only writes code to someone
   else's specification, hands it to QA, and never sees production has low
-  identity, low autonomy, and no feedback from the work — MPS near zero, whatever
-  the salary. Fast pipelines and observability are feedback mechanisms, not just
-  engineering conveniences. See [team-topologies](team-topologies.md).
+  identity, low autonomy, and no feedback from the work — MPS near zero,
+  whatever the salary. Fast pipelines and observability are feedback mechanisms,
+  not just engineering conveniences. See [team-topologies](../team-topologies/).
 
 * **Executive**: when automating or outsourcing, examine what the remaining job
   contains. Removing the interesting fragments and leaving exception handling
@@ -111,6 +112,6 @@ Hackman and Oldham's five implementing concepts:
 
 ## See also
 
-* [self-determination-theory](self-determination-theory.md)
-* [sociotechnical-systems](sociotechnical-systems.md)
-* [interventions-catalog](interventions-catalog.md)
+* [self-determination-theory](../self-determination-theory/)
+* [sociotechnical-systems](../sociotechnical-systems/)
+* [interventions-catalog](../interventions-catalog/)

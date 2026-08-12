@@ -6,11 +6,11 @@ one stable state to another, and it is the best available account of the
 **performance dip**.
 
 **Evidence: Weak as a model, well documented as a phenomenon.** The five-stage
-structure has no formal validation. The phenomenon it describes — a
-substantial temporary performance drop after a competence-disrupting change —
-is repeatedly documented, most clearly in electronic health record
-implementations, where clinician productivity declines measurably for weeks to
-months post go-live. Trust the dip; treat the stage names as vocabulary.
+structure has no formal validation. The phenomenon it describes — a substantial
+temporary performance drop after a competence-disrupting change — is repeatedly
+documented, most clearly in electronic health record implementations, where
+clinician productivity declines measurably for weeks to months post go-live.
+Trust the dip; treat the stage names as vocabulary.
 
 Use when: leading a team through a change that temporarily makes them worse at
 their jobs — new tooling, new process, new structure, new skills.
@@ -99,6 +99,6 @@ has an end.
 
 ## See also
 
-* [bridges-transition-model](bridges-transition-model.md)
-* [psychological-safety](psychological-safety.md)
+* [bridges-transition-model](../bridges-transition-model/)
+* [psychological-safety](../psychological-safety/)
 * Gerald Weinberg, *Quality Software Management, Vol. 4: Anticipating Change*.

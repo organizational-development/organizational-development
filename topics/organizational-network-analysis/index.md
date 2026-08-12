@@ -7,10 +7,10 @@ organization as it works, rather than as it is drawn.
 **Evidence: Good as a method.** Social network analysis is a mature, validated
 research methodology, and several of its organizational findings are robust:
 brokerage positions confer information advantage, weak ties carry novel
-information, and network position predicts performance and influence better
-than formal rank does. The weakness is practical rather than theoretical —
-response rates below roughly 70% make a map unreliable, and reported ties
-differ from actual ties.
+information, and network position predicts performance and influence better than
+formal rank does. The weakness is practical rather than theoretical — response
+rates below roughly 70% make a map unreliable, and reported ties differ from
+actual ties.
 
 Use when: the org chart does not explain observed behavior, when planning a
 change that needs informal sponsors, or when assessing what a reorganization or
@@ -43,17 +43,17 @@ most predictive of whether a change will take hold.
 * **Peripheral nodes**: weakly connected. Sometimes new joiners; sometimes
   people quietly disengaging; sometimes deep specialists who are fine.
 * **Silos**: dense internal ties, sparse external ties. Predicts handoff
-  failures at the boundary. See [conways-law](conways-law.md).
+  failures at the boundary. See [conways-law](../conways-law/).
 * **Bottlenecks**: single points of connection whose absence stops flow.
 
 
 ## Methods
 
-* **Survey-based**: ask a roster question ("name up to five people you go to
-  for X"). Explicit consent, best signal quality, snapshot in time.
+* **Survey-based**: ask a roster question ("name up to five people you go to for
+  X"). Explicit consent, best signal quality, snapshot in time.
 * **Passive / digital exhaust**: derive ties from email, chat, calendar, code
-  review, or ticket data. Continuous and cheap, but ethically fraught and
-  biased toward whatever tool you can read.
+  review, or ticket data. Continuous and cheap, but ethically fraught and biased
+  toward whatever tool you can read.
 
 Prefer survey-based for OD work. Passive ONA without informed consent is
 surveillance, and will be experienced as such the moment it becomes known.
@@ -65,12 +65,12 @@ surveillance, and will be experienced as such the moment it becomes known.
 * Never report individual-level maps to managers about their reports.
 * Report roles and patterns, not named rankings, unless the named person has
   agreed.
-* Do not use ONA output in performance, promotion, or redundancy decisions.
-  This is the single fastest way to destroy the data's validity and the
+* Do not use ONA output in performance, promotion, or redundancy decisions. This
+  is the single fastest way to destroy the data's validity and the
   practitioner's credibility.
 * Delete raw ties on a stated schedule.
 
-See [od-ethics](od-ethics.md).
+See [od-ethics](../od-ethics/).
 
 
 ## Examples by audience
@@ -100,11 +100,11 @@ See [od-ethics](od-ethics.md).
 ## Questionnaire
 
 A paired, copy-and-use diagnostic instrument for this model:
-[organizational-network-analysis-questionnaire](organizational-network-analysis-questionnaire.md).
+[organizational-network-analysis-questionnaire](../organizational-network-analysis-questionnaire/).
 
 
 ## See also
 
-* [conways-law](conways-law.md)
-* [od-ethics](od-ethics.md)
+* [conways-law](../conways-law/)
+* [od-ethics](../od-ethics/)
 * <https://github.com/joelparkerhenderson/stakeholder-analysis>

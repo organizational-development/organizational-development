@@ -9,18 +9,18 @@ that lower needs must be substantially met before higher ones motivate behavior.
 4. **Esteem** — recognition, status, respect, achievement.
 5. **Self-actualization** — realizing one's potential; becoming what one can be.
 
-Maslow later added cognitive, aesthetic, and self-transcendence needs. The famous
-pyramid diagram does not appear in his work; it was added by later textbook
-authors.
+Maslow later added cognitive, aesthetic, and self-transcendence needs. The
+famous pyramid diagram does not appear in his work; it was added by later
+textbook authors.
 
 **Evidence: Weak.** The need categories have reasonable support; the strict
-ordering does not. People pursue esteem and self-actualization while lower
-needs are unmet, routinely and across cultures, and cross-cultural work finds
-the ordering and relative importance vary. The familiar pyramid does not
-appear in Maslow's own writing. Alderfer's ERG formulation, with no strict
-prepotency and an explicit frustration-regression mechanism, fits the data
-better. One practical implication survives: active safety needs block
-higher-order interventions.
+ordering does not. People pursue esteem and self-actualization while lower needs
+are unmet, routinely and across cultures, and cross-cultural work finds the
+ordering and relative importance vary. The familiar pyramid does not appear in
+Maslow's own writing. Alderfer's ERG formulation, with no strict prepotency and
+an explicit frustration-regression mechanism, fits the data better. One
+practical implication survives: active safety needs block higher-order
+interventions.
 
 Use when: a shared vocabulary is needed with a general audience, or when
 explaining why higher-order interventions fail in an organization where people
@@ -39,13 +39,13 @@ hierarchy is not empirically supported.
   ordering and relative importance are not.
 * Clayton Alderfer's **ERG theory** (Existence, Relatedness, Growth) is a better
   formulation: three categories, no strict prepotency, and an explicit
-  *frustration-regression* mechanism — when growth is blocked, people
-  intensify demands on relatedness or existence. That mechanism explains a
-  common workplace pattern: when development is frozen, pay and conditions
-  disputes rise.
+  *frustration-regression* mechanism — when growth is blocked, people intensify
+  demands on relatedness or existence. That mechanism explains a common
+  workplace pattern: when development is frozen, pay and conditions disputes
+  rise.
 
 Evidence: weak for the hierarchy, moderate for the categories. See
-[evidence-based-practice](evidence-based-practice.md).
+[evidence-based-practice](../evidence-based-practice/).
 
 
 ## The one durable practical implication
@@ -84,14 +84,14 @@ and the reason its failure is misattributed to the program design.
 ## Limitations
 
 * The hierarchy is over-taught and over-trusted relative to its evidence.
-* It has been used to justify paternalism — deciding for people which needs
-  they should have met.
-* Prefer [self-determination-theory](self-determination-theory.md) for anything
+* It has been used to justify paternalism — deciding for people which needs they
+  should have met.
+* Prefer [self-determination-theory](../self-determination-theory/) for anything
   consequential.
 
 
 ## See also
 
-* [self-determination-theory](self-determination-theory.md)
-* [herzberg-two-factor-theory](herzberg-two-factor-theory.md)
-* [bridges-transition-model](bridges-transition-model.md)
+* [self-determination-theory](../self-determination-theory/)
+* [herzberg-two-factor-theory](../herzberg-two-factor-theory/)
+* [bridges-transition-model](../bridges-transition-model/)

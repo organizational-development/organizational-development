@@ -1,0 +1,256 @@
+#!/usr/bin/env bash
+#
+# audit — validate this repository against spec/conventions.md
+#
+# Usage: bin/audit [--quiet]
+# Exits 0 if everything passes, 1 if any check fails.
+#
+# The conventions this enforces are defined in spec/conventions.md, which is the
+# single source of truth. If a check here disagrees with that file, this script
+# is the bug.
+
+set -uo pipefail
+
+cd "$(dirname "$0")/.." || exit 2
+
+QUIET=0
+[ "${1:-}" = "--quiet" ] && QUIET=1
+
+FAIL=0
+CHECKS=0
+
+fail() { printf '  FAIL: %s\n' "$*"; FAIL=$((FAIL + 1)); }
+pass() { [ "$QUIET" -eq 1 ] || printf '  ok\n'; }
+section() { CHECKS=$((CHECKS + 1)); [ "$QUIET" -eq 1 ] || printf '\n%s\n' "$*"; }
+
+# Strength values permitted by spec/conventions.md.
+EVIDENCE_RE='^\*\*Evidence: (Strong|Good|Moderate|Mixed|Contested|Weak|Very weak|Not an empirical model|Not a model|Normative, not empirical)'
+
+# Topics that are questionnaires rather than models.
+is_questionnaire() { case "$1" in *-questionnaire) return 0 ;; *) return 1 ;; esac; }
+
+# Topics that describe no single model, so carry no Use when / Do not use when.
+is_index_topic() { case "$1" in index) return 0 ;; *) return 1 ;; esac; }
+
+TOPICS=$(find topics -mindepth 1 -maxdepth 1 -type d | sed 's#topics/##' | sort)
+
+# ---------------------------------------------------------------- 1. structure
+section "1. Topic directory structure"
+before=$FAIL
+for t in $TOPICS; do
+  [ -f "topics/$t/index.md" ] || fail "topics/$t/ has no index.md"
+  if [ ! -L "topics/$t/README.md" ]; then
+    fail "topics/$t/ has no README.md symlink (run: ln -sfn index.md topics/$t/README.md)"
+  elif [ "$(readlink "topics/$t/README.md")" != "index.md" ]; then
+    fail "topics/$t/README.md points at $(readlink "topics/$t/README.md"), not index.md"
+  fi
+done
+[ "$FAIL" -eq "$before" ] && pass
+
+# ------------------------------------------------------------------- 2. titles
+section "2. Exactly one level-one heading per topic"
+before=$FAIL
+for t in $TOPICS; do
+  n=$(grep -c '^# ' "topics/$t/index.md")
+  [ "$n" -eq 1 ] || fail "topics/$t/index.md has $n level-one headings, expected 1"
+done
+[ "$FAIL" -eq "$before" ] && pass
+
+# ----------------------------------------------------------------- 3. evidence
+section "3. Evidence labels present and using a permitted strength value"
+before=$FAIL
+for t in $TOPICS; do
+  is_index_topic "$t" && continue
+  f="topics/$t/index.md"
+  if ! grep -q '^\*\*Evidence:' "$f"; then
+    fail "topics/$t/index.md has no evidence label"
+  elif ! grep -qE "$EVIDENCE_RE" "$f"; then
+    fail "topics/$t/index.md uses an unrecognized strength: $(grep -m1 '^\*\*Evidence:' "$f" | cut -c1-60)"
+  fi
+done
+[ "$FAIL" -eq "$before" ] && pass
+
+# --------------------------------------------------------------- 4. use / not
+section "4. Model topics declare Use when and Do not use when"
+before=$FAIL
+for t in $TOPICS; do
+  is_questionnaire "$t" && continue
+  is_index_topic "$t" && continue
+  f="topics/$t/index.md"
+  grep -q '^Use when:' "$f" || fail "topics/$t/index.md has no 'Use when:'"
+  grep -q '^Do not use when:' "$f" || fail "topics/$t/index.md has no 'Do not use when:'"
+done
+[ "$FAIL" -eq "$before" ] && pass
+
+# ----------------------------------------------------------- 5. questionnaires
+section "5. Diagnostic models paired with questionnaires, both directions"
+before=$FAIL
+for t in $TOPICS; do
+  is_questionnaire "$t" || continue
+  model="${t%-questionnaire}"
+  if [ ! -d "topics/$model" ]; then
+    fail "topics/$t/ has no model topic topics/$model/"
+    continue
+  fi
+  grep -q '^## Questionnaire' "topics/$model/index.md" ||
+    fail "topics/$model/index.md has no '## Questionnaire' section"
+  grep -q "\.\./$model/" "topics/$t/index.md" ||
+    fail "topics/$t/index.md does not link back to ../$model/"
+  grep -qi '^## .*analysis' "topics/$t/index.md" ||
+    fail "topics/$t/index.md has no closing analysis section"
+done
+[ "$FAIL" -eq "$before" ] && pass
+
+# --------------------------------------------------------------- 6. topic links
+section "6. Cross-topic links resolve"
+before=$FAIL
+for t in $TOPICS; do
+  f="topics/$t/index.md"
+  grep -o '](\.\./[a-z0-9-]*/)' "$f" 2>/dev/null |
+    sed 's#](\.\./\(.*\)/)#\1#' | sort -u |
+    while read -r target; do
+      [ -d "topics/$target" ] || printf '  FAIL: %s links to missing ../%s/\n' "$f" "$target"
+    done
+done > /tmp/audit_links.$$ 2>&1
+if [ -s /tmp/audit_links.$$ ]; then cat /tmp/audit_links.$$; FAIL=$((FAIL + $(wc -l < /tmp/audit_links.$$))); fi
+rm -f /tmp/audit_links.$$
+[ "$FAIL" -eq "$before" ] && pass
+
+# -------------------------------------------------------------- 7. legacy links
+section "7. No legacy bare .md sibling links"
+before=$FAIL
+for t in $TOPICS; do
+  f="topics/$t/index.md"
+  hits=$(grep -o '](\([a-z0-9][a-z0-9-]*\)\.md)' "$f" 2>/dev/null | head -3)
+  [ -n "$hits" ] && fail "$f has legacy sibling links: $(echo "$hits" | tr '\n' ' ')"
+done
+[ "$FAIL" -eq "$before" ] && pass
+
+# ------------------------------------------------------------- 8. README links
+section "8. README links resolve"
+before=$FAIL
+grep -o '](topics/[a-z0-9-]*/)' README.md | sed 's#](topics/\(.*\)/)#\1#' | sort -u |
+  while read -r target; do
+    [ -d "topics/$target" ] || printf '  FAIL: README.md links to missing topics/%s/\n' "$target"
+  done > /tmp/audit_rl.$$ 2>&1
+grep -o '](spec/[a-z0-9-]*\.md)' README.md | sed 's#](\(.*\))#\1#' | sort -u |
+  while read -r target; do
+    [ -f "$target" ] || printf '  FAIL: README.md links to missing %s\n' "$target"
+  done >> /tmp/audit_rl.$$ 2>&1
+if [ -s /tmp/audit_rl.$$ ]; then cat /tmp/audit_rl.$$; FAIL=$((FAIL + $(wc -l < /tmp/audit_rl.$$))); fi
+rm -f /tmp/audit_rl.$$
+[ "$FAIL" -eq "$before" ] && pass
+
+# ----------------------------------------------------------- 9. README anchors
+section "9. README anchors resolve to headings"
+before=$FAIL
+grep -oE '\(#[a-z0-9é-]+\)' README.md | tr -d '()#' | sort -u > /tmp/audit_a.$$
+grep -E '^#{2,3} ' README.md | sed 's/^#* //' |
+  tr '[:upper:]' '[:lower:]' | sed 's/[^a-z0-9é -]//g; s/ /-/g' | sort -u > /tmp/audit_h.$$
+missing=$(comm -23 /tmp/audit_a.$$ /tmp/audit_h.$$)
+[ -n "$missing" ] && for m in $missing; do fail "README.md anchor #$m has no heading"; done
+rm -f /tmp/audit_a.$$ /tmp/audit_h.$$
+[ "$FAIL" -eq "$before" ] && pass
+
+# ------------------------------------------------------- 10. agent file budget
+section "10. Agent files under 40 KB"
+before=$FAIL
+for f in CLAUDE.md AGENTS.md AGENTS/*.md; do
+  [ -f "$f" ] || continue
+  size=$(wc -c < "$f" | tr -d ' ')
+  [ "$size" -lt 40960 ] || fail "$f is $size bytes, over the 40960 budget"
+done
+[ "$FAIL" -eq "$before" ] && pass
+
+# -------------------------------------------------------------- 11. topic index
+section "11. topics/index.md lists every topic"
+before=$FAIL
+if [ ! -f topics/index.md ]; then
+  fail "topics/index.md does not exist"
+else
+  for t in $TOPICS; do
+    [ "$t" = "index" ] && continue
+    grep -q "($t/)" topics/index.md || fail "topics/index.md does not list $t"
+  done
+fi
+[ "$FAIL" -eq "$before" ] && pass
+
+# --------------------------------------------------------- 12. required files
+section "12. Required top-level files present"
+before=$FAIL
+for f in README.md AGENTS.md CLAUDE.md CONTRIBUTING.md LICENSE.md \
+         spec/index.md spec/conventions.md topics/index.md \
+         .github/workflows/audit.yml; do
+  [ -f "$f" ] || fail "$f is missing"
+done
+[ -L topics/README.md ] || fail "topics/README.md symlink is missing"
+[ "$FAIL" -eq "$before" ] && pass
+
+# ------------------------------------------------- 13. evidence table currency
+section "13. Stated model count matches reality"
+before=$FAIL
+actual=$(echo "$TOPICS" | tr ' ' '\n' | grep -vc -- '-questionnaire')
+for f in README.md CONTRIBUTING.md AGENTS.md AGENTS/evidence-labels.md \
+         spec/index.md topics/index.md; do
+  [ -f "$f" ] || continue
+  # Any "<n> models" / "<n> labelled" claim must use the current count.
+  wrong=$(grep -oE '(across |Across )[0-9]+ (labelled )?model' "$f" |
+          grep -oE '[0-9]+' | grep -v "^${actual}$" | head -1)
+  [ -n "$wrong" ] && fail "$f states $wrong models; actual is $actual"
+done
+[ "$FAIL" -eq "$before" ] && pass
+
+# ----------------------------------------------------- 14. audience examples
+section "14. Model topics carry all three audience examples"
+before=$FAIL
+for t in $TOPICS; do
+  is_questionnaire "$t" && continue
+  is_index_topic "$t" && continue
+  f="topics/$t/index.md"
+  grep -q '^## Examples by audience' "$f" ||
+    fail "topics/$t/index.md has no '## Examples by audience' section"
+  miss=""
+  grep -q '\*\*Health care\*\*' "$f" || miss="$miss health-care"
+  grep -q '\*\*Software\*\*'    "$f" || miss="$miss software"
+  grep -q '\*\*Executive\*\*'   "$f" || miss="$miss executive"
+  [ -n "$miss" ] && fail "topics/$t/index.md missing audience example:$miss"
+done
+[ "$FAIL" -eq "$before" ] && pass
+
+# ------------------------------------------------------------- 15. no orphans
+section "15. Every topic is linked from at least one sibling"
+before=$FAIL
+for t in $TOPICS; do
+  is_index_topic "$t" && continue
+  n=$(grep -rl -- "\.\./$t/)" topics/*/index.md 2>/dev/null |
+      grep -cv "topics/$t/index.md")
+  [ "${n:-0}" -eq 0 ] &&
+    fail "topics/$t/ is an orphan: no sibling topic links to ../$t/"
+done
+[ "$FAIL" -eq "$before" ] && pass
+
+# --------------------------------------------------------- 16. prose wrapping
+section "16. Prose wrapped at 80 columns"
+before=$FAIL
+for f in $(find topics -name index.md) README.md CONTRIBUTING.md AGENTS.md \
+          AGENTS/*.md spec/index.md spec/conventions.md; do
+  [ -f "$f" ] || continue
+  # Excluded: fenced code, tables, URLs, and lines that are a single
+  # unbreakable markdown link, which cannot be wrapped without breaking it.
+  n=$(awk '/^```/{fence=!fence; next} fence{next}
+           /^\||http/{next}
+           /^[[:space:]]*[*-]?[[:space:]]*\[[^]]*\]\([^)]*\)[.,;:]?$/{next}
+           length>80' "$f" | wc -l | tr -d ' ')
+  [ "$n" -gt 0 ] && fail "$f has $n prose lines over 80 columns"
+done
+[ "$FAIL" -eq "$before" ] && pass
+
+# ---------------------------------------------------------------------- report
+printf '\n'
+if [ "$FAIL" -eq 0 ]; then
+  printf 'PASS: %d checks, %d topics, 0 violations\n' "$CHECKS" "$(echo "$TOPICS" | wc -w | tr -d ' ')"
+  exit 0
+else
+  printf 'FAIL: %d violations across %d checks\n' "$FAIL" "$CHECKS"
+  exit 1
+fi

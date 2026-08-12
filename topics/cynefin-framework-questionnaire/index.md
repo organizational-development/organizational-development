@@ -8,7 +8,7 @@ appropriate to that domain.
 Run it on one named situation at a time. A department is not in a domain; a
 particular problem is.
 
-See [cynefin-framework](cynefin-framework.md).
+See [cynefin-framework](../cynefin-framework/).
 
 **Evidence: Weak empirically, high conceptual utility.** Domain assignment is a
 judgment and two competent people can disagree. The disagreement is usually the
@@ -32,25 +32,25 @@ Score each statement 1 (strongly disagree) to 5 (strongly agree).
 
 **Clear indicators**
 
-1. The cause-and-effect relationship here is obvious to any competent
-   observer. `[ ]`
-2. There is an established best practice, and everyone would name the same
-   one. `[ ]`
+1. The cause-and-effect relationship here is obvious to any competent observer.
+   `[ ]`
+2. There is an established best practice, and everyone would name the same one.
+   `[ ]`
 3. If we simply categorized the situation correctly, the right action would
    follow automatically. `[ ]`
 
 **Complicated indicators**
 
-4. There is a right answer, and an expert could find it with enough analysis
-   and data. `[ ]`
+4. There is a right answer, and an expert could find it with enough analysis and
+   data. `[ ]`
 5. Several defensible approaches exist, and choosing between them requires
    expertise rather than experimentation. `[ ]`
 6. We could write a specification for the solution before building it. `[ ]`
 
 **Complex indicators**
 
-7. The situation responds to our interventions, so what worked last time may
-   not work now. `[ ]`
+7. The situation responds to our interventions, so what worked last time may not
+   work now. `[ ]`
 8. We can explain why things happened afterwards, but could not have predicted
    them beforehand. `[ ]`
 9. Competent, well-informed people genuinely disagree about what will happen if
@@ -126,8 +126,8 @@ For each proposed experiment, all five fields must be filled in before starting.
 | Stop condition and how we reverse it | | | |
 | Blast radius: who is affected if it fails | | | |
 
-- Question: Are these experiments genuinely parallel and genuinely different from
-  each other, or are they three versions of the same idea?
+- Question: Are these experiments genuinely parallel and genuinely different
+  from each other, or are they three versions of the same idea?
   - Rating (1–5): [ ]
 
 - Question: Is failure of any one of them survivable and non-newsworthy?

@@ -3,19 +3,19 @@
 Marvin Weisbord's 1976 six-box model is the fastest useful organizational
 diagnostic. Six boxes, one question each, plus an environment ring around them.
 
-**Evidence: Weak.** Never validated as a measurement model, and never tested
-for predictive value. It is a facilitation device: six prompts that reliably
+**Evidence: Weak.** Never validated as a measurement model, and never tested for
+predictive value. It is a facilitation device: six prompts that reliably
 generate a useful conversation in ninety minutes. The one component with
 independent support is the formal/informal distinction, which mirrors the
 well-documented espoused-theory versus theory-in-use gap. See
-[double-loop-learning](double-loop-learning.md).
+[double-loop-learning](../double-loop-learning/).
 
 Use when: you need a shared diagnosis in one meeting, with a group that has no
 appetite for a twelve-factor causal model.
 
 Do not use when: you need to establish cause and effect, or the problem is
 mainly about external adaptation. Use
-[burke-litwin-causal-model](burke-litwin-causal-model.md) instead.
+[burke-litwin-causal-model](../burke-litwin-causal-model/) instead.
 
 
 ## The six boxes
@@ -88,11 +88,11 @@ problem.
 ## Questionnaire
 
 A paired, copy-and-use diagnostic instrument for this model:
-[weisbord-six-box-model-questionnaire](weisbord-six-box-model-questionnaire.md).
+[weisbord-six-box-model-questionnaire](../weisbord-six-box-model-questionnaire/).
 
 
 ## See also
 
-* [mckinsey-7s-framework](mckinsey-7s-framework.md)
-* [nadler-tushman-congruence-model](nadler-tushman-congruence-model.md)
+* [mckinsey-7s-framework](../mckinsey-7s-framework/)
+* [nadler-tushman-congruence-model](../nadler-tushman-congruence-model/)
 * Weisbord, "Organizational Diagnosis: Six Places to Look for Trouble" (1976).

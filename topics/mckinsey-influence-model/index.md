@@ -1,16 +1,16 @@
 # McKinsey influence model
 
 The influence model states four conditions that must all be present for a person
-to change behavior at work. It is used to audit change programs for completeness,
-and it is unusual in insisting that all four are necessary.
+to change behavior at work. It is used to audit change programs for
+completeness, and it is unusual in insisting that all four are necessary.
 
-**Evidence: Weak as a model, moderate in components.** Consultancy-derived
-with no independent validation, and the survey evidence cited for it is
-proprietary. Each of the four conditions maps onto a better-supported
-literature: role modeling onto social learning theory, formal mechanisms onto
-the incentive distortion literature, skills onto deliberate practice and
-training transfer, and conviction onto internalized motivation in
-[self-determination-theory](self-determination-theory.md). Its practical value
+**Evidence: Weak as a model, moderate in components.** Consultancy-derived with
+no independent validation, and the survey evidence cited for it is proprietary.
+Each of the four conditions maps onto a better-supported literature: role
+modeling onto social learning theory, formal mechanisms onto the incentive
+distortion literature, skills onto deliberate practice and training transfer,
+and conviction onto internalized motivation in
+[self-determination-theory](../self-determination-theory/). Its practical value
 is as a completeness audit, which does not require the model to be true.
 
 Use when: auditing a change program that is well-resourced and still not
@@ -43,7 +43,8 @@ making a chosen change stick.
 
 Run the four conditions as an audit. Most failing programs score high on 1 and 3
 — communication and training are the easy, purchasable interventions — and low
-on 2 and 4, which require leaders to change what they reward and how they behave.
+on 2 and 4, which require leaders to change what they reward and how they
+behave.
 
 | Condition | Cheap and common | Expensive and rare |
 | --- | --- | --- |
@@ -61,12 +62,12 @@ compliance without change.
 * **Health care**: a patient safety program with excellent training (3) and
   strong messaging (1) fails when incident reporting still leads to blame (2)
   and senior clinicians visibly bypass the protocol when busy (4). Staff read
-  the behavior, not the poster. See [just-culture](just-culture.md).
+  the behavior, not the poster. See [just-culture](../just-culture/).
 
 * **Software**: a quality initiative fails when the promotion ladder rewards
   shipping features (2) and staff engineers skip tests under deadline (4).
-  Engineers are excellent at detecting the difference between stated and
-  enacted priorities.
+  Engineers are excellent at detecting the difference between stated and enacted
+  priorities.
 
 * **Executive**: the executive's own calendar and escalation behavior *is*
   condition 4. If the CEO says "sustainable pace" and emails at midnight, the
@@ -75,8 +76,8 @@ compliance without change.
 
 ## Applying it
 
-1. Survey the four conditions separately, using behavioral questions rather
-   than attitude questions ("in the last month, did you see a leader do X?").
+1. Survey the four conditions separately, using behavioral questions rather than
+   attitude questions ("in the last month, did you see a leader do X?").
 2. Score each 1–5, by population.
 3. Invest in the lowest, not the easiest.
 4. Recheck after one quarter.
@@ -93,6 +94,6 @@ compliance without change.
 
 ## See also
 
-* [adkar-change-management-model](adkar-change-management-model.md)
-* [self-determination-theory](self-determination-theory.md)
-* [schein-model-of-organizational-culture](schein-model-of-organizational-culture.md)
+* [adkar-change-management-model](../adkar-change-management-model/)
+* [self-determination-theory](../self-determination-theory/)
+* [schein-model-of-organizational-culture](../schein-model-of-organizational-culture/)

@@ -9,15 +9,15 @@ persistence.
 The three needs:
 
 1. **Autonomy** — experiencing one's actions as self-endorsed and volitional.
-   Not independence, and not the absence of structure. A person can be autonomous
-   while following a rule they endorse.
+   Not independence, and not the absence of structure. A person can be
+   autonomous while following a rule they endorse.
 2. **Competence** — experiencing oneself as effective, making progress, growing.
 3. **Relatedness** — feeling connected to and cared about by others; belonging.
 
-**Evidence: Strong.** One of the most extensively tested theories in
-psychology, with several decades of experimental and field research across
-cultures and domains, including work, health care, education, and sport. The
-undermining effect of expected contingent rewards on intrinsic motivation is
+**Evidence: Strong.** One of the most extensively tested theories in psychology,
+with several decades of experimental and field research across cultures and
+domains, including work, health care, education, and sport. The undermining
+effect of expected contingent rewards on intrinsic motivation is
 meta-analytically robust and replicated, with the well-established boundary
 conditions noted in this file. The strongest live debate is over how universal
 the autonomy need is across cultures, where the evidence still favors
@@ -101,7 +101,7 @@ Nuances that matter in practice:
 * **Software**: autonomy over *how* is the single strongest engineering
   retention factor in most surveys. Competence is damaged by long feedback loops
   — a two-hour build denies the sense of effectiveness dozens of times a day.
-  See [dora-metrics](dora-metrics.md).
+  See [dora-metrics](../dora-metrics/).
 
 * **Executive**: individual bonus schemes tied to narrow metrics predictably
   produce narrow behavior and undermine collaboration. If the work is complex
@@ -119,7 +119,8 @@ Nuances that matter in practice:
 
 ## See also
 
-* [job-characteristics-model](job-characteristics-model.md)
-* [herzberg-two-factor-theory](herzberg-two-factor-theory.md)
-* [employee-engagement-surveys](employee-engagement-surveys.md)
-* Deci & Ryan; Daniel Pink, *Drive* (popularization: autonomy, mastery, purpose).
+* [job-characteristics-model](../job-characteristics-model/)
+* [herzberg-two-factor-theory](../herzberg-two-factor-theory/)
+* [employee-engagement-surveys](../employee-engagement-surveys/)
+* Deci & Ryan; Daniel Pink, *Drive* (popularization: autonomy, mastery,
+  purpose).

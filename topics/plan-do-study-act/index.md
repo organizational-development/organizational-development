@@ -1,8 +1,8 @@
 # Plan-Do-Study-Act and the Model for Improvement
 
-PDSA is the improvement cycle from Walter Shewhart and W. Edwards Deming.
-Deming insisted on **Study** rather than the older "Check", because the point is
-to learn from the comparison of prediction to result, not merely to inspect.
+PDSA is the improvement cycle from Walter Shewhart and W. Edwards Deming. Deming
+insisted on **Study** rather than the older "Check", because the point is to
+learn from the comparison of prediction to result, not merely to inspect.
 
 The **Model for Improvement** (Associates in Process Improvement; popularized by
 the Institute for Healthcare Improvement) wraps PDSA in three questions asked
@@ -74,7 +74,7 @@ Plot data over time, not before-and-after bars. Before/after comparison cannot
 distinguish improvement from normal variation, and it is how most improvement
 claims are inflated. Learn the basic run chart rules — shift, trend, runs,
 astronomical point — before claiming an effect. See
-[measurement-and-metrics](measurement-and-metrics.md).
+[measurement-and-metrics](../measurement-and-metrics/).
 
 
 ## Examples by audience
@@ -104,7 +104,7 @@ astronomical point — before claiming an effect. See
 
 ## See also
 
-* [improvement-kata](improvement-kata.md)
-* [action-research](action-research.md)
-* [measurement-and-metrics](measurement-and-metrics.md)
+* [improvement-kata](../improvement-kata/)
+* [action-research](../action-research/)
+* [measurement-and-metrics](../measurement-and-metrics/)
 * <https://www.ihi.org>

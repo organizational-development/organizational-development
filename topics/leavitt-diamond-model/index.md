@@ -12,11 +12,11 @@ The claim: these four are interdependent, so a deliberate change in any one
 produces compensating changes in the others — whether or not those changes were
 planned.
 
-**Evidence: Weak.** A conceptual checklist from 1965, never validated. Its
-claim — that a deliberate change to one variable produces unplanned changes in
-the other three — is supported anecdotally and by the sociotechnical
-literature, but the model offers no way to predict which changes or how large.
-Use it as a five-minute prompt, not as a diagnostic.
+**Evidence: Weak.** A conceptual checklist from 1965, never validated. Its claim
+— that a deliberate change to one variable produces unplanned changes in the
+other three — is supported anecdotally and by the sociotechnical literature, but
+the model offers no way to predict which changes or how large. Use it as a
+five-minute prompt, not as a diagnostic.
 
 Use when: you want a five-minute check on the second-order effects of a planned
 change, especially a technology change.
@@ -65,11 +65,11 @@ technologists change technology, HR changes people, executives change structure
 ## Questionnaire
 
 A paired, copy-and-use diagnostic instrument for this model:
-[leavitt-diamond-model-questionnaire](leavitt-diamond-model-questionnaire.md).
+[leavitt-diamond-model-questionnaire](../leavitt-diamond-model-questionnaire/).
 
 
 ## See also
 
-* [galbraith-star-model](galbraith-star-model.md)
-* [sociotechnical-systems](sociotechnical-systems.md)
-* [nadler-tushman-congruence-model](nadler-tushman-congruence-model.md)
+* [galbraith-star-model](../galbraith-star-model/)
+* [sociotechnical-systems](../sociotechnical-systems/)
+* [nadler-tushman-congruence-model](../nadler-tushman-congruence-model/)

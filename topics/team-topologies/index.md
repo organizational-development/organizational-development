@@ -2,20 +2,20 @@
 
 Matthew Skelton and Manuel Pais's *Team Topologies* (2019) offers a concrete
 organizational design vocabulary for knowledge work, built on
-[conways-law](conways-law.md) and cognitive load.
+[conways-law](../conways-law/) and cognitive load.
 
-**Evidence: Weak as a whole, good in its components.** The four-type,
-three-mode scheme has not been tested. Its two foundations are much better
-supported: [conways-law](conways-law.md) has direct empirical backing, and
-cognitive load theory is well established in educational psychology, though
-its transfer to team-level capacity is an extrapolation. Treat the vocabulary
-as useful and the taxonomy as unproven.
+**Evidence: Weak as a whole, good in its components.** The four-type, three-mode
+scheme has not been tested. Its two foundations are much better supported:
+[conways-law](../conways-law/) has direct empirical backing, and cognitive load
+theory is well established in educational psychology, though its transfer to
+team-level capacity is an extrapolation. Treat the vocabulary as useful and the
+taxonomy as unproven.
 
 Use when: designing team boundaries in software or any complex knowledge-work
 setting, or when "everything needs coordination with everyone".
 
-Do not use when: applying it literally outside software without translating.
-The team types translate well; the terminology does not.
+Do not use when: applying it literally outside software without translating. The
+team types translate well; the terminology does not.
 
 
 ## Four team types
@@ -86,18 +86,18 @@ wrong. Adding people does not fix an over-broad boundary; it splits attention.
 * Risk of ritual adoption — renaming existing teams without changing boundaries,
   ownership, or interaction modes.
 * Says little about hierarchy, reward, or career, which
-  [galbraith-star-model](galbraith-star-model.md) covers.
+  [galbraith-star-model](../galbraith-star-model/) covers.
 
 
 ## Questionnaire
 
 A paired, copy-and-use diagnostic instrument for this model:
-[team-topologies-questionnaire](team-topologies-questionnaire.md).
+[team-topologies-questionnaire](../team-topologies-questionnaire/).
 
 
 ## See also
 
-* [conways-law](conways-law.md)
-* [sociotechnical-systems](sociotechnical-systems.md)
-* [dora-metrics](dora-metrics.md)
+* [conways-law](../conways-law/)
+* [sociotechnical-systems](../sociotechnical-systems/)
+* [dora-metrics](../dora-metrics/)
 * <https://teamtopologies.com>

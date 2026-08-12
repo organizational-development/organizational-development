@@ -17,11 +17,11 @@ environment. Person-organization fit research supports the People pairings
 specifically. Stronger than most diagnostics here, and still not a measurement
 tool.
 
-Use when: performance is poor despite good people, good strategy, and good
-tools — that is, when the problem is fit rather than quality.
+Use when: performance is poor despite good people, good strategy, and good tools
+— that is, when the problem is fit rather than quality.
 
 Do not use when: you need a quick shared vocabulary. Use
-[weisbord-six-box-model](weisbord-six-box-model.md).
+[weisbord-six-box-model](../weisbord-six-box-model/).
 
 
 ## Structure
@@ -40,8 +40,8 @@ Do not use when: you need a quick shared vocabulary. Use
    interdependence.
 2. **People**: skills, expectations, preferences, demographics.
 3. **Formal organization**: structure, processes, systems, metrics, rewards.
-4. **Informal organization**: culture, norms, networks, actual power,
-   unwritten rules.
+4. **Informal organization**: culture, norms, networks, actual power, unwritten
+   rules.
 
 **Outputs**: at system, unit, and individual level.
 
@@ -67,9 +67,8 @@ The last pair is usually where the diagnosis lands.
 ## Examples by audience
 
 * **Health care**: Work is high-uncertainty and highly interdependent. Formal
-  organization is often designed for standardized throughput. That single
-  misfit explains a large share of clinician frustration and workaround
-  behavior.
+  organization is often designed for standardized throughput. That single misfit
+  explains a large share of clinician frustration and workaround behavior.
 
 * **Software**: an org adopts autonomous product teams (Formal) while retaining
   centralized annual funding and approval (Formal ↔ Work misfit). Autonomy is
@@ -93,20 +92,20 @@ The last pair is usually where the diagnosis lands.
 ## Limitations
 
 * Requires more analytic effort than a six-box or 7S session.
-* Congruence can mean comfortable stagnation; a perfectly congruent
-  organization can be perfectly aligned to a market that no longer exists.
-  Fit is necessary, not sufficient.
+* Congruence can mean comfortable stagnation; a perfectly congruent organization
+  can be perfectly aligned to a market that no longer exists. Fit is necessary,
+  not sufficient.
 * Strategy sits outside the model, so it will not challenge the strategy.
 
 
 ## Questionnaire
 
 A paired, copy-and-use diagnostic instrument for this model:
-[nadler-tushman-congruence-model-questionnaire](nadler-tushman-congruence-model-questionnaire.md).
+[nadler-tushman-congruence-model-questionnaire](../nadler-tushman-congruence-model-questionnaire/).
 
 
 ## See also
 
-* [mckinsey-7s-framework](mckinsey-7s-framework.md)
-* [burke-litwin-causal-model](burke-litwin-causal-model.md)
-* [galbraith-star-model](galbraith-star-model.md)
+* [mckinsey-7s-framework](../mckinsey-7s-framework/)
+* [burke-litwin-causal-model](../burke-litwin-causal-model/)
+* [galbraith-star-model](../galbraith-star-model/)

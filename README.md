@@ -8,8 +8,8 @@ This guide is self-contained. You can read it end to end, or use the contents to
 jump to what you need. Every framework includes what it is, when to use it, when
 not to, what the evidence says, and worked examples from all three audiences.
 
-Deeper reference notes on each individual model live in [spec/](spec/), one file
-per model, framework, method, and system.
+Deeper reference notes on each individual model live in [topics/](topics/), one
+directory per model, framework, method, and system.
 
 Contents:
 
@@ -19,11 +19,13 @@ Contents:
   * [The ten things that matter most](#the-ten-things-that-matter-most)
 * [Part 1: Foundations](#part-1-foundations)
   * [What organizational development is](#what-organizational-development-is)
-  * [What organizational development is not](#what-organizational-development-is-not)
+  * [What organizational development is
+    not](#what-organizational-development-is-not)
   * [The values and ethics of OD](#the-values-and-ethics-of-od)
   * [Evidence-based practice](#evidence-based-practice)
   * [Systems thinking](#systems-thinking)
-  * [Sociotechnical systems and Conway's law](#sociotechnical-systems-and-conways-law)
+  * [Sociotechnical systems and Conway's
+    law](#sociotechnical-systems-and-conways-law)
 * [Part 2: The OD process](#part-2-the-od-process)
   * [The cycle](#the-cycle)
   * [Entry and contracting](#entry-and-contracting)
@@ -97,8 +99,15 @@ Contents:
 * [Part 9: Where to start](#part-9-where-to-start)
 * [Part 10: Anti-patterns](#part-10-anti-patterns)
 * [Part 11: Questionnaires and templates](#part-11-questionnaires-and-templates)
+* [Part 12: Worked examples](#part-12-worked-examples)
+  * [Tutorial: your first diagnosis](#tutorial-your-first-diagnosis)
+  * [Case study: a hospital ward](#case-study-a-hospital-ward)
+  * [Case study: a platform team](#case-study-a-platform-team)
+  * [Case study: an executive team](#case-study-an-executive-team)
+  * [What the three have in common](#what-the-three-have-in-common)
 * [Glossary](#glossary)
 * [See also](#see-also)
+* [About this repository](#about-this-repository)
 
 
 ## Introduction
@@ -151,8 +160,7 @@ the three settings.
 * **If you have a diagnosis and need an intervention**, go to
   [Part 7](#part-7-interventions).
 * **If a change is failing and you don't know why**, go to
-  [Part 10](#part-10-anti-patterns), then
-  [Part 4](#part-4-change-frameworks).
+  [Part 10](#part-10-anti-patterns), then [Part 4](#part-4-change-frameworks).
 * **If you need to justify or evaluate a program**, go to
   [Part 8](#part-8-measurement).
 * **If you are new to the field**, read Parts 1 and 2, then skim the rest.
@@ -209,9 +217,9 @@ If you read nothing else:
 Working definition:
 
 > Organizational development is a planned, system-wide effort, managed from the
-> top, to increase organizational effectiveness and health through planned
-> interventions in the organization's processes, using behavioral science
-> knowledge.
+> top, to increase organizational effectiveness and health through planned >
+interventions in the organization's processes, using behavioral science >
+knowledge.
 
 Richard Beckhard's classic definition, still the clearest. Four things follow
 from it:
@@ -309,7 +317,7 @@ into any external tool.
 participant read the full contract, the raw method, and the report to the
 sponsor? If not, change something — usually the contract.
 
-See [spec/od-ethics.md](spec/od-ethics.md).
+See [topics/od-ethics](topics/od-ethics/).
 
 
 ### Evidence-based practice
@@ -325,8 +333,9 @@ sufficient alone:
 4. **Practitioner expertise** — your judgment, treated as evidence to check
    rather than as authority.
 
-The six steps: **Ask** an answerable question, **Acquire** evidence, **Appraise**
-its quality, **Aggregate** the sources, **Apply**, **Assess** the result.
+The six steps: **Ask** an answerable question, **Acquire** evidence,
+**Appraise** its quality, **Aggregate** the sources, **Apply**, **Assess** the
+result.
 
 **Evidence strength across popular models.** Practitioners are rarely told which
 of their tools are supported. A rough guide, used throughout this document:
@@ -374,7 +383,7 @@ far more than to external frameworks; show the pipeline data. **Executive:** the
 highest-value use is challenging an expensive committed decision with "what
 evidence would tell us this worked?"
 
-See [spec/evidence-based-practice.md](spec/evidence-based-practice.md).
+See [topics/evidence-based-practice](topics/evidence-based-practice/).
 
 
 ### Systems thinking
@@ -415,7 +424,7 @@ create a reinforcing loop where units spend to protect next year's allocation.
 The behavior is rational; the rule produces it, and changing the rule is higher
 leverage than exhorting restraint.
 
-See [spec/systems-thinking.md](spec/systems-thinking.md).
+See [topics/systems-thinking](topics/systems-thinking/).
 
 
 ### Sociotechnical systems and Conway's law
@@ -460,8 +469,8 @@ coordination or de facto shared ownership. **Executive:** a product customers
 experience as fragmented was built by units that do not talk; adding a "customer
 experience" function adds a fifth silo.
 
-See [spec/sociotechnical-systems.md](spec/sociotechnical-systems.md) and
-[spec/conways-law.md](spec/conways-law.md).
+See [topics/sociotechnical-systems](topics/sociotechnical-systems/) and
+[topics/conways-law](topics/conways-law/).
 
 
 ## Part 2: The OD process
@@ -488,8 +497,8 @@ data no outsider can obtain. People implement what they helped design. And the
 act of collecting and discussing data is itself an intervention — which is why
 "let's just do a survey first" is never neutral.
 
-See [spec/od-process-cycle.md](spec/od-process-cycle.md) and
-[spec/action-research.md](spec/action-research.md).
+See [topics/od-process-cycle](topics/od-process-cycle/) and
+[topics/action-research](topics/action-research/).
 
 
 ### Entry and contracting
@@ -511,7 +520,8 @@ A contract must settle:
   agreed to be examined.
 * **Scope and boundaries**, and what happens when diagnosis points outside the
   boundary. It usually does.
-* **Access**: who you may interview, what data you may see, what you may observe.
+* **Access**: who you may interview, what data you may see, what you may
+  observe.
 * **Confidentiality**: what is attributable, what is aggregated, what the
   sponsor will and will not be told.
 * **Decision rights**: who decides which interventions proceed. If the answer is
@@ -529,8 +539,8 @@ leadership, no surprises in public, and an honest statement when an intervention
 has failed.
 
 **Red flags at entry:** the sponsor names the intervention before the diagnosis;
-the sponsor excludes themselves from scope; a specific conclusion is
-off-limits; the real decision-maker will not meet you; the timeline is set by an
+the sponsor excludes themselves from scope; a specific conclusion is off-limits;
+the real decision-maker will not meet you; the timeline is set by an
 announcement already made; you are being hired to validate a decision already
 taken.
 
@@ -543,7 +553,7 @@ is the executive team, the contract must state that the CEO's own behavior is in
 scope, and how feedback to the CEO will be delivered. Agree this before you hear
 anything.
 
-See [spec/entry-and-contracting.md](spec/entry-and-contracting.md).
+See [topics/entry-and-contracting](topics/entry-and-contracting/).
 
 
 ### Diagnosis and data gathering
@@ -626,7 +636,7 @@ Rules:
 trust below the pre-survey baseline. Do this three times and you have taught
 your workforce that disclosure is pointless.
 
-See [spec/survey-feedback-method.md](spec/survey-feedback-method.md).
+See [topics/survey-feedback-method](topics/survey-feedback-method/).
 
 
 ### Intervention design
@@ -650,7 +660,7 @@ Outputs are not evidence of success. "We trained 400 people" is an output.
 Whether anyone behaves differently 90 days later is an outcome.
 
 See [theory of change](#theory-of-change) and
-[spec/theory-of-change.md](spec/theory-of-change.md).
+[topics/theory-of-change](topics/theory-of-change/).
 
 
 ### Implementation
@@ -675,8 +685,7 @@ end.
 ### Evaluation
 
 Compare what happened against what you predicted — including the possibility
-that nothing changed or something got worse. See
-[Part 8](#part-8-measurement).
+that nothing changed or something got worse. See [Part 8](#part-8-measurement).
 
 Evaluation is a decision point, not a report. The decisions available are:
 adopt, adapt, or abandon. A program that has no abandon condition is not being
@@ -777,7 +786,7 @@ team rating all seven independently and comparing. Where the executive team's
 own scores diverge most is where they have not agreed on something they believe
 they agreed on.
 
-See [spec/mckinsey-7s-framework.md](spec/mckinsey-7s-framework.md) and the
+See [topics/mckinsey-7s-framework](topics/mckinsey-7s-framework/) and the
 questionnaire in [Part 11](#part-11-questionnaires-and-templates).
 
 
@@ -789,8 +798,8 @@ analytically powerful diagnostic in common use.
 
 **Input**
 
-1. **External environment** — markets, regulation, competitors, technology.
-   The ultimate trigger.
+1. **External environment** — markets, regulation, competitors, technology. The
+   ultimate trigger.
 
 **Transformational factors** — change these and the organization's character
 changes:
@@ -814,16 +823,16 @@ changes:
 12. **Individual and organizational performance**, which feeds back to the
     environment.
 
-**The distinction that makes this model worth the effort:**
-**transformational vs. transactional.** Transformational problems require
-changes to mission, leadership, or culture. Transactional problems are fixed by
-adjusting structure, systems, practices, or climate.
+**The distinction that makes this model worth the effort:** **transformational
+vs. transactional.** Transformational problems require changes to mission,
+leadership, or culture. Transactional problems are fixed by adjusting structure,
+systems, practices, or climate.
 
 Applying a transactional fix to a transformational problem is the most common
-expensive failure in organizational life. Restructuring to fix a culture problem.
-Buying a tool to fix a strategy problem. Running a training program to fix a
-leadership problem. Each of these consumes a year, produces motion, changes
-nothing, and burns the organization's willingness to try again.
+expensive failure in organizational life. Restructuring to fix a culture
+problem. Buying a tool to fix a strategy problem. Running a training program to
+fix a leadership problem. Each of these consumes a year, produces motion,
+changes nothing, and burns the organization's willingness to try again.
 
 **Motivation as mediator.** Motivation sits near the bottom as a clearinghouse:
 how people experience the upstream structure, climate, and management practices
@@ -845,7 +854,7 @@ at Motivation, where the engagement program would have been aimed.
 authorizing a restructure to solve a leadership problem — including when the
 leadership problem is yours.
 
-See [spec/burke-litwin-causal-model.md](spec/burke-litwin-causal-model.md) and
+See [topics/burke-litwin-causal-model](topics/burke-litwin-causal-model/) and
 the questionnaire in [Part 11](#part-11-questionnaires-and-templates).
 
 
@@ -883,7 +892,7 @@ tracker is being asked to compensate for. **Executive:** the Leadership box asks
 whether anyone is holding the balance. In many executive teams every member owns
 a box and nobody owns the fit between them.
 
-See [spec/weisbord-six-box-model.md](spec/weisbord-six-box-model.md).
+See [topics/weisbord-six-box-model](topics/weisbord-six-box-model/).
 
 
 ### Nadler-Tushman congruence model
@@ -924,7 +933,8 @@ incongruent.
 organization perfectly aligned to a market that no longer exists is perfectly
 congruent. Fit is necessary, not sufficient.
 
-See [spec/nadler-tushman-congruence-model.md](spec/nadler-tushman-congruence-model.md).
+See
+[topics/nadler-tushman-congruence-model](topics/nadler-tushman-congruence-model/).
 
 
 ### Galbraith star model
@@ -971,7 +981,7 @@ highest-leverage question in an executive design discussion is "which dimension
 gets primacy — function, product, geography, or customer?" Refusing to answer
 produces a matrix in which every conflict escalates to the CEO.
 
-See [spec/galbraith-star-model.md](spec/galbraith-star-model.md).
+See [topics/galbraith-star-model](topics/galbraith-star-model/).
 
 
 ### Leavitt diamond model
@@ -990,15 +1000,15 @@ technologists change technology, HR changes people, executives change structure
 experienced nurses to an algorithm (Structure), devalues a skill built over
 years (People), and changes what triage means (Task). All four move; one was
 planned. **Software:** adopting infrastructure as code changes who can deploy
-and makes some operations roles obsolete while creating new ones.
-**Executive:** a shared services consolidation is presented as a Structure and
-cost change; it is also a Task change for every unit that had local support, and
-those units will invent shadow capability.
+and makes some operations roles obsolete while creating new ones. **Executive:**
+a shared services consolidation is presented as a Structure and cost change; it
+is also a Task change for every unit that had local support, and those units
+will invent shadow capability.
 
 Use it as a 30-minute checklist, not as a serious diagnostic. It has no
 environment term.
 
-See [spec/leavitt-diamond-model.md](spec/leavitt-diamond-model.md).
+See [topics/leavitt-diamond-model](topics/leavitt-diamond-model/).
 
 
 ### Maturity models
@@ -1033,8 +1043,8 @@ outcomes.
 
 **The rebuttals are worth reading.** James Bach, Michael Bolton, and Barry
 O'Reilly have argued that maturity models impose a single linear notion of
-"better", reward conformance over judgment, and measure the wrong thing.
-The steelman: a maturity model is a communication device for a capability
+"better", reward conformance over judgment, and measure the wrong thing. The
+steelman: a maturity model is a communication device for a capability
 conversation, and it fails when treated as a scorecard tied to funding.
 
 **Health care:** clinical competency frameworks and improvement maturity
@@ -1046,14 +1056,14 @@ rather than practice conformance. **Executive:** use maturity models to allocate
 investment across a portfolio, and never to compare units with different
 constraints.
 
-See [spec/maturity-models.md](spec/maturity-models.md) and
+See [topics/maturity-models](topics/maturity-models/) and
 <https://github.com/joelparkerhenderson/maturity-models>.
 
 
 ### Force field analysis
 
-Kurt Lewin's model of the current state as a **quasi-stationary equilibrium**:
-a balance between driving forces pushing toward change and restraining forces
+Kurt Lewin's model of the current state as a **quasi-stationary equilibrium**: a
+balance between driving forces pushing toward change and restraining forces
 holding the status quo. The apparent stability is a stalemate.
 
 **The central insight:** most change efforts add driving force — more urgency,
@@ -1082,13 +1092,13 @@ trunk-based development. Driving: faster delivery. Restraining: a two-hour test
 suite, a manual approval board, and one person who owns release and likes owning
 it. Address the test suite first. **Executive:** a return-to-office mandate.
 Driving forces are asserted (collaboration, culture); restraining forces are
-concrete (commute cost, caregiving, desk shortage, teams hired remote).
-Mandates that ignore concrete restraints produce attrition rather than presence.
+concrete (commute cost, caregiving, desk shortage, teams hired remote). Mandates
+that ignore concrete restraints produce attrition rather than presence.
 
 Assign every restraining force a named owner and a date, or the analysis is
 decorative.
 
-See [spec/force-field-analysis.md](spec/force-field-analysis.md).
+See [topics/force-field-analysis](topics/force-field-analysis/).
 
 
 ### SWOT and PESTLE
@@ -1110,9 +1120,9 @@ Discipline rules: cap each quadrant at five forced-ranked items; require
 evidence and a comparison point for every item; hold the internal/external line
 firmly; time-stamp it.
 
-**PESTLE** scans the macro-environment: **P**olitical, **E**conomic,
-**S**ocial, **T**echnological, **L**egal, **E**nvironmental. It supplies the
-external input that 7S omits and Burke-Litwin requires.
+**PESTLE** scans the macro-environment: **P**olitical, **E**conomic, **S**ocial,
+**T**echnological, **L**egal, **E**nvironmental. It supplies the external input
+that 7S omits and Burke-Litwin requires.
 
 Make it decision-grade by adding columns for direction and horizon, impact 1–5,
 confidence 1–5, and owner. Then plot impact against confidence: high impact and
@@ -1129,8 +1139,8 @@ to force the board past the current quarter, and specifically to name which
 external factors would invalidate the strategy. A strategy with no stated
 invalidation condition is a wish.
 
-See [spec/swot-analysis.md](spec/swot-analysis.md) and
-[spec/pestle-analysis.md](spec/pestle-analysis.md).
+See [topics/swot-analysis](topics/swot-analysis/) and
+[topics/pestle-analysis](topics/pestle-analysis/).
 
 
 ### Cynefin framework
@@ -1171,7 +1181,7 @@ integration is Complex. Running both under one program plan guarantees the
 cultural half is judged by the wrong criteria and declared complete when it is
 not.
 
-See [spec/cynefin-framework.md](spec/cynefin-framework.md).
+See [topics/cynefin-framework](topics/cynefin-framework/).
 
 
 ### Viable system model
@@ -1188,8 +1198,8 @@ perform to remain viable, recursively at every level.
   reporting line.
 * **System 4 — Intelligence**: outside and future. Environment scanning,
   strategy, adaptation.
-* **System 5 — Policy**: identity, purpose, values, and balancing System 3
-  (now) against System 4 (future).
+* **System 5 — Policy**: identity, purpose, values, and balancing System 3 (now)
+  against System 4 (future).
 
 **Requisite variety** (Ashby's law): only variety can absorb variety.
 Organizations fail either by attenuating variety badly (ignoring signals) or by
@@ -1197,8 +1207,8 @@ trying to handle all of it centrally (overwhelming the center).
 
 Diagnostic questions: is there a real System 2, or do units coordinate by
 escalating to a manager? Does System 3 dominate System 4? Does System 3\* exist,
-or does leadership see only filtered reports? Has System 5 collapsed into
-System 3?
+or does leadership see only filtered reports? Has System 5 collapsed into System
+3?
 
 **Health care:** System 4 is usually weakest — service development crowded out
 by operational pressure. System 3\* exists as audit and inspection but is
@@ -1209,7 +1219,7 @@ lot of arguments. **Executive:** a board that spends every meeting on this
 quarter's numbers has collapsed System 5 into System 3. Nobody is holding
 identity or the now/future balance.
 
-See [spec/viable-system-model.md](spec/viable-system-model.md).
+See [topics/viable-system-model](topics/viable-system-model/).
 
 
 ### Organizational network analysis
@@ -1224,9 +1234,9 @@ change will take hold.
 
 Roles the map reveals: **central connectors** (often overloaded, often not
 senior, often invisible to leadership); **brokers** who connect otherwise
-separate clusters and whose departure disconnects the organization;
-**peripheral nodes**; **silos** with dense internal and sparse external ties;
-and **bottlenecks**.
+separate clusters and whose departure disconnects the organization; **peripheral
+nodes**; **silos** with dense internal and sparse external ties; and
+**bottlenecks**.
 
 **Method:** prefer survey-based with explicit consent over passive analysis of
 email, chat, and calendar data. Passive ONA without informed consent is
@@ -1246,7 +1256,8 @@ bus-factor risk and a delivery constraint. **Executive:** six months after an
 acquisition, ONA shows whether the organizations actually merged. Two dense
 clusters with three thin links means integration exists only on paper.
 
-See [spec/organizational-network-analysis.md](spec/organizational-network-analysis.md).
+See
+[topics/organizational-network-analysis](topics/organizational-network-analysis/).
 
 
 ### Team topologies
@@ -1262,9 +1273,9 @@ Conway's law and cognitive load.
    Explicitly time-boxed. Fails when it becomes a permanent consulting group.
 3. **Complicated-subsystem** — owns a part requiring deep specialism. Justified
    only when the specialism is genuinely scarce.
-4. **Platform** — provides internal services that reduce cognitive load, consumed
-   as self-service. A platform that gatekeeps is not a platform; it is a
-   bottleneck.
+4. **Platform** — provides internal services that reduce cognitive load,
+   consumed as self-service. A platform that gatekeeps is not a platform; it is
+   a bottleneck.
 
 **Three interaction modes:** **Collaboration** (high bandwidth, deliberately
 temporary, for discovery), **X-as-a-Service** (low bandwidth, the target steady
@@ -1286,7 +1297,7 @@ frequent error is a platform team operating as a ticket queue. **Executive:**
 ask of every team, which type is it and who decided? Teams with no clear type
 usually have no clear owner.
 
-See [spec/team-topologies.md](spec/team-topologies.md).
+See [topics/team-topologies](topics/team-topologies/).
 
 
 ## Part 4: Change frameworks
@@ -1346,7 +1357,7 @@ of least resistance. **Executive:** executives unfreeze themselves months before
 the organization and then mistake their own readiness for shared readiness. The
 organization is at stage 0 when the executive is at stage 3.
 
-See [spec/lewin-change-model.md](spec/lewin-change-model.md).
+See [topics/lewin-change-model](topics/lewin-change-model/).
 
 
 ### Kotter 8-step change model
@@ -1388,7 +1399,7 @@ that appears only in a program report. **Executive:** steps 1 and 8 are
 non-delegable. Urgency cannot be delegated to communications, and anchoring
 cannot be delegated to HR — it happens through who gets promoted.
 
-See [spec/kotter-8-step-change-model.md](spec/kotter-8-step-change-model.md).
+See [topics/kotter-8-step-change-model](topics/kotter-8-step-change-model/).
 
 
 ### ADKAR change management model
@@ -1431,7 +1442,8 @@ because reinforcement is boring and happens after attention has moved on.
 have all five elements and still fail inside a system that prevents the
 behavior.
 
-See [spec/adkar-change-management-model.md](spec/adkar-change-management-model.md)
+See
+[topics/adkar-change-management-model](topics/adkar-change-management-model/)
 and <https://github.com/joelparkerhenderson/adkar-change-management-model>.
 
 
@@ -1476,7 +1488,8 @@ direction. **Executive:** executives own V and can manufacture D. The
 highest-leverage executive act is supplying F — naming the first concrete step,
 resourcing it, and removing the specific obstacle.
 
-See [spec/beckhard-harris-change-equation.md](spec/beckhard-harris-change-equation.md).
+See
+[topics/beckhard-harris-change-equation](topics/beckhard-harris-change-equation/).
 
 
 ### Bridges transition model
@@ -1521,7 +1534,7 @@ executive as resistance.
 "They're just in the neutral zone" is a way of not listening. Some resistance is
 correct.
 
-See [spec/bridges-transition-model.md](spec/bridges-transition-model.md).
+See [topics/bridges-transition-model](topics/bridges-transition-model/).
 
 
 ### Satir change model
@@ -1568,7 +1581,7 @@ documentation. **Executive:** changing the operating model while simultaneously
 raising targets stacks a second foreign element onto chaos. Expect a longer,
 deeper dip — and expect to be told everything is fine.
 
-See [spec/satir-change-model.md](spec/satir-change-model.md).
+See [topics/satir-change-model](topics/satir-change-model/).
 
 
 ### Kübler-Ross change curve
@@ -1603,7 +1616,7 @@ to legitimate, and the response should still be Bridges' ending work.
 duration, and is not evidence that the decision was wrong — nor that it was
 right.
 
-See [spec/kubler-ross-change-curve.md](spec/kubler-ross-change-curve.md).
+See [topics/kubler-ross-change-curve](topics/kubler-ross-change-curve/).
 
 
 ### Rogers diffusion of innovations
@@ -1649,7 +1662,8 @@ relative advantage produces shadow systems. **Executive:** resist mandating at
 adoption into compliance, and compliance does not produce the benefits the
 business case assumed.
 
-See [spec/rogers-diffusion-of-innovations.md](spec/rogers-diffusion-of-innovations.md).
+See
+[topics/rogers-diffusion-of-innovations](topics/rogers-diffusion-of-innovations/).
 
 
 ### Switch framework
@@ -1694,7 +1708,7 @@ the executive team to observe the actual work, in person, once.
 **Caution:** "find the feeling" is a persuasion technique and deserves ethical
 scrutiny.
 
-See [spec/switch-framework.md](spec/switch-framework.md).
+See [topics/switch-framework](topics/switch-framework/).
 
 
 ### McKinsey influence model
@@ -1733,7 +1747,7 @@ priorities. **Executive:** the executive's calendar and escalation behavior *is*
 condition 4. If the CEO says "sustainable pace" and emails at midnight, the
 organization has received an unambiguous instruction.
 
-See [spec/mckinsey-influence-model.md](spec/mckinsey-influence-model.md).
+See [topics/mckinsey-influence-model](topics/mckinsey-influence-model/).
 
 
 ### Theory of change
@@ -1763,9 +1777,9 @@ Assumptions, stated explicitly with confidence:
 
 * Leaders can change behavior with coaching alone. *(Low — test early.)*
 * Reported safety translates to actual speaking-up behavior. *(Medium.)*
-* **Higher reporting reflects better reporting, not more incidents.**
-  *(Critical — this metric moves the "wrong" way if misread. Pre-agree the
-  interpretation with leadership before the data arrives.)*
+* **Higher reporting reflects better reporting, not more incidents.** *(Critical
+  — this metric moves the "wrong" way if misread. Pre-agree the interpretation
+  with leadership before the data arrives.)*
 * Earlier surfacing reduces harm rather than relocating it. *(Medium.)*
 
 That third assumption is the kind that sinks programs. A rising reporting rate
@@ -1780,7 +1794,7 @@ ask for the theory of change and specifically the assumptions list before
 approving any major program. A program that cannot name its assumptions has not
 been thought through.
 
-See [spec/theory-of-change.md](spec/theory-of-change.md) and
+See [topics/theory-of-change](topics/theory-of-change/) and
 <https://github.com/joelparkerhenderson/outputs-vs-outcomes>.
 
 
@@ -1826,7 +1840,7 @@ experiment; attach the prediction to the ticket. **Executive:** ask any
 improvement program for its predictions, recorded before the change. Programs
 that only report post-hoc successes are marketing, not learning.
 
-See [spec/plan-do-study-act.md](spec/plan-do-study-act.md).
+See [topics/plan-do-study-act](topics/plan-do-study-act/).
 
 
 ### Improvement kata
@@ -1842,7 +1856,8 @@ deliberate practice**, not a project run by specialists.
    going to see. Most teams discover they do not know.
 3. **Establish the next target condition** — how the process should *operate*,
    by a specific near date, typically one to four weeks out. A pattern of
-   operation, not a result. The hardest step and the one that carries the method.
+   operation, not a result. The hardest step and the one that carries the
+   method.
 4. **Experiment toward it** — rapid cycles, one obstacle at a time. The path is
    unknown by design.
 
@@ -1867,7 +1882,7 @@ executive contribution is setting the challenge, then practicing the coaching
 kata with direct reports instead of asking for status. This is the hardest
 behavioral change in the method and decides whether it survives.
 
-See [spec/improvement-kata.md](spec/improvement-kata.md).
+See [topics/improvement-kata](topics/improvement-kata/).
 
 
 ## Part 5: Culture
@@ -1878,8 +1893,8 @@ Edgar Schein's definition:
 
 > A pattern of shared basic assumptions that the group learned as it solved its
 > problems of external adaptation and internal integration, that has worked well
-> enough to be considered valid and, therefore, to be taught to new members as
-> the correct way to perceive, think, and feel in relation to those problems.
+> enough to be considered valid and, therefore, to be taught to new members as >
+the correct way to perceive, think, and feel in relation to those problems.
 
 Two consequences. Culture is **learned solutions that worked**, which is why it
 is defended — it is the accumulated answer to real past problems. And culture
@@ -1928,7 +1943,8 @@ solutions), and the **executive** culture (financial abstraction, necessarily
 impersonal at scale). Most enterprise dysfunction is this three-way
 misunderstanding, not a missing values statement.
 
-See [spec/schein-model-of-organizational-culture.md](spec/schein-model-of-organizational-culture.md).
+See
+[topics/schein-model-of-organizational-culture](topics/schein-model-of-organizational-culture/).
 
 
 ### Competing values framework
@@ -1965,7 +1981,7 @@ intended profile at each stage defuses a lot of unproductive nostalgia.
 integration planning. An Adhocracy acquired by a Hierarchy will lose the people
 who created the value being purchased.
 
-See [spec/competing-values-framework.md](spec/competing-values-framework.md).
+See [topics/competing-values-framework](topics/competing-values-framework/).
 
 
 ### Westrum typology
@@ -2015,7 +2031,8 @@ bureaucratic artifact. **Executive:** measure how long it takes for bad news to
 reach you and how distorted it is on arrival. Ask your directs what they did not
 tell you last quarter, and react well to the answer.
 
-See [spec/westrum-organizational-culture-typology.md](spec/westrum-organizational-culture-typology.md).
+See
+[topics/westrum-organizational-culture-typology](topics/westrum-organizational-culture-typology/).
 
 
 ### Just culture
@@ -2065,7 +2082,7 @@ happens the first time a serious failure is publicly embarrassing. Every prior
 statement about learning culture is settled in that moment, and the organization
 will calibrate on it for years.
 
-See [spec/just-culture.md](spec/just-culture.md).
+See [topics/just-culture](topics/just-culture/).
 
 
 ### Hofstede cultural dimensions
@@ -2104,7 +2121,7 @@ cross-border integration, expect the acquirer's practices to be experienced very
 differently than intended. Use the dimensions to generate questions to ask
 locally, never as a substitute for asking.
 
-See [spec/hofstede-cultural-dimensions.md](spec/hofstede-cultural-dimensions.md).
+See [topics/hofstede-cultural-dimensions](topics/hofstede-cultural-dimensions/).
 
 
 ### How to actually change culture
@@ -2225,7 +2242,7 @@ An executive who says "here's what I got wrong last quarter" buys more safety
 than any program; one who visibly punishes a bad-news bearer removes it for
 everyone in the room and everyone they tell afterwards.
 
-See [spec/psychological-safety.md](spec/psychological-safety.md).
+See [topics/psychological-safety](topics/psychological-safety/).
 
 
 ### What makes teams effective
@@ -2264,7 +2281,7 @@ implication is reallocating some hiring investment into team norms.
 **Executive:** dependability is the executive-team factor most often broken —
 commitments made in the room and not delivered, with no consequence.
 
-See [spec/google-project-aristotle.md](spec/google-project-aristotle.md).
+See [topics/google-project-aristotle](topics/google-project-aristotle/).
 
 
 ### Team development models
@@ -2309,22 +2326,24 @@ commitment, avoidance of accountability, inattention to results — is a busines
 fable rather than research, and remains popular because executives recognize
 themselves in it. Work bottom up: attacking inattention to results with
 dashboards fails when the cause is three levels below. Its best single question
-for a CEO: **"which team is your first team — the one you lead, or the one you're
-a member of?"** Executives who answer "the one I lead" are describing the fifth
-dysfunction, and the answer is usually honest.
+for a CEO: **"which team is your first team — the one you lead, or the one
+you're a member of?"** Executives who answer "the one I lead" are describing the
+fifth dysfunction, and the answer is usually honest.
 
-**Health care:** rotating junior staff mean many clinical teams re-form every few
-months. The remedy is fast explicit onboarding of norms — a written charter, an
-introduction ritual, and a named person to ask. **Software:** a squad arguing
+**Health care:** rotating junior staff mean many clinical teams re-form every
+few months. The remedy is fast explicit onboarding of norms — a written charter,
+an introduction ritual, and a named person to ask. **Software:** a squad arguing
 about branching strategy in week two is fine; one still arguing in month six has
 a decision-rights problem, not a stage problem. **Executive:** a new executive
 team's storming is expensive and public; accelerate it deliberately with a
 facilitated chartering session rather than waiting for it to emerge in front of
 the organization.
 
-See [spec/tuckman-stages-of-group-development.md](spec/tuckman-stages-of-group-development.md),
-[spec/drexler-sibbet-team-performance-model.md](spec/drexler-sibbet-team-performance-model.md),
-and [spec/lencioni-five-dysfunctions-of-a-team.md](spec/lencioni-five-dysfunctions-of-a-team.md).
+See
+[topics/tuckman-stages-of-group-development](topics/tuckman-stages-of-group-development/),
+[topics/drexler-sibbet-team-performance-model](topics/drexler-sibbet-team-performance-model/),
+and
+[topics/lencioni-five-dysfunctions-of-a-team](topics/lencioni-five-dysfunctions-of-a-team/).
 
 
 ### Conflict
@@ -2382,8 +2401,9 @@ approaches. Related: **CUS** ("I'm Concerned, I'm Uncomfortable, this is a
 Safety issue"), closed-loop communication with read-back, and structured
 handover formats such as SBAR and I-PASS.
 
-See [spec/thomas-kilmann-conflict-modes.md](spec/thomas-kilmann-conflict-modes.md)
-and [spec/crew-resource-management.md](spec/crew-resource-management.md).
+See
+[topics/thomas-kilmann-conflict-modes](topics/thomas-kilmann-conflict-modes/)
+and [topics/crew-resource-management](topics/crew-resource-management/).
 
 
 ### Motivation
@@ -2397,8 +2417,8 @@ innate psychological needs:
 3. **Relatedness** — feeling connected to and cared about by others.
 
 **The motivation continuum** replaces the intrinsic/extrinsic binary:
-amotivation → external regulation (reward/punishment) → introjected (guilt,
-ego) → identified ("this matters to me") → integrated ("this is who I am") →
+amotivation → external regulation (reward/punishment) → introjected (guilt, ego)
+→ identified ("this matters to me") → integrated ("this is who I am") →
 intrinsic (inherent enjoyment). The goal is not to make work enjoyable, which is
 often impossible; it is to move regulation toward identified and integrated — by
 explaining rationale, acknowledging that a task is unpleasant, and offering
@@ -2423,15 +2443,15 @@ though the two-factor structure is likely a method artifact. Hygiene factors
 (pay, policy, conditions, security) remove dissatisfaction; motivators
 (achievement, recognition, the work itself, responsibility, growth) create
 satisfaction. Fixing hygiene moves people from dissatisfied to neutral. His
-prescription was **job enrichment** — a vertical addition of responsibility —
-as opposed to **job enlargement**, which adds more tasks of the same kind and
+prescription was **job enrichment** — a vertical addition of responsibility — as
+opposed to **job enlargement**, which adds more tasks of the same kind and
 achieves nothing.
 
 **Maslow's hierarchy** is weakly supported as a strict ordering, and Alderfer's
 ERG (existence, relatedness, growth) is a better formulation — three categories,
 no strict prepotency, and a *frustration-regression* mechanism: when growth is
-blocked, people intensify demands on relatedness and existence, which is why
-pay and conditions disputes rise when development is frozen.
+blocked, people intensify demands on relatedness and existence, which is why pay
+and conditions disputes rise when development is frozen.
 
 One durable implication survives: **you cannot run higher-order interventions on
 people whose safety needs are active.** During restructuring, redundancy
@@ -2451,9 +2471,42 @@ day. **Executive:** individual bonus schemes tied to narrow metrics predictably
 produce narrow behavior. If the work is complex and interdependent, contingent
 individual reward is working against the design of the organization.
 
-See [spec/self-determination-theory.md](spec/self-determination-theory.md),
-[spec/herzberg-two-factor-theory.md](spec/herzberg-two-factor-theory.md), and
-[spec/maslow-hierarchy-of-needs.md](spec/maslow-hierarchy-of-needs.md).
+**Goal setting theory** (Locke and Latham) is the other strongly supported piece
+here, and the one most degraded in practice. Specific and difficult goals beat
+"do your best" — **provided** the person is committed to the goal and gets
+feedback on progress. Both conditions are necessary, and both are routinely
+dropped.
+
+Two refinements matter in knowledge work. First, **learning goals versus
+performance goals**: a performance goal ("reduce lead time to three days") works
+when the method is known; a learning goal ("identify and test three causes of
+the delay") works when it is not. Setting a performance goal on a task whose
+method is unknown reliably degrades performance, because attention goes to the
+outcome rather than to the strategy search the task requires. Second, the
+documented side effects — narrowed focus, unethical reporting, distorted risk
+taking, and eroded cooperation — all follow from the same mechanism that makes
+goals work: they direct attention. A goal that directs attention at a proxy
+directs behavior at the proxy. Pair every goal with a balancing measure, and
+avoid attaching individual financial consequence to a single number in
+interdependent work.
+
+**Burnout** is the failure state of all of the above, and it is a property of
+the job rather than of the person. Maslach's three dimensions are exhaustion,
+cynicism, and reduced professional efficacy; the actionable frame is the six
+areas of worklife — workload, control, reward, community, fairness, and values.
+Values mismatch is the strongest predictor in much of the research and the one
+wellbeing programmes never address. Reviews consistently find that
+organization-directed interventions outperform person-directed ones: if the
+cause is a job condition, teaching the person to tolerate it does not remove it,
+and offering tolerance training in place of a fix is itself a fairness and
+values mismatch. That is why wellbeing programmes are sometimes received with
+anger by the people they were meant to help.
+
+See [topics/self-determination-theory](topics/self-determination-theory/),
+[topics/goal-setting-theory](topics/goal-setting-theory/),
+[topics/burnout](topics/burnout/),
+[topics/herzberg-two-factor-theory](topics/herzberg-two-factor-theory/), and
+[topics/maslow-hierarchy-of-needs](topics/maslow-hierarchy-of-needs/).
 
 
 ### Work design
@@ -2470,7 +2523,8 @@ Five core characteristics:
 3. **Task significance** — the work substantially affects other people
 4. **Autonomy** — freedom in scheduling and determining procedures
 5. **Feedback from the job itself** — direct information about performance from
-   doing the work, *not* from a manager. The most commonly missed characteristic.
+   doing the work, *not* from a manager. The most commonly missed
+   characteristic.
 
 Variety, identity, and significance produce **experienced meaningfulness**;
 autonomy produces **experienced responsibility**; feedback produces **knowledge
@@ -2504,15 +2558,15 @@ outsourcing, examine what the remaining job contains. Removing the interesting
 fragments and leaving exception handling destroys skill variety and task
 identity, and the resulting attrition is usually attributed to something else.
 
-See [spec/job-characteristics-model.md](spec/job-characteristics-model.md).
+See [topics/job-characteristics-model](topics/job-characteristics-model/).
 
 
 ### Learning
 
 **Single-loop vs. double-loop learning** (Argyris and Schön). Single-loop
 corrects the action, leaving goals and assumptions unchanged: "we missed the
-target; work harder." Double-loop questions the governing variables: "why is that
-the target?"
+target; work harder." Double-loop questions the governing variables: "why is
+that the target?"
 
 Most organizations are competent at single-loop and structurally incapable of
 double-loop, because it requires questioning things senior people have committed
@@ -2520,17 +2574,17 @@ to publicly.
 
 **Espoused theory vs. theory-in-use.** What people say they believe, versus what
 their behavior implies they believe. The gap is invisible to the person and
-visible to everyone else. Do not ask people about their values; observe
-behavior and infer the theory-in-use. Espoused: "we want challenge and debate."
+visible to everyone else. Do not ask people about their values; observe behavior
+and infer the theory-in-use. Espoused: "we want challenge and debate."
 Theory-in-use: "challenge is welcome from peers, not juniors, and never in front
 of the board."
 
 **The ladder of inference** — observable data → selected data → added meanings →
-assumptions → conclusions → beliefs → actions, with a reflexive loop from beliefs
-back to what data we select. This is why two competent people can observe the
-same meeting and disagree completely about what happened. Facilitation moves:
-"what did you see or hear that led you to that?"; "here is my data and the
-meaning I put on it — what do you see differently?"
+assumptions → conclusions → beliefs → actions, with a reflexive loop from
+beliefs back to what data we select. This is why two competent people can
+observe the same meeting and disagree completely about what happened.
+Facilitation moves: "what did you see or hear that led you to that?"; "here is
+my data and the meaning I put on it — what do you see differently?"
 
 **Organizational defensive routines** prevent embarrassment while preventing the
 organization from identifying their causes: the reorganization that avoids
@@ -2540,8 +2594,8 @@ said for two years; the meeting after the meeting.
 
 **Immunity to change** (Kegan and Lahey) explains why people fail at changes
 they sincerely want. The failure is a **competing commitment** protected by an
-untested **big assumption**. The four-column map: (1) improvement goal;
-(2) what I am doing or not doing that works against it; (3) the hidden competing
+untested **big assumption**. The four-column map: (1) improvement goal; (2) what
+I am doing or not doing that works against it; (3) the hidden competing
 commitment; (4) the big assumption that makes column 3 feel necessary. Then
 design a small, safe, reversible experiment to test the assumption.
 
@@ -2571,15 +2625,15 @@ from learning."
 **Health care:** strong individual learning cultures — CPD, audit, M&M meetings
 — coexist with weak organizational learning, because findings do not travel
 between wards. The fix is structural and boring: a route by which one ward's
-learning reaches the other forty, with someone accountable for it.
-**Software:** post-incident reviews are the strongest learning mechanism most
-engineering organizations have, and publishing them internally in full is the
+learning reaches the other forty, with someone accountable for it. **Software:**
+post-incident reviews are the strongest learning mechanism most engineering
+organizations have, and publishing them internally in full is the
 differentiator. **Executive:** ask when the executive team last publicly changed
 its mind. If the answer is never, the team is managing appearances.
 
-See [spec/double-loop-learning.md](spec/double-loop-learning.md),
-[spec/immunity-to-change.md](spec/immunity-to-change.md), and
-[spec/learning-organization.md](spec/learning-organization.md).
+See [topics/double-loop-learning](topics/double-loop-learning/),
+[topics/immunity-to-change](topics/immunity-to-change/), and
+[topics/learning-organization](topics/learning-organization/).
 
 
 ### Leading individuals
@@ -2621,7 +2675,7 @@ political system of the organization whatever their track record; the first
 ninety days need S2, and it is rarely offered because asking for it looks like
 weakness.
 
-See [spec/situational-leadership-model.md](spec/situational-leadership-model.md).
+See [topics/situational-leadership-model](topics/situational-leadership-model/).
 
 
 ## Part 7: Interventions
@@ -2731,7 +2785,7 @@ finding — that the CEO speaks first on every item and discussion converges
 within ninety seconds — is more valuable than any strategy framework, and much
 harder to deliver.
 
-See [spec/process-consultation.md](spec/process-consultation.md).
+See [topics/process-consultation](topics/process-consultation/).
 
 
 ### Large-group methods
@@ -2795,10 +2849,10 @@ know the answer, and destructive when used to manufacture buy-in for a decision
 already taken. Participants detect the difference immediately and remember it
 for years.
 
-See [spec/world-cafe.md](spec/world-cafe.md),
-[spec/open-space-technology.md](spec/open-space-technology.md),
-[spec/appreciative-inquiry.md](spec/appreciative-inquiry.md), and
-[spec/future-search.md](spec/future-search.md).
+See [topics/world-cafe](topics/world-cafe/),
+[topics/open-space-technology](topics/open-space-technology/),
+[topics/appreciative-inquiry](topics/appreciative-inquiry/), and
+[topics/future-search](topics/future-search/).
 
 
 ### After action review
@@ -2821,18 +2875,18 @@ stays in the room.
 
 **Facilitation guidance:** ask the most junior people first, because seniority
 anchors the account; establish the timeline factually before discussing causes;
-ask "what made that the reasonable thing to do at the time?" rather than "why did
-you do that?"; beware hindsight bias, since with the outcome known the correct
-action looks obvious and it was not; and distinguish **counterfactuals** ("they
-should have noticed the alarm") from **causes** ("the alarm was one of forty
-active, and eleven were routine"). Counterfactuals feel like findings and are
-not.
+ask "what made that the reasonable thing to do at the time?" rather than "why
+did you do that?"; beware hindsight bias, since with the outcome known the
+correct action looks obvious and it was not; and distinguish **counterfactuals**
+("they should have noticed the alarm") from **causes** ("the alarm was one of
+forty active, and eleven were routine"). Counterfactuals feel like findings and
+are not.
 
 **Variants:** blameless postmortem (software operations), hot wash (immediate,
 on-site, minutes), morbidity and mortality conference (clinical), retrospective
-(agile, on a cadence), and **pre-mortem** — run *before* the event: "it is a year
-from now and this failed completely; write down why." Pre-mortems surface risks
-people will not raise as objections but will happily raise as fiction.
+(agile, on a cadence), and **pre-mortem** — run *before* the event: "it is a
+year from now and this failed completely; write down why." Pre-mortems surface
+risks people will not raise as objections but will happily raise as fiction.
 
 **Why AARs decay:** the senior person speaks first; it becomes a defense of
 decisions already made; actions are recorded and never done; only failures are
@@ -2853,7 +2907,7 @@ executive teams almost never run AARs on their own decisions. Reviewing a major
 decision twelve months later against what was predicted at the time is
 uncomfortable, cheap, and the fastest route to better executive judgment.
 
-See [spec/after-action-review.md](spec/after-action-review.md).
+See [topics/after-action-review](topics/after-action-review/).
 
 
 ### Dosage and sequencing
@@ -2869,7 +2923,7 @@ See [spec/after-action-review.md](spec/after-action-review.md).
 * **Do not intervene in a working team.** The urge to improve something that is
   fine is a real and expensive failure mode.
 
-See [spec/interventions-catalog.md](spec/interventions-catalog.md).
+See [topics/interventions-catalog](topics/interventions-catalog/).
 
 
 ## Part 8: Measurement
@@ -2990,9 +3044,9 @@ have not been designed, only purchased. When asked for a single productivity
 number, offer three to five spanning dimensions instead, and explain that the
 single number will be optimized against.
 
-See [spec/dora-metrics.md](spec/dora-metrics.md),
-[spec/space-framework.md](spec/space-framework.md), and
-[spec/measurement-and-metrics.md](spec/measurement-and-metrics.md).
+See [topics/dora-metrics](topics/dora-metrics/),
+[topics/space-framework](topics/space-framework/), and
+[topics/measurement-and-metrics](topics/measurement-and-metrics/).
 
 
 ### Evaluating an OD program honestly
@@ -3027,7 +3081,7 @@ one usually means the last round produced nothing. Report the **action
 completion rate** alongside the scores at board level — it changes behavior more
 than the scores do.
 
-See [spec/employee-engagement-surveys.md](spec/employee-engagement-surveys.md).
+See [topics/employee-engagement-surveys](topics/employee-engagement-surveys/).
 
 
 ## Part 9: Where to start
@@ -3070,82 +3124,70 @@ A compact decision aid by role and situation.
 
 The recurring failure modes, with their tells and their remedies.
 
-**1. Intervention before diagnosis.**
-*Tell:* the sponsor names the solution at entry — "we need a reorganization", "we
-need a culture programme".
-*Remedy:* contract for a diagnosis phase with a decision point at the end.
+**1. Intervention before diagnosis.** *Tell:* the sponsor names the solution at
+entry — "we need a reorganization", "we need a culture programme". *Remedy:*
+contract for a diagnosis phase with a decision point at the end.
 
-**2. Solving a transformational problem with a transactional fix.**
-*Tell:* the third restructure in four years; a new tool announced as the answer
-to a behavioral problem.
-*Remedy:* [Burke-Litwin](#burke-litwin-causal-model). Name the tier.
+**2. Solving a transformational problem with a transactional fix.** *Tell:* the
+third restructure in four years; a new tool announced as the answer to a
+behavioral problem. *Remedy:* [Burke-Litwin](#burke-litwin-causal-model). Name
+the tier.
 
-**3. The training reflex.**
-*Tell:* every problem produces a course.
-*Remedy:* [ADKAR barrier point](#adkar-change-management-model). Training only
-fixes Knowledge.
+**3. The training reflex.** *Tell:* every problem produces a course. *Remedy:*
+[ADKAR barrier point](#adkar-change-management-model). Training only fixes
+Knowledge.
 
-**4. Surveying without acting.**
-*Tell:* falling response rates; "we did this last year and nothing happened".
-*Remedy:* do not survey unless you will act; cascade feedback locally; publish
-the action completion rate.
+**4. Surveying without acting.** *Tell:* falling response rates; "we did this
+last year and nothing happened". *Remedy:* do not survey unless you will act;
+cascade feedback locally; publish the action completion rate.
 
-**5. Consultation theater.**
-*Tell:* engagement sessions scheduled after the decision was made.
-*Remedy:* say plainly what is decided and what is open. People will accept
-"this is decided, and here is what you can shape."
+**5. Consultation theater.** *Tell:* engagement sessions scheduled after the
+decision was made. *Remedy:* say plainly what is decided and what is open.
+People will accept "this is decided, and here is what you can shape."
 
-**6. Abandoning in the dip.**
-*Tell:* the change is reversed at the point of maximum discomfort, then cited
-forever as proof that it does not work here.
+**6. Abandoning in the dip.** *Tell:* the change is reversed at the point of
+maximum discomfort, then cited forever as proof that it does not work here.
 *Remedy:* [Satir](#satir-change-model). Predict the dip publicly, with a
 duration, before it starts.
 
-**7. Stacking changes.**
-*Tell:* three transformations running simultaneously in one department.
-*Remedy:* one major change per group. Sequence, and say what is being deferred.
+**7. Stacking changes.** *Tell:* three transformations running simultaneously in
+one department. *Remedy:* one major change per group. Sequence, and say what is
+being deferred.
 
-**8. Values that contradict behavior.**
-*Tell:* a values page nobody can recite, and promotions that reward the
-opposite.
-*Remedy:* change promotion criteria first. Say nothing about values until
-behavior changes.
+**8. Values that contradict behavior.** *Tell:* a values page nobody can recite,
+and promotions that reward the opposite. *Remedy:* change promotion criteria
+first. Say nothing about values until behavior changes.
 
-**9. Measuring the measurable instead of the important.**
-*Tell:* dashboards of activity; nobody can say what outcome improved.
-*Remedy:* [theory of change](#theory-of-change) with named assumptions;
-outcomes, not outputs.
+**9. Measuring the measurable instead of the important.** *Tell:* dashboards of
+activity; nobody can say what outcome improved. *Remedy:*
+[theory of change](#theory-of-change) with named assumptions; outcomes, not
+outputs.
 
-**10. Punishing the messenger.**
-*Tell:* the last person who raised a serious problem is no longer here, and
-everyone can name them.
-*Remedy:* nothing works until this stops. It is the precondition for the rest.
+**10. Punishing the messenger.** *Tell:* the last person who raised a serious
+problem is no longer here, and everyone can name them. *Remedy:* nothing works
+until this stops. It is the precondition for the rest.
 
-**11. Hero dependence.**
-*Tell:* the improvement stops when one person goes on leave.
-*Remedy:* institutionalize — defaults, onboarding, criteria, tooling.
+**11. Hero dependence.** *Tell:* the improvement stops when one person goes on
+leave. *Remedy:* institutionalize — defaults, onboarding, criteria, tooling.
 
-**12. Psychologizing a structural problem.**
-*Tell:* "resistance to change" applied to people who correctly identify that the
-plan will not work in their conditions.
-*Remedy:* test the objection on its merits before treating it as resistance.
-Sometimes the resisters are right, and that is the most valuable finding
-available.
+**12. Psychologizing a structural problem.** *Tell:* "resistance to change"
+applied to people who correctly identify that the plan will not work in their
+conditions. *Remedy:* test the objection on its merits before treating it as
+resistance. Sometimes the resisters are right, and that is the most valuable
+finding available.
 
-**13. Benchmark envy.**
-*Tell:* "Spotify does it this way."
-*Remedy:* ask what problem that organization was solving, in what context, with
-what constraints — and whether they still do it.
+**13. Benchmark envy.** *Tell:* "Spotify does it this way." *Remedy:* ask what
+problem that organization was solving, in what context, with what constraints —
+and whether they still do it.
 
-**14. The permanent pilot.**
-*Tell:* three years of pilots and no adoption decision.
-*Remedy:* every pilot gets an adopt/adapt/abandon date at the start.
+**14. The permanent pilot.** *Tell:* three years of pilots and no adoption
+decision. *Remedy:* every pilot gets an adopt/adapt/abandon date at the start.
 
-**15. Confusing compliance with commitment.**
-*Tell:* everyone agrees in the room and nothing changes afterwards.
-*Remedy:* [Lencioni's commitment principle](#team-development-models) — people
-will commit to a decision they disagree with if they believe they were genuinely
-heard. Mine for the disagreement.
+**15. Confusing compliance with commitment.** *Tell:* everyone agrees in the
+room and nothing changes afterwards. *Remedy:*
+[Lencioni's commitment principle](#team-development-models) — people will commit
+to a decision they disagree with if they believe they were genuinely heard. Mine
+for the disagreement.
 
 
 ## Part 11: Questionnaires and templates
@@ -3160,8 +3202,8 @@ Rate each 1 (poorly aligned) to 5 (fully aligned).
 **Hard elements**
 
 1. **Strategy** — Does our strategy clearly define our competitive advantage,
-   market positioning, and growth goals? Do our daily actions reflect this
-   plan? `[ ]`
+   market positioning, and growth goals? Do our daily actions reflect this plan?
+   `[ ]`
 2. **Structure** — Are our reporting lines, decision-making hierarchies, and
    team boundaries logical for executing our strategy without bottlenecks? `[ ]`
 3. **Systems** — Do our daily operational tools, IT platforms, reward tracking,
@@ -3196,8 +3238,8 @@ optimal).
 **Input**
 
 1. **External environment** — How well does leadership monitor and respond to
-   external shifts: market, client demand, technology, regulation,
-   competitors? `[ ]`
+   external shifts: market, client demand, technology, regulation, competitors?
+   `[ ]`
 
 **Transformational**
 
@@ -3255,6 +3297,10 @@ reverse-scored.
 
 Report at team level only, with a minimum of five responses.
 
+The fuller instrument — adding the safety-and-accountability grid and a set of
+behavioral indicators that are harder to fake than a survey — is at
+[topics/psychological-safety-questionnaire](topics/psychological-safety-questionnaire/).
+
 
 ### Westrum culture scale
 
@@ -3267,6 +3313,13 @@ Rate 1 (strongly disagree) to 7 (strongly agree).
 4. Cross-functional collaboration is encouraged and rewarded. `[ ]`
 5. Failure causes inquiry. `[ ]`
 6. New ideas are welcomed. `[ ]`
+
+Item 2 is load-bearing. If it scores below 4, treat every other score as
+unreliable: in a unit where bad news is punished, a survey is also bad news.
+
+The fuller instrument — adding a placement grid across all seven of Westrum's
+dimensions and the behavioral evidence to check the scale against — is at
+[topics/westrum-organizational-culture-typology-questionnaire](topics/westrum-organizational-culture-typology-questionnaire/).
 
 
 ### Change readiness check (Beckhard-Harris)
@@ -3402,6 +3455,328 @@ WHAT WOULD CHANGE OUR MIND
 ```
 
 
+## Part 12: Worked examples
+
+Everything above is framework by framework. This part runs whole scenarios end
+to end, so you can see how the pieces connect — including the parts where the
+practitioner got it wrong first, which is the part most case studies omit.
+
+The three scenarios are composites, not reports of specific organizations. The
+mechanisms and failure modes are the ones documented throughout this guide; the
+particulars are illustrative.
+
+
+### Tutorial: your first diagnosis
+
+If you have never run an OD engagement, do this one. It takes about three weeks
+of part-time effort and it teaches the whole cycle at low risk.
+
+**Choose a scope you can actually see.** One team, one recurring problem, one
+sponsor who can authorize changes to that team. Resist starting at department
+level; you will not be able to observe the work.
+
+**Week 1 — contract, then read.**
+
+1. Have the contracting conversation out loud, using the checklist in
+   [Part 11](#contracting-checklist). Write down the presenting problem
+   verbatim, and your own hypothesis separately, on the same page.
+2. Ask the sponsor the uncomfortable question: "if the diagnosis points at
+   something you control, what happens?" Their answer determines what kind of
+   engagement this is.
+3. Read the last year of whatever this team produces as a record of its
+   troubles: incident reviews, complaints, survey results, retrospective notes,
+   board papers. You will form a hypothesis. Write it down so you can later
+   discover it was wrong.
+
+**Week 2 — interview and observe.**
+
+4. Interview six to ten people. Open every one with the confidentiality
+   statement, including its exceptions. Ask for stories, not opinions: "tell me
+   about the last time that happened" beats "what do you think of our
+   communication?"
+5. Ask everyone the three highest-yield questions: *what surprised you in your
+   first month here? what would you tell a friend considering joining? what does
+   everyone know and nobody says?*
+6. **Observe the actual work for at least two sessions.** Count things: who
+   speaks and for how long, how many times a task is interrupted, how long work
+   waits between steps. Counting converts an impression into a finding that
+   survives challenge from someone senior.
+
+**Week 3 — frame, feed back, and pick one thing.**
+
+7. Choose a diagnostic frame. If you are unsure, use
+   [Weisbord six-box](#weisbord-six-box-model) — six boxes, ninety minutes,
+   formal system on the left and informal on the right.
+8. Before proposing anything, rule out the three boring causes in order:
+   **workload**, **incentives**, **decision rights**. Most problems presented as
+   cultural are one of these. If you skip this step you will propose a workshop
+   for a staffing problem.
+9. Feed the data back to the people it came from, *before* the sponsor. Let them
+   interpret it. Your job in that room is to present what you saw and then be
+   quiet.
+10. Agree **one** intervention, with a named owner, a date, a written prediction
+    of what will change and by how much, and a balancing measure. One, not five.
+11. Run it small. Compare the result against your prediction. Decide: adopt,
+    adapt, or abandon.
+
+**What you should expect to happen.** Your week 1 hypothesis will be partly
+wrong — that is the exercise working, not failing. The real constraint will
+usually be more boring and more structural than the presenting problem
+suggested. And the feedback session will be the moment the engagement either
+earns trust or loses it.
+
+
+### Case study: a hospital ward
+
+**Presenting problem.** A 28-bed medical ward reports rising medication
+administration errors over two quarters. The clinical director's request: "we
+need to retrain the nurses."
+
+**Contracting.** The practitioner records the presenting problem verbatim, and
+notes separately that a retraining request arriving with the diagnosis already
+made is a [red flag at entry](#entry-and-contracting). Contracting establishes
+access to incident reports, permission to observe drug rounds, and — critically
+— agreement in advance on what happens if the finding touches staffing levels,
+which the director does not control. The director agrees to take such a finding
+to the divisional board rather than bury it. That agreement is what makes the
+rest of the work possible.
+
+**Diagnosis.** Three methods, triangulated.
+
+* *Documents*: 14 incident reports over six months. Ten involve a different
+  nurse each time. This alone largely rules out an individual competence
+  explanation — see the [substitution test](#just-culture).
+* *Observation*: four drug rounds watched end to end. The practitioner counts
+  interruptions. The mean is 11 per round, from doctors, families, phones, and
+  the ward clerk. Two rounds are interrupted mid-calculation.
+* *Interviews*: nine staff. Every nurse describes the same workaround —
+  pre-preparing medications to avoid interruption during the round. Nobody has
+  written this down anywhere. Two nurses say they have stopped reporting
+  near-misses because a colleague was "performance managed" after one.
+
+**The frame.** [Burke-Litwin](#burke-litwin-causal-model), because the question
+is causal. Performance (12) is down. Tracing upstream: motivation (11) is fine —
+these are committed clinicians. Task requirements and skills (9) are fine — the
+substitution test says peers would err identically. The breakdown is at
+**systems** (7): an interruption-dense process with no protected time; and at
+**work unit climate** (8): reporting suppressed by fear. Both are
+**transactional**. The intervention does not need to be a culture programme.
+
+**What the practitioner got wrong first.** The initial hypothesis was
+understaffing, which was the loudest theme in interviews. The observation data
+did not support it: error clustering did not track shift fill rates. Staffing
+was a genuine grievance and not the cause of this problem. Saying so, having
+raised it, cost some credibility with staff and preserved the finding.
+
+**Feedback.** The ward team sees the interruption count first, before the
+director. Their reaction is recognition rather than surprise — they knew, and
+had never counted. The team itself proposes the intervention.
+
+**Intervention.** Two changes, both technostructural, plus one climate change.
+
+1. A protected drug round: tabards, a redirection protocol for the ward clerk,
+   and a phone diverted for 40 minutes. See
+   [force field analysis](#force-field-analysis) — this removes a restraining
+   force rather than adding exhortation.
+2. Prediction, written in advance: interruptions per round fall from ~11 to
+   under 4 within six weeks; administration errors fall over two quarters.
+3. Climate: the ward manager states publicly that near-miss reports will be
+   thanked, and the clinical director separates the learning review from any
+   disciplinary process, in writing. See [just culture](#just-culture).
+
+**Measurement, and the trap.** Interruptions fall to 3.2 per round by week five.
+Medication errors do not fall in the first quarter — **reported** errors *rise*
+by 40%. This is [the reporting-rate paradox](#the-reporting-rate-paradox), and
+it was pre-agreed with the board at contracting, in writing, precisely because
+it was predictable. Without that agreement the programme would have been read as
+having made things worse and stopped. Severity-weighted harm is flat and then
+declines over the following two quarters, which is the signature of a system
+getting healthier.
+
+**What sustained it.** The tabard protocol entered the ward induction pack. That
+is the [institutionalization](#sustaining-and-exit) step: rotating junior staff
+now learn it without anyone deciding to teach them.
+
+
+### Case study: a platform team
+
+**Presenting problem.** An engineering organization of about 90 people reports
+that delivery has slowed. The CTO's request: "we need to hire more engineers,
+and maybe adopt a different agile framework."
+
+**Contracting.** Access is negotiated to the deployment pipeline telemetry, the
+pull request history, and the incident record — data that is more honest than
+interviews and cheaper to gather. The CTO agrees that the finding may implicate
+the architecture and the approval process, both of which they own.
+
+**Diagnosis.** [DORA metrics](#domain-metric-sets) first, because they are
+instrumented and fast.
+
+* Deployment frequency: every two weeks, batched.
+* Lead time for changes: 19 days median.
+* Change failure rate: 23%.
+* Time to restore: 6 hours.
+
+Decomposing lead time is the whole diagnosis: **coding is 1.5 days of the 19.**
+Code review waits 4 days. A manual approval board meets weekly, adding up to 7.
+The release window is fortnightly, adding up to 10 more. Almost all of the lead
+time is queueing, and none of it is typing.
+
+Interviews add the human half: four teams share one deployment pipeline and one
+approval board. Engineers describe batching changes to "make the release worth
+it", which raises change size, which raises failure rate, which justifies the
+approval board. A textbook reinforcing loop — see
+[systems thinking](#systems-thinking).
+
+**The frame.** [Conway's law](#sociotechnical-systems-and-conways-law) and
+[team topologies](#team-topologies). Four stream-aligned teams are coupled
+through a shared platform operated as a ticket queue, converting X-as-a-Service
+into permanent Collaboration. Adding engineers, the CTO's proposal, would
+increase contention on the constraint. This is the **shifting the burden**
+archetype.
+
+**What the practitioner got wrong first.** The initial read blamed the approval
+board, which is the satisfying villain. But the board existed because change
+failure rate was genuinely high, and the board was catching real defects.
+Removing it first would have raised incidents and ended the engagement. The
+correct sequence was to make changes smaller and safer *first*, and let the
+board become visibly redundant.
+
+**Intervention.** Sequenced deliberately, over two quarters.
+
+1. Cut the test suite from 2 hours to 12 minutes, so review and integration stop
+   queueing behind it. Unglamorous, and it unblocks everything else.
+2. Change review assignment so pull requests have a named reviewer within 4
+   working hours.
+3. Only then: replace the approval board with automated policy checks for the
+   two service classes that now demonstrate a low change failure rate. The board
+   remains for the rest. This is a [safe-to-fail experiment](#cynefin-framework)
+   with a defined blast radius, not a big-bang removal.
+4. Give the platform team a self-service mandate and an explicit X-as-a-Service
+   interaction mode, with a date by which the ticket queue closes.
+
+**Measurement.** Lead time 19 days to 3. Deployment frequency fortnightly to
+daily for the two lead services. Change failure rate 23% to 9% — falling *while*
+speed rose, which is the [DORA](#domain-metric-sets) finding that speed and
+stability move together. Balancing measure: on-call pages per engineer per week,
+watched to make sure velocity was not being bought from the on-call rotation. It
+fell.
+
+**The organizational finding.** No one was hired. The CTO's presenting problem —
+insufficient people — was the most expensive available answer to a queueing
+problem. See [Part 10, anti-pattern 12](#part-10-anti-patterns): what looked
+like a capacity problem was a structure problem.
+
+
+### Case study: an executive team
+
+**Presenting problem.** A CEO of a 400-person organization reports that "we lack
+accountability" and asks for a leadership development programme for the
+executive team.
+
+**Contracting.** This is the hardest contract in the guide, because the client
+system *is* the executive team and the sponsor is in it. The practitioner
+establishes explicitly, before hearing anything: the CEO's own behavior is in
+scope; feedback to the CEO will be delivered privately first and then, in
+summary, to the team; and the engagement ends if that becomes unacceptable. The
+CEO agrees. Getting this in advance is what makes the finding survivable later.
+
+**Diagnosis.** Observation is the primary method, because executive interviews
+are heavily managed.
+
+* *Observation*: three executive meetings, attended silently. The practitioner
+  records who speaks first on each item, elapsed time to convergence, and
+  whether each decision is revisited later. **The CEO speaks first on 11 of 14
+  items. Median time to apparent agreement is 90 seconds. Six of 14 decisions
+  reappear at a later meeting.**
+* *Interviews*: all seven executives, individually. Every one describes the same
+  thing without prompting: real disagreement happens after the meeting, in
+  pairs, in the corridor.
+* *Documents*: two overlapping remits — two executives both believe they own
+  pricing.
+
+**The frame.** Two, layered. [Lencioni](#team-development-models) names the
+observable chain: no vulnerability-based trust, so no real conflict, so
+compliance rather than commitment, so decisions are revisited, so nothing feels
+accountable. Accountability, the presenting problem, is the fifth-level symptom
+of a first-level cause. [Argyris](#learning) supplies the sharper instrument:
+the espoused theory is "we want challenge"; the theory-in-use, inferred from
+behavior, is "challenge is not offered when the CEO has already spoken."
+
+**What the practitioner got wrong first.** The initial plan was a facilitated
+team offsite on trust. It would have failed: the structural problem — two people
+genuinely both owning pricing — meant executives had a rational reason to avoid
+open conflict, because the conflict had no resolution mechanism. **Structural
+clarity had to come before trust work.** People cannot be candid about a game
+whose rules are undefined. See [dosage and sequencing](#dosage-and-sequencing).
+
+**Feedback.** The CEO receives the "speaks first on 11 of 14 items" data
+privately, first. This is the engagement's pivot. The CEO's response — curiosity
+rather than defensiveness — is what makes the rest possible, and it was made
+more likely by having been contracted for in advance.
+
+**Intervention.** Three changes, sequenced.
+
+1. *Structural first*: decision rights mapped and published for the twelve
+   decision types that actually recur, including pricing. Ambiguity resolved by
+   naming a single owner each, in writing.
+2. *Process*: the CEO speaks last on any item they have not explicitly framed as
+   already decided. A rotating designated challenger role. Dissent recorded in
+   the minutes, so disagreeing is a documented professional act rather than a
+   social risk. See [crew resource management](#conflict) — this is graded
+   assertiveness for a boardroom.
+3. *Only then, behavioral*: the CEO opens a meeting with a specific account of a
+   decision they got wrong and what it cost. See
+   [psychological safety](#psychological-safety) — the leader modelling
+   fallibility, done specifically rather than ritually.
+
+**Measurement.** Deliberately behavioral rather than perceptual, because an
+engagement survey would not move for a year. Decisions revisited fell from 6 in
+14 to 1 in 15 over two quarters. Time-to-convergence *rose* from 90 seconds to
+about 6 minutes — this was the intended direction, agreed in advance, because
+90-second agreement was the symptom. Executives naming a peer disagreement
+openly in the room rose from 0 observed instances to 4 in a single meeting.
+
+**The finding the CEO did not ask for.** The accountability problem was not a
+capability gap in the executive team, and a leadership development programme
+would have been an expensive way to avoid it. It was the CEO's own speaking
+order plus two undefined remits. Both were cheap to fix and uncomfortable to
+name — which is why the contract, agreed at entry, was the most important part
+of the engagement.
+
+
+### What the three have in common
+
+Five patterns recur across all three, and they are the guide compressed:
+
+1. **The presenting problem named the intervention, and was wrong every time.**
+   Retrain the nurses. Hire more engineers. Develop the executives. In each case
+   the requested intervention was the most expensive available answer, and in
+   each case it addressed a symptom.
+
+2. **Counting beat opinion.** Interruptions per round. Days of lead time by
+   stage. Who speaks first, and how often decisions are revisited. Each
+   engagement turned on a number that nobody had bothered to collect, and that
+   nobody could argue with once collected.
+
+3. **The practitioner's first hypothesis was partly wrong**, and finding that
+   out was the value. Understaffing, the approval board, a trust offsite. Being
+   willing to discard your own hypothesis in public is most of the skill.
+
+4. **The contract, agreed before any data existed, is what let the finding
+   survive.** The board pre-agreeing the reporting-rate interpretation. The CTO
+   accepting that the architecture was in scope. The CEO accepting that their
+   own behavior was. In all three, the engagement would have collapsed at the
+   feedback stage without it.
+
+5. **Structure and workload were the causes; culture was the symptom.** Every
+   scenario began as a request for people-change and ended in a change to
+   process, decision rights, or the physical conditions of work. That ordering
+   is not a coincidence, and it is the most reliable single heuristic in this
+   guide: **rule out workload, incentives, and decision rights before you
+   diagnose culture.**
+
+
 ## Glossary
 
 * **Action research** — producing knowledge about a system by trying to change
@@ -3436,8 +3811,8 @@ WHAT WOULD CHANGE OUR MIND
   architecture.
 * **Joint optimization** — designing the social and technical systems together.
 * **Lagging indicator** — confirms an outcome after the fact.
-* **Lateral process** — coordination across units without escalation; Galbraith's
-  cheap lever.
+* **Lateral process** — coordination across units without escalation;
+  Galbraith's cheap lever.
 * **Leading indicator** — moves early enough to steer by.
 * **Leverage point** — a place in a system where a small change produces a large
   effect.
@@ -3479,10 +3854,11 @@ WHAT WOULD CHANGE OUR MIND
 
 ## See also
 
-### Specification files in this repository
+### Topics in this repository
 
-One file per model, framework, method, or system. See [spec/index.md](spec/index.md)
-for the full plan and inventory.
+One directory per model, framework, method, or system, in [topics/](topics/).
+The canonical, browsable inventory — grouped by family, with every evidence
+label — is [topics/index.md](topics/).
 
 Every model file carries an **evidence label** stating plainly what is supported
 and what is not. Every diagnostic model has a paired **questionnaire** — a
@@ -3490,103 +3866,109 @@ copy-and-use instrument, marked `Q` below.
 
 **Foundations, process, and ethics**
 
-* [OD process cycle](spec/od-process-cycle.md)
-* [Entry and contracting](spec/entry-and-contracting.md)
-* [Action research](spec/action-research.md)
-* [Evidence-based practice](spec/evidence-based-practice.md)
-* [OD ethics](spec/od-ethics.md)
-* [Systems thinking](spec/systems-thinking.md)
-* [Sociotechnical systems](spec/sociotechnical-systems.md)
-* [Conway's law](spec/conways-law.md)
-* [Interventions catalog](spec/interventions-catalog.md)
+* [OD process cycle](topics/od-process-cycle/)
+* [Entry and contracting](topics/entry-and-contracting/)
+* [Action research](topics/action-research/)
+* [Evidence-based practice](topics/evidence-based-practice/)
+* [Discredited instruments](topics/discredited-instruments/)
+* [OD ethics](topics/od-ethics/)
+* [Systems thinking](topics/systems-thinking/)
+* [Sociotechnical systems](topics/sociotechnical-systems/)
+* [Conway's law](topics/conways-law/)
+* [Interventions catalog](topics/interventions-catalog/)
 
 **Diagnostic models**
 
-* [McKinsey 7S framework](spec/mckinsey-7s-framework.md) ·
-  [Q](spec/mckinsey-7s-framework-questionnaire.md)
-* [Burke-Litwin causal model](spec/burke-litwin-causal-model.md) ·
-  [Q](spec/burke-litwin-causal-model-questionnaire.md)
-* [Weisbord six-box model](spec/weisbord-six-box-model.md) ·
-  [Q](spec/weisbord-six-box-model-questionnaire.md)
-* [Nadler-Tushman congruence model](spec/nadler-tushman-congruence-model.md) ·
-  [Q](spec/nadler-tushman-congruence-model-questionnaire.md)
-* [Galbraith star model](spec/galbraith-star-model.md) ·
-  [Q](spec/galbraith-star-model-questionnaire.md)
-* [Leavitt diamond model](spec/leavitt-diamond-model.md) ·
-  [Q](spec/leavitt-diamond-model-questionnaire.md)
-* [Maturity models](spec/maturity-models.md) ·
-  [Q](spec/maturity-models-questionnaire.md)
-* [Force field analysis](spec/force-field-analysis.md) ·
-  [Q](spec/force-field-analysis-questionnaire.md)
-* [SWOT analysis](spec/swot-analysis.md) ·
-  [Q](spec/swot-analysis-questionnaire.md)
-* [PESTLE analysis](spec/pestle-analysis.md) ·
-  [Q](spec/pestle-analysis-questionnaire.md)
-* [Cynefin framework](spec/cynefin-framework.md) ·
-  [Q](spec/cynefin-framework-questionnaire.md)
-* [Viable system model](spec/viable-system-model.md) ·
-  [Q](spec/viable-system-model-questionnaire.md)
-* [Organizational network analysis](spec/organizational-network-analysis.md) ·
-  [Q](spec/organizational-network-analysis-questionnaire.md)
-* [Team topologies](spec/team-topologies.md) ·
-  [Q](spec/team-topologies-questionnaire.md)
+* [McKinsey 7S framework](topics/mckinsey-7s-framework/) ·
+  [Q](topics/mckinsey-7s-framework-questionnaire/)
+* [Burke-Litwin causal model](topics/burke-litwin-causal-model/) ·
+  [Q](topics/burke-litwin-causal-model-questionnaire/)
+* [Weisbord six-box model](topics/weisbord-six-box-model/) ·
+  [Q](topics/weisbord-six-box-model-questionnaire/)
+* [Nadler-Tushman congruence model](topics/nadler-tushman-congruence-model/) ·
+  [Q](topics/nadler-tushman-congruence-model-questionnaire/)
+* [Galbraith star model](topics/galbraith-star-model/) ·
+  [Q](topics/galbraith-star-model-questionnaire/)
+* [Leavitt diamond model](topics/leavitt-diamond-model/) ·
+  [Q](topics/leavitt-diamond-model-questionnaire/)
+* [Maturity models](topics/maturity-models/) ·
+  [Q](topics/maturity-models-questionnaire/)
+* [Force field analysis](topics/force-field-analysis/) ·
+  [Q](topics/force-field-analysis-questionnaire/)
+* [SWOT analysis](topics/swot-analysis/) ·
+  [Q](topics/swot-analysis-questionnaire/)
+* [PESTLE analysis](topics/pestle-analysis/) ·
+  [Q](topics/pestle-analysis-questionnaire/)
+* [Cynefin framework](topics/cynefin-framework/) ·
+  [Q](topics/cynefin-framework-questionnaire/)
+* [Viable system model](topics/viable-system-model/) ·
+  [Q](topics/viable-system-model-questionnaire/)
+* [Organizational network analysis](topics/organizational-network-analysis/) ·
+  [Q](topics/organizational-network-analysis-questionnaire/)
+* [Team topologies](topics/team-topologies/) ·
+  [Q](topics/team-topologies-questionnaire/)
 
 **Change models**
 
-* [Lewin change model](spec/lewin-change-model.md)
-* [Kotter 8-step change model](spec/kotter-8-step-change-model.md)
-* [ADKAR change management model](spec/adkar-change-management-model.md)
-* [Beckhard-Harris change equation](spec/beckhard-harris-change-equation.md)
-* [Bridges transition model](spec/bridges-transition-model.md)
-* [Satir change model](spec/satir-change-model.md)
-* [Kübler-Ross change curve](spec/kubler-ross-change-curve.md)
-* [Rogers diffusion of innovations](spec/rogers-diffusion-of-innovations.md)
-* [Switch framework](spec/switch-framework.md)
-* [McKinsey influence model](spec/mckinsey-influence-model.md)
-* [Theory of change](spec/theory-of-change.md)
-* [Plan-Do-Study-Act](spec/plan-do-study-act.md)
-* [Improvement kata](spec/improvement-kata.md)
+* [Lewin change model](topics/lewin-change-model/)
+* [Kotter 8-step change model](topics/kotter-8-step-change-model/)
+* [ADKAR change management model](topics/adkar-change-management-model/)
+* [Beckhard-Harris change equation](topics/beckhard-harris-change-equation/)
+* [Bridges transition model](topics/bridges-transition-model/)
+* [Satir change model](topics/satir-change-model/)
+* [Kübler-Ross change curve](topics/kubler-ross-change-curve/)
+* [Rogers diffusion of innovations](topics/rogers-diffusion-of-innovations/)
+* [Switch framework](topics/switch-framework/)
+* [McKinsey influence model](topics/mckinsey-influence-model/)
+* [Theory of change](topics/theory-of-change/)
+* [Plan-Do-Study-Act](topics/plan-do-study-act/)
+* [Improvement kata](topics/improvement-kata/)
 
 **Culture, team, and human models**
 
-* [Schein model of organizational culture](spec/schein-model-of-organizational-culture.md)
-* [Competing values framework](spec/competing-values-framework.md)
-* [Westrum organizational culture typology](spec/westrum-organizational-culture-typology.md)
-* [Hofstede cultural dimensions](spec/hofstede-cultural-dimensions.md)
-* [Just culture](spec/just-culture.md)
-* [Psychological safety](spec/psychological-safety.md)
-* [Google Project Aristotle](spec/google-project-aristotle.md)
-* [Tuckman stages of group development](spec/tuckman-stages-of-group-development.md)
-* [Lencioni five dysfunctions of a team](spec/lencioni-five-dysfunctions-of-a-team.md)
-* [Drexler-Sibbet team performance model](spec/drexler-sibbet-team-performance-model.md)
-* [Crew resource management](spec/crew-resource-management.md)
-* [Thomas-Kilmann conflict modes](spec/thomas-kilmann-conflict-modes.md)
-* [Self-determination theory](spec/self-determination-theory.md)
-* [Herzberg two-factor theory](spec/herzberg-two-factor-theory.md)
-* [Maslow hierarchy of needs](spec/maslow-hierarchy-of-needs.md)
-* [Job characteristics model](spec/job-characteristics-model.md)
-* [Immunity to change](spec/immunity-to-change.md)
-* [Situational leadership model](spec/situational-leadership-model.md)
-* [Learning organization](spec/learning-organization.md)
-* [Double-loop learning](spec/double-loop-learning.md)
-* [Process consultation](spec/process-consultation.md)
+* [Schein model of organizational culture](topics/schein-model-of-organizational-culture/)
+* [Competing values framework](topics/competing-values-framework/)
+* [Westrum organizational culture typology](topics/westrum-organizational-culture-typology/)
+  · [Q](topics/westrum-organizational-culture-typology-questionnaire/)
+* [Hofstede cultural dimensions](topics/hofstede-cultural-dimensions/)
+* [Just culture](topics/just-culture/)
+* [Psychological safety](topics/psychological-safety/) ·
+  [Q](topics/psychological-safety-questionnaire/)
+* [Google Project Aristotle](topics/google-project-aristotle/)
+* [Tuckman stages of group development](topics/tuckman-stages-of-group-development/)
+* [Lencioni five dysfunctions of a team](topics/lencioni-five-dysfunctions-of-a-team/)
+* [Drexler-Sibbet team performance model](topics/drexler-sibbet-team-performance-model/)
+* [Crew resource management](topics/crew-resource-management/)
+* [Thomas-Kilmann conflict modes](topics/thomas-kilmann-conflict-modes/)
+* [Self-determination theory](topics/self-determination-theory/)
+* [Goal setting theory](topics/goal-setting-theory/)
+* [Burnout](topics/burnout/)
+* [Herzberg two-factor theory](topics/herzberg-two-factor-theory/)
+* [Maslow hierarchy of needs](topics/maslow-hierarchy-of-needs/)
+* [Job characteristics model](topics/job-characteristics-model/)
+* [Immunity to change](topics/immunity-to-change/)
+* [Situational leadership model](topics/situational-leadership-model/)
+* [Transformational leadership](topics/transformational-leadership/)
+* [Learning organization](topics/learning-organization/)
+* [Double-loop learning](topics/double-loop-learning/)
+* [Process consultation](topics/process-consultation/)
 
 **Facilitation and large-group methods**
 
-* [Appreciative inquiry](spec/appreciative-inquiry.md)
-* [Open space technology](spec/open-space-technology.md)
-* [World café](spec/world-cafe.md)
-* [Future search](spec/future-search.md)
-* [After action review](spec/after-action-review.md)
-* [Survey feedback method](spec/survey-feedback-method.md)
+* [Appreciative inquiry](topics/appreciative-inquiry/)
+* [Open space technology](topics/open-space-technology/)
+* [World café](topics/world-cafe/)
+* [Future search](topics/future-search/)
+* [After action review](topics/after-action-review/)
+* [Survey feedback method](topics/survey-feedback-method/)
 
 **Measurement**
 
-* [Measurement and metrics](spec/measurement-and-metrics.md)
-* [Employee engagement surveys](spec/employee-engagement-surveys.md)
-* [DORA metrics](spec/dora-metrics.md)
-* [SPACE framework](spec/space-framework.md)
-* [High reliability organizations](spec/high-reliability-organizations.md)
+* [Measurement and metrics](topics/measurement-and-metrics/)
+* [Employee engagement surveys](topics/employee-engagement-surveys/)
+* [DORA metrics](topics/dora-metrics/)
+* [SPACE framework](topics/space-framework/)
+* [High reliability organizations](topics/high-reliability-organizations/)
 
 
 ### Related repositories
@@ -3635,8 +4017,50 @@ copy-and-use instrument, marked `Q` below.
 * Weisbord & Janoff, *Future Search*
 
 
+## About this repository
+
+**Layout.**
+
+| Path | What it is |
+| --- | --- |
+| [README.md](README.md) | This guide. Self-contained; the deliverable. |
+| [topics/](topics/) | One directory per model, framework, method, or system. |
+| [spec/index.md](spec/index.md) | Plan of record: decisions, findings, tasks. |
+| [spec/conventions.md](spec/conventions.md) | Single source of truth for how the repository is built. |
+| [AGENTS.md](AGENTS.md) | Operational guidance for coding agents. |
+| [AGENTS/](AGENTS/) | Task playbooks: adding topics, questionnaires, evidence labels, style, audit. |
+| `bin/audit` | Validation; 11 checks; exits non-zero on any violation. |
+
+Each topic directory holds `index.md` with `README.md` symlinked to it, so that
+opening the directory on GitHub renders the content.
+
+**Evidence labels.** Every model carries a label stating plainly what supports
+it and what does not. Across 72 models: 5 are `Strong`, 6 `Good`, 9 `Moderate`,
+5 `Mixed`, 1 `Contested`, 20 `Weak`, 2 `Very weak`, with 17 split labels and 7
+non-empirical. That distribution is unflattering to the field, and it is
+accurate. It is also the point: a weakly supported model can be perfectly good
+shared vocabulary, and must not be used to predict outcomes.
+
+**Questionnaires.** Every diagnostic model has a paired, copy-and-use
+instrument. Most public OD writing stops at explanation; this pairing is the
+repository's most distinctive asset.
+
+**Validation.**
+
+```sh
+bin/audit           # full report
+bin/audit --quiet   # failures only
+```
+
+
 ## Thanks
 
 Contributions are welcome. If you know of a model, framework, method, or system
 that belongs here — or you disagree with an evidence rating — please open a
 GitHub issue or a pull request.
+
+Disagreement about an evidence label is especially welcome. Each label states
+its reasoning so that it can be argued with, and a rating that turns out to be
+wrong is a defect worth reporting. If you are contributing a change, see
+[spec/conventions.md](spec/conventions.md) for the conventions and run
+`bin/audit` before opening a pull request.

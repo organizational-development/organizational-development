@@ -14,7 +14,7 @@ recent events; it is the weakest instrument in common use.
 
 Use when: you have a genuine intent and the authority to act on the results, and
 a plan for feeding data back locally. See
-[survey-feedback-method](survey-feedback-method.md).
+[survey-feedback-method](../survey-feedback-method/).
 
 Do not use when: you cannot act. An unactioned survey lowers trust below where
 it started.
@@ -41,9 +41,9 @@ uninterpretable without knowing what was measured.
   manager's local unit. Note its design: nearly every item is actionable by a
   frontline manager, which is deliberate.
 * **UWES** — academic work engagement scale.
-* **eNPS** — "how likely are you to recommend this as a place to work?"
-  Single item; cheap, noisy, heavily influenced by recent events, and
-  frequently over-interpreted.
+* **eNPS** — "how likely are you to recommend this as a place to work?" Single
+  item; cheap, noisy, heavily influenced by recent events, and frequently
+  over-interpreted.
 * **Custom** — usually a mixture, often with poor psychometrics, often too long.
 
 
@@ -102,7 +102,7 @@ observable changes. Countermeasures:
 * **Software**: pair engagement with flow and developer-experience measures.
   Engagement that is high while lead time is terrible usually means a pleasant
   team tolerating a bad system — and those people leave later, not never. See
-  [space-framework](space-framework.md).
+  [space-framework](../space-framework/).
 
 * **Executive**: resist single-number governance. Ask instead for the
   distribution across teams, the action-completion rate, and the free-text
@@ -117,12 +117,12 @@ observable changes. Countermeasures:
 * Never use results for individual performance management.
 * Publish the analysis method and the reporting threshold.
 * Know your regulatory regime and any works council or union obligations before
-  collecting. See [od-ethics](od-ethics.md).
+  collecting. See [od-ethics](../od-ethics/).
 
 
 ## See also
 
-* [survey-feedback-method](survey-feedback-method.md)
-* [self-determination-theory](self-determination-theory.md)
-* [measurement-and-metrics](measurement-and-metrics.md)
+* [survey-feedback-method](../survey-feedback-method/)
+* [self-determination-theory](../self-determination-theory/)
+* [measurement-and-metrics](../measurement-and-metrics/)
 * <https://github.com/joelparkerhenderson/net-promoter-score>

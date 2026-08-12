@@ -47,10 +47,10 @@ Do not use when: the cause is genuinely local and simple.
   long term. Adding people to a late project.
 * **Shifting the burden**: a symptomatic fix atrophies the fundamental
   capability. Hiring contractors instead of building internal skill.
-* **Limits to growth**: a reinforcing engine hits a balancing constraint.
-  Growth stalls not because the engine broke, but because a constraint arrived.
-* **Tragedy of the commons**: shared resource depleted by rational local use.
-  A shared platform team consumed by every product team's urgent request.
+* **Limits to growth**: a reinforcing engine hits a balancing constraint. Growth
+  stalls not because the engine broke, but because a constraint arrived.
+* **Tragedy of the commons**: shared resource depleted by rational local use. A
+  shared platform team consumed by every product team's urgent request.
 * **Success to the successful**: resources flow to the currently winning unit,
   guaranteeing it keeps winning regardless of merit.
 * **Escalation**: two parties respond to each other, and both lose. Two
@@ -78,7 +78,7 @@ Do not use when: the cause is genuinely local and simple.
 * **Software**: "we need more developers" against a codebase whose review and
   deployment path is the constraint is a shifting-the-burden archetype. Adding
   developers increases contention on the constraint. See
-  [dora-metrics](dora-metrics.md).
+  [dora-metrics](../dora-metrics/).
 
 * **Executive**: annual budget cycles create a reinforcing loop where units
   spend to protect next year's allocation. The behavior is rational; the rule
@@ -96,8 +96,9 @@ Do not use when: the cause is genuinely local and simple.
 
 ## See also
 
-* [sociotechnical-systems](sociotechnical-systems.md)
-* [viable-system-model](viable-system-model.md)
-* [cynefin-framework](cynefin-framework.md)
+* [sociotechnical-systems](../sociotechnical-systems/)
+* [viable-system-model](../viable-system-model/)
+* [cynefin-framework](../cynefin-framework/)
 * Donella Meadows, *Thinking in Systems*.
-* Peter Senge, *The Fifth Discipline*. See [learning-organization](learning-organization.md).
+* Peter Senge, *The Fifth Discipline*. See
+  [learning-organization](../learning-organization/).

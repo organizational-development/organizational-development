@@ -8,8 +8,8 @@ produces more of that.
 
 **Evidence: Weak to mixed.** The published evidence is largely case studies
 written by advocates, with few controlled comparisons against problem-focused
-approaches. Partial indirect support comes from solution-focused practice,
-from research on positive affect broadening cognition, and from the fact that
+approaches. Partial indirect support comes from solution-focused practice, from
+research on positive affect broadening cognition, and from the fact that
 studying successes generates more actionable specifics than studying failures.
 The suppression-of-the-negative criticism is substantive and should be stated
 whenever the method is used.
@@ -20,7 +20,8 @@ ingredients rather than analysis.
 
 Do not use when: there is a serious failure requiring root cause analysis; when
 harm is occurring; when the approach would suppress legitimate grievances. AI
-used to avoid a real problem is dishonest, and participants will name it as such.
+used to avoid a real problem is dishonest, and participants will name it as
+such.
 
 
 ## The 4-D cycle
@@ -91,7 +92,7 @@ months, and is expensive to run badly.
 * **Software**: "tell me about the last time deploying felt effortless" produces
   more actionable design input than "what's wrong with our pipeline", because
   people describe concrete conditions rather than generalized frustration. This
-  is the bright-spots move. See [switch-framework](switch-framework.md).
+  is the bright-spots move. See [switch-framework](../switch-framework/).
 
 * **Executive**: valuable in merger integration, where problem-focused
   integration planning entrenches "us and them". Studying both organizations at
@@ -114,7 +115,8 @@ months, and is expensive to run badly.
 
 ## See also
 
-* [action-research](action-research.md)
-* [future-search](future-search.md)
-* [world-cafe](world-cafe.md)
-* Cooperrider & Whitney, *Appreciative Inquiry: A Positive Revolution in Change*.
+* [action-research](../action-research/)
+* [future-search](../future-search/)
+* [world-cafe](../world-cafe/)
+* Cooperrider & Whitney, *Appreciative Inquiry: A Positive Revolution in
+  Change*.

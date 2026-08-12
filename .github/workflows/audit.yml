@@ -1,0 +1,42 @@
+name: audit
+
+# Validates the repository against spec/conventions.md.
+#
+# The checks are defined in bin/audit. If a check disagrees with
+# spec/conventions.md, the check is the bug — fix the script, not the content.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+        # Symlinks matter here: every topics/<name>/README.md is a symlink to
+        # index.md, and check 1 verifies that. Default checkout preserves them.
+
+      - name: Run bin/audit
+        run: |
+          chmod +x bin/audit
+          bin/audit
+
+      - name: Report evidence label distribution
+        if: always()
+        run: |
+          echo "### Evidence label distribution" >> "$GITHUB_STEP_SUMMARY"
+          echo '' >> "$GITHUB_STEP_SUMMARY"
+          echo '| Count | Strength |' >> "$GITHUB_STEP_SUMMARY"
+          echo '| --- | --- |' >> "$GITHUB_STEP_SUMMARY"
+          grep -h -o '^\*\*Evidence: [^.]*\.' topics/*/index.md \
+            | sed 's/\*\*Evidence: //; s/\.$//' \
+            | sort | uniq -c | sort -rn \
+            | awk '{n=$1; $1=""; sub(/^ /,""); printf "| %s | %s |\n", n, $0}' \
+            >> "$GITHUB_STEP_SUMMARY"

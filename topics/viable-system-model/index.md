@@ -5,11 +5,11 @@ specifies the five functions any organization must perform to remain viable —
 that is, to survive as an independent entity in a changing environment — and it
 is recursive: every viable unit contains viable units and is contained in one.
 
-**Evidence: Weak.** Internally coherent and derived rigorously from
-cybernetics, with almost no independent empirical validation as a predictive
-or diagnostic model. Ashby's law of requisite variety is a formal result and
-is sound; the mapping from it to five organizational systems is an argument,
-not a finding. Case reports of VSM diagnosis are largely written by advocates.
+**Evidence: Weak.** Internally coherent and derived rigorously from cybernetics,
+with almost no independent empirical validation as a predictive or diagnostic
+model. Ashby's law of requisite variety is a formal result and is sound; the
+mapping from it to five organizational systems is an argument, not a finding.
+Case reports of VSM diagnosis are largely written by advocates.
 
 Use when: diagnosing why an organization is slow to respond, why decisions
 escalate constantly, or why a "self-managing teams" model is failing.
@@ -38,8 +38,8 @@ has the steepest learning curve of any model here.
 * **System 4 — Intelligence**: looking outside and forward. Environment
   scanning, strategy, adaptation, research.
 
-* **System 5 — Policy**: identity, purpose, values, and the balancing of
-  System 3 (now) against System 4 (future).
+* **System 5 — Policy**: identity, purpose, values, and the balancing of System
+  3 (now) against System 4 (future).
 
 
 ## Key principles
@@ -77,12 +77,12 @@ has the steepest learning curve of any model here.
 
 * **Software**: platform teams are System 2 when they provide standards that
   reduce inter-team friction, and become bottlenecks when they are misused as
-  System 3 control. Naming which one is intended settles a lot of arguments.
-  See [team-topologies](team-topologies.md).
+  System 3 control. Naming which one is intended settles a lot of arguments. See
+  [team-topologies](../team-topologies/).
 
 * **Executive**: a board that spends every meeting on this quarter's numbers has
-  collapsed System 5 into System 3. Nobody is holding identity or the
-  now/future balance, and the organization will be surprised by its environment.
+  collapsed System 5 into System 3. Nobody is holding identity or the now/future
+  balance, and the organization will be surprised by its environment.
 
 
 ## Limitations
@@ -95,11 +95,11 @@ has the steepest learning curve of any model here.
 ## Questionnaire
 
 A paired, copy-and-use diagnostic instrument for this model:
-[viable-system-model-questionnaire](viable-system-model-questionnaire.md).
+[viable-system-model-questionnaire](../viable-system-model-questionnaire/).
 
 
 ## See also
 
-* [systems-thinking](systems-thinking.md)
-* [galbraith-star-model](galbraith-star-model.md)
+* [systems-thinking](../systems-thinking/)
+* [galbraith-star-model](../galbraith-star-model/)
 * Stafford Beer, *Brain of the Firm*, *The Heart of Enterprise*.

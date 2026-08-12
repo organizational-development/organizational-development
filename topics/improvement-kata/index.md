@@ -7,13 +7,13 @@ practiced thinking pattern that produces them.
 The core claim: improvement capability is a **habit acquired by deliberate
 practice**, not a project run by specialists. The kata is the practice routine.
 
-**Evidence: Weak.** Derived from observation of Toyota, with little
-independent validation outside Toyota-lineage settings and no controlled
-comparison against other improvement approaches. The deliberate practice
-premise it rests on is strongly supported in skill acquisition research. The
-chief practical risk is documented rather than theoretical: most organizations
-abandon the daily coaching cycle within months, so the method's effect and its
-adherence are hard to separate.
+**Evidence: Weak.** Derived from observation of Toyota, with little independent
+validation outside Toyota-lineage settings and no controlled comparison against
+other improvement approaches. The deliberate practice premise it rests on is
+strongly supported in skill acquisition research. The chief practical risk is
+documented rather than theoretical: most organizations abandon the daily
+coaching cycle within months, so the method's effect and its adherence are hard
+to separate.
 
 Use when: building durable improvement capability rather than delivering a
 single improvement; when previous improvement programs produced a burst of
@@ -29,14 +29,14 @@ in capability. Kata is slow at first, deliberately.
    direction set by leadership. Not measurable next month. "Zero avoidable
    harm." "Deploy on demand."
 
-2. **Grasp the current condition.** Factual, measured, at the process level.
-   Not opinion, not a summary — actual data about how the process behaves now,
+2. **Grasp the current condition.** Factual, measured, at the process level. Not
+   opinion, not a summary — actual data about how the process behaves now,
    gathered by going to see. Most teams discover they do not know.
 
 3. **Establish the next target condition.** A description of how the process
-   should operate, by a specific near date, typically one to four weeks out.
-   The target condition describes a *pattern of operation*, not a result. This
-   is the step teams find hardest and the step that carries the method.
+   should operate, by a specific near date, typically one to four weeks out. The
+   target condition describes a *pattern of operation*, not a result. This is
+   the step teams find hardest and the step that carries the method.
 
 4. **Experiment toward the target condition.** Rapid PDSA cycles. Each
    experiment states one obstacle, one action, one prediction, one result, one
@@ -46,13 +46,13 @@ in capability. Kata is slow at first, deliberately.
 
 ## The coaching kata
 
-A five-question routine, used daily or several times a week, between a coach
-and a learner:
+A five-question routine, used daily or several times a week, between a coach and
+a learner:
 
 1. What is the target condition?
 2. What is the actual condition now?
-3. What obstacles are preventing you from reaching the target condition?
-   Which one are you addressing now?
+3. What obstacles are preventing you from reaching the target condition? Which
+   one are you addressing now?
 4. What is your next step, and what do you expect to happen?
 5. When can we go and see what we have learned from taking that step?
 
@@ -83,7 +83,7 @@ questions has destroyed the exercise.
 * **Software**: challenge "deploy on demand". Current condition: batch releases
   every two weeks, 90-minute pipeline, manual approval. Target condition in four
   weeks: "pipeline under 15 minutes for the top three services." Then experiment
-  against the specific obstacles found. See [dora-metrics](dora-metrics.md).
+  against the specific obstacles found. See [dora-metrics](../dora-metrics/).
 
 * **Executive**: the executive contribution is setting the challenge, then
   practicing the coaching kata with direct reports instead of asking for status.
@@ -103,7 +103,7 @@ questions has destroyed the exercise.
 
 ## See also
 
-* [plan-do-study-act](plan-do-study-act.md)
-* [learning-organization](learning-organization.md)
-* [action-research](action-research.md)
+* [plan-do-study-act](../plan-do-study-act/)
+* [learning-organization](../learning-organization/)
+* [action-research](../action-research/)
 * <https://www.lean.org>

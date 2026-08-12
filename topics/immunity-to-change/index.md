@@ -13,9 +13,9 @@ skillfully protecting itself against something it perceives as a threat.
 evidence is largely case material produced by the developers and their
 practitioners. The adult development theory underneath it is contested. The
 method's practical defense is different and does not depend on the theory: it
-converts vague complaints into specific, falsifiable claims about what
-actually happens to people here, which can then be tested directly. Requires
-skilled facilitation and genuine safety, and is intrusive when done badly.
+converts vague complaints into specific, falsifiable claims about what actually
+happens to people here, which can then be tested directly. Requires skilled
+facilitation and genuine safety, and is intrusive when done badly.
 
 Use when: an individual or group repeatedly fails at a change they sincerely
 endorse; when "we know what to do and we don't do it".
@@ -67,11 +67,10 @@ every decision for more analysis"; column 3, "we are committed to never being
 the one who was wrong"; column 4, "we assume that a visible mistake ends a
 career here."
 
-Column 4 is then a testable claim about the organization — and frequently a
-true one, in which case the intervention is not psychological. It is changing
-what actually happens to people who are wrong. See
-[just-culture](just-culture.md),
-[westrum-organizational-culture-typology](westrum-organizational-culture-typology.md).
+Column 4 is then a testable claim about the organization — and frequently a true
+one, in which case the intervention is not psychological. It is changing what
+actually happens to people who are wrong. See [just-culture](../just-culture/),
+[westrum-organizational-culture-typology](../westrum-organizational-culture-typology/).
 
 That is the highest-value use of ITC in OD: it converts vague cultural
 complaints into specific, falsifiable claims about consequences.
@@ -100,13 +99,14 @@ complaints into specific, falsifiable claims about consequences.
 * Time-intensive; a proper map takes hours, and group work takes days.
 * Requires real psychological safety and skilled facilitation. Poorly done, it
   is intrusive and can be coercive — participation must be genuinely optional.
-  See [od-ethics](od-ethics.md).
+  See [od-ethics](../od-ethics/).
 * Limited independent empirical validation.
 * Risks psychologizing structural problems. Always rule out obstacles first.
 
 
 ## See also
 
-* [double-loop-learning](double-loop-learning.md)
-* [force-field-analysis](force-field-analysis.md) — the organizational analogue.
+* [double-loop-learning](../double-loop-learning/)
+* [force-field-analysis](../force-field-analysis/) — the organizational
+  analogue.
 * Kegan & Lahey, *Immunity to Change*.

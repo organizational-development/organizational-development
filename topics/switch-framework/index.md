@@ -8,13 +8,13 @@ The Rider is analytical but easily exhausted and prone to over-analysis. The
 Elephant is powerful, emotional, and seeks immediate comfort. The Path is the
 environment, which shapes both.
 
-**Evidence: Mixed.** A popular synthesis rather than original research, and
-the quality of the underlying work varies by tactic. Well supported: shaping
-the environment, defaults and choice architecture, action triggers or
-implementation intentions, and social proof. Weakly supported: the Rider and
-Elephant dichotomy, which is a simplification of dual-process theory that the
-theory itself no longer cleanly supports. Bright spots derives from
-solution-focused practice and has modest evidence.
+**Evidence: Mixed.** A popular synthesis rather than original research, and the
+quality of the underlying work varies by tactic. Well supported: shaping the
+environment, defaults and choice architecture, action triggers or implementation
+intentions, and social proof. Weakly supported: the Rider and Elephant
+dichotomy, which is a simplification of dual-process theory that the theory
+itself no longer cleanly supports. Bright spots derives from solution-focused
+practice and has modest evidence.
 
 Use when: designing a change that requires many individuals to behave
 differently, and previous attempts at persuasion have failed.
@@ -45,8 +45,8 @@ Do not use when: the change is structural or strategic rather than behavioral.
 **Shape the Path** — what looks like a people problem is often a situation
 problem.
 
-7. **Tweak the environment.** Change the situation and behavior follows.
-   The highest-leverage and most-neglected tactic.
+7. **Tweak the environment.** Change the situation and behavior follows. The
+   highest-leverage and most-neglected tactic.
 8. **Build habits.** Use action triggers: "when X happens, I will do Y."
    Checklists and defaults are habits made external.
 9. **Rally the herd.** Behavior is contagious. Publicize what others are already
@@ -85,13 +85,13 @@ sentence in the book.
 * The Rider/Elephant dichotomy is a simplification of dual-process theory.
 * Individual-behavior focus; weak on power, structure, and politics.
 * Risk of manipulation: "find the feeling" is a persuasion technique, and
-  deserves the ethical scrutiny in [od-ethics](od-ethics.md).
+  deserves the ethical scrutiny in [od-ethics](../od-ethics/).
 
 
 ## See also
 
-* [self-determination-theory](self-determination-theory.md)
-* [appreciative-inquiry](appreciative-inquiry.md) — the bright-spots idea at
+* [self-determination-theory](../self-determination-theory/)
+* [appreciative-inquiry](../appreciative-inquiry/) — the bright-spots idea at
   organizational scale.
-* [force-field-analysis](force-field-analysis.md) — shaping the path by removing
-  restraining forces.
+* [force-field-analysis](../force-field-analysis/) — shaping the path by
+  removing restraining forces.

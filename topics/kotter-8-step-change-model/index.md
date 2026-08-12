@@ -3,26 +3,26 @@
 John Kotter's eight steps, from *Leading Change* (1996), derived from studying
 change efforts that failed. Each step corresponds to a common failure.
 
-**Evidence: Weak.** Derived from practitioner observation of roughly 100
-change efforts, with no control group, no published method, and no subsequent
-test of the model as a whole. Individual steps have independent support —
-short-term wins map onto goal setting and progress research, and removing
-barriers maps onto force field logic — but the sequence, the count, and the
-causal claims are assertions. Use it as a completeness checklist.
+**Evidence: Weak.** Derived from practitioner observation of roughly 100 change
+efforts, with no control group, no published method, and no subsequent test of
+the model as a whole. Individual steps have independent support — short-term
+wins map onto goal setting and progress research, and removing barriers maps
+onto force field logic — but the sequence, the count, and the causal claims are
+assertions. Use it as a completeness checklist.
 
 Use when: leading a large, top-down, organization-wide change with executive
 sponsorship.
 
 Do not use when: the change is local, emergent, or bottom-up, or when the
 organization is in the Complex domain and the answer is genuinely unknown. See
-[cynefin-framework](cynefin-framework.md).
+[cynefin-framework](../cynefin-framework/).
 
 
 ## The eight steps
 
-1. **Create a sense of urgency.** Not anxiety, and not a manufactured crisis —
-   a genuine, evidenced case that the status quo is riskier than change.
-   Kotter's claim: over half of transformations fail here.
+1. **Create a sense of urgency.** Not anxiety, and not a manufactured crisis — a
+   genuine, evidenced case that the status quo is riskier than change. Kotter's
+   claim: over half of transformations fail here.
 
 2. **Build a guiding coalition.** A group with position power, expertise,
    credibility, and leadership. Not a steering committee of delegates. If the
@@ -69,17 +69,17 @@ organization is in the Complex domain and the answer is genuinely unknown. See
   engineers themselves would brag about, not a milestone that only appears in a
   program report.
 
-* **Executive**: steps 1 and 8 are the executive's non-delegable work.
-  Urgency cannot be delegated to a communications team, and anchoring cannot be
+* **Executive**: steps 1 and 8 are the executive's non-delegable work. Urgency
+  cannot be delegated to a communications team, and anchoring cannot be
   delegated to HR — it happens through who gets promoted.
 
 
 ## Limitations
 
-* Evidence base is weak: derived from practitioner observation, rarely tested
-  as a whole. See [evidence-based-practice](evidence-based-practice.md).
+* Evidence base is weak: derived from practitioner observation, rarely tested as
+  a whole. See [evidence-based-practice](../evidence-based-practice/).
 * Strongly top-down; treats employees as an audience to be enlisted rather than
-  co-designers. Contrast [action-research](action-research.md).
+  co-designers. Contrast [action-research](../action-research/).
 * Assumes the leadership knows the right answer, which is false in complex
   domains.
 * Encourages "we did step 4" theater. The steps are outcomes, not activities:
@@ -88,7 +88,7 @@ organization is in the Complex domain and the answer is genuinely unknown. See
 
 ## See also
 
-* [lewin-change-model](lewin-change-model.md)
-* [adkar-change-management-model](adkar-change-management-model.md)
-* [beckhard-harris-change-equation](beckhard-harris-change-equation.md)
+* [lewin-change-model](../lewin-change-model/)
+* [adkar-change-management-model](../adkar-change-management-model/)
+* [beckhard-harris-change-equation](../beckhard-harris-change-equation/)
 * <https://www.kotterinc.com>

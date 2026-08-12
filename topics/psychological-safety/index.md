@@ -11,11 +11,11 @@ performance — particularly in knowledge work with high interdependence.
 
 **Evidence: Strong.** The best-evidenced construct in this collection. A large
 literature spanning three decades links it to learning behavior, error
-reporting, information sharing, innovation, and performance, with
-meta-analytic support and effects that hold across sectors including health
-care and software. Two honest caveats: most measurement is self-report, and
-the relationship with performance is strongest where work is interdependent
-and uncertain, which is precisely this guide's audience.
+reporting, information sharing, innovation, and performance, with meta-analytic
+support and effects that hold across sectors including health care and software.
+Two honest caveats: most measurement is self-report, and the relationship with
+performance is strongest where work is interdependent and uncertain, which is
+precisely this guide's audience.
 
 Use when: the work requires people to speak up, admit not knowing, or challenge
 someone more senior. That is nearly all knowledge work.
@@ -32,13 +32,13 @@ conflict-avoidant teams and gives the concept a bad name it does not deserve.
   * Low safety, low accountability → **apathy**
   * Low safety, high accountability → **anxiety**
   * High safety, low accountability → **comfort**
-  * High safety, high accountability → **learning and high performance**
-  The goal is the fourth quadrant. Safety without standards is the failure mode
-  critics attack; standards without safety is the failure mode most
-  organizations actually have.
+  * High safety, high accountability → **learning and high performance** The
+    goal is the fourth quadrant. Safety without standards is the failure mode
+    critics attack; standards without safety is the failure mode most
+    organizations actually have.
 * **Not an individual trait.** It is a property of a group, and it varies
-  sharply between teams in the same organization — which is good news, because
-  a local leader can change it without waiting for the enterprise.
+  sharply between teams in the same organization — which is good news, because a
+  local leader can change it without waiting for the enterprise.
 
 
 ## The counterintuitive finding
@@ -65,12 +65,12 @@ Edmondson's seven-item scale, rated 1–7 (items 1, 3, 5 are reverse-scored):
    and utilized.
 
 Report at team level only, with a minimum response threshold. Individual-level
-reporting destroys the thing being measured. See [od-ethics](od-ethics.md).
+reporting destroys the thing being measured. See [od-ethics](../od-ethics/).
 
 Behavioral indicators, which are harder to fake than a survey:
 
-* Who speaks in meetings, and in what proportion. Measure it once; the result
-  is usually startling.
+* Who speaks in meetings, and in what proportion. Measure it once; the result is
+  usually startling.
 * Whether anyone asks a basic question in front of senior people.
 * Time between a problem being known by someone and being known by the team.
 * Whether "I don't know" and "I was wrong" are ever said by senior people.
@@ -80,13 +80,13 @@ Behavioral indicators, which are harder to fake than a survey:
 
 Edmondson's leader toolkit:
 
-1. **Frame the work.** Name the work as learning or as complex, not as
-   execution of a known routine. If people believe the answer is known, not
-   knowing becomes shameful.
+1. **Frame the work.** Name the work as learning or as complex, not as execution
+   of a known routine. If people believe the answer is known, not knowing
+   becomes shameful.
 2. **Acknowledge your own fallibility.** "I may miss things — I need to hear
    from you." Specific, not ritual.
-3. **Model curiosity.** Ask real questions and wait. Silence after a question
-   is the leader's tool; filling it is the leader's most common mistake.
+3. **Model curiosity.** Ask real questions and wait. Silence after a question is
+   the leader's tool; filling it is the leader's most common mistake.
 4. **Respond productively.** The response to the first person who raises
    something uncomfortable sets the norm for everyone watching. Thank them
    specifically and visibly, and act.
@@ -103,7 +103,7 @@ destination.
   hierarchy gradient that suppresses it is the target. Structural aids —
   read-back, graded assertiveness, checklists with a designated challenge point
   — work even where the culture has not yet changed. See
-  [crew-resource-management](crew-resource-management.md).
+  [crew-resource-management](../crew-resource-management/).
 
 * **Software**: an engineer saying "I don't understand this design" in review,
   or reporting that they caused an outage within minutes rather than hours. The
@@ -124,9 +124,17 @@ destination.
   Edmondson's definition explicitly, every time.
 
 
+## Questionnaire
+
+A paired, copy-and-use instrument for this model:
+[psychological-safety-questionnaire](../psychological-safety-questionnaire/). It
+carries Edmondson's seven-item scale, the safety-and-accountability grid, and a
+set of behavioral indicators that are harder to fake than a survey.
+
+
 ## See also
 
-* [westrum-organizational-culture-typology](westrum-organizational-culture-typology.md)
-* [just-culture](just-culture.md)
-* [google-project-aristotle](google-project-aristotle.md)
+* [westrum-organizational-culture-typology](../westrum-organizational-culture-typology/)
+* [just-culture](../just-culture/)
+* [google-project-aristotle](../google-project-aristotle/)
 * Amy Edmondson, *The Fearless Organization*.

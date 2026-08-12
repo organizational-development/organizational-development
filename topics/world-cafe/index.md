@@ -11,9 +11,9 @@ decoration.
 **Evidence: Weak.** No controlled evidence. The small-group-then-rotate
 structure has a plausible mechanism, since small groups reliably increase the
 proportion of people who speak, and that specific effect is supported by group
-dynamics research. Everything else — the number of rounds, the table hosts,
-the tablecloths — is convention. The value is almost entirely in question
-design and harvesting, neither of which the method itself guarantees.
+dynamics research. Everything else — the number of rounds, the table hosts, the
+tablecloths — is convention. The value is almost entirely in question design and
+harvesting, neither of which the method itself guarantees.
 
 Use when: you want broad input and shared understanding across a large group;
 when you want people to hear each other rather than hear a presenter.
@@ -29,8 +29,8 @@ World café generates collective insight, not commitments.
 * Paper tablecloths and pens. Writing and drawing while talking is part of the
   method, not a nicety — the artifacts carry ideas between rounds.
 * Three rounds of 20–30 minutes, each on a question that builds on the last.
-* Between rounds, all but one person move to different tables. The **table host**
-  stays, welcomes new arrivals, and summarizes what was discussed.
+* Between rounds, all but one person move to different tables. The **table
+  host** stays, welcomes new arrivals, and summarizes what was discussed.
 * A closing **harvest**: whole-group sharing of what emerged, captured visibly.
 
 
@@ -111,7 +111,7 @@ If nobody can say what happens next, do not run the café.
 
 ## See also
 
-* [open-space-technology](open-space-technology.md)
-* [appreciative-inquiry](appreciative-inquiry.md)
-* [future-search](future-search.md)
+* [open-space-technology](../open-space-technology/)
+* [appreciative-inquiry](../appreciative-inquiry/)
+* [future-search](../future-search/)
 * <https://theworldcafe.com>

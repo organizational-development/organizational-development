@@ -1,20 +1,20 @@
 # Open space technology
 
 Harrison Owen's open space technology (OST) is a large-group method with no
-pre-set agenda. Participants create the agenda themselves in the opening session,
-then self-organize into concurrent sessions.
+pre-set agenda. Participants create the agenda themselves in the opening
+session, then self-organize into concurrent sessions.
 
 Owen's origin story: after organizing a conference, he noticed the coffee breaks
 were the most valuable part. Open space is a conference designed as a coffee
 break with a purpose.
 
-**Evidence: Weak.** Practice-based, with no controlled evidence and no
-accepted outcome measure. Its four principles and the law of two feet are
-design conventions, not findings. The self-selection mechanism has a
-defensible rationale — every session contains only people who chose to be
-there — but this has not been tested against facilitated alternatives. Its
-documented failure mode is well attested: good day, no change, when
-convergence to action is skipped.
+**Evidence: Weak.** Practice-based, with no controlled evidence and no accepted
+outcome measure. Its four principles and the law of two feet are design
+conventions, not findings. The self-selection mechanism has a defensible
+rationale — every session contains only people who chose to be there — but this
+has not been tested against facilitated alternatives. Its documented failure
+mode is well attested: good day, no change, when convergence to action is
+skipped.
 
 Use when: the issue is complex, opinions are diverse, there is genuine urgency,
 the answer is not known, and no single person can control the outcome. Owen's
@@ -74,8 +74,8 @@ Two roles follow:
 * **A real question with a real stake.** People must care.
 * **Genuine openness.** Leadership must accept topics they did not choose,
   including uncomfortable ones. Their willingness is tested within ten minutes.
-* **Leadership present as participant, not as chair.** An executive who opens the
-  space and then leaves has communicated exactly what the event is worth.
+* **Leadership present as participant, not as chair.** An executive who opens
+  the space and then leaves has communicated exactly what the event is worth.
 * **A route to action.** Without a convergence step and named owners, open space
   produces a good day and no change — its most common failure.
 
@@ -110,7 +110,7 @@ Two roles follow:
 
 ## See also
 
-* [world-cafe](world-cafe.md)
-* [future-search](future-search.md)
-* [appreciative-inquiry](appreciative-inquiry.md)
+* [world-cafe](../world-cafe/)
+* [future-search](../future-search/)
+* [appreciative-inquiry](../appreciative-inquiry/)
 * <https://openspaceworld.org>

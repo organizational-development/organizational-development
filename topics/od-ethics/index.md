@@ -13,8 +13,18 @@ to resolve them cleanly.
 **Evidence: Normative, not empirical.** These are value commitments, and they
 should be argued rather than measured. Two of the specific claims here do have
 empirical support: surveying without acting lowers trust below the pre-survey
-baseline, and demographic cuts on small groups re-identify respondents. The
-rest is professional ethics.
+baseline, and demographic cuts on small groups re-identify respondents. The rest
+is professional ethics.
+
+Use when: at entry to every engagement, before collecting any data, and again
+whenever a finding implicates the person paying for the work. Also whenever you
+are asked to survey, to map a network, or to report anything at individual
+level.
+
+Do not use when: never. These are standing obligations rather than a technique
+to be selected. The one thing to avoid is treating this file as a checklist to
+be completed once and filed; the conflicts it describes recur throughout an
+engagement.
 
 
 ## Core values of the tradition
@@ -23,15 +33,16 @@ rest is professional ethics.
 * **Participation**: those affected help shape the change.
 * **Transparency**: data is fed back to those it came from.
 * **Client self-sufficiency**: the goal is a system that no longer needs you.
-* **Whole-system view**: an improvement that exports harm to another unit is
-  not an improvement.
+* **Whole-system view**: an improvement that exports harm to another unit is not
+  an improvement.
 
 
 ## The standing conflicts
 
 * **Who is the client?** The sponsor pays; the workforce is affected. When
   findings implicate the sponsor, the contract you made at entry is the only
-  thing protecting the work. See [entry-and-contracting](entry-and-contracting.md).
+  thing protecting the work. See
+  [entry-and-contracting](../entry-and-contracting/).
 
 * **Consent under power asymmetry.** An employee invited to a "voluntary"
   session by their own director has not freely consented. Design for genuine
@@ -64,8 +75,8 @@ rest is professional ethics.
 * Collect the minimum necessary.
 * Separate identifiers from responses as early as possible.
 * State retention periods and delete on schedule.
-* Know the regime that applies: GDPR and UK GDPR for personal data, HIPAA for
-  US protected health information, plus local works council and union agreements
+* Know the regime that applies: GDPR and UK GDPR for personal data, HIPAA for US
+  protected health information, plus local works council and union agreements
   which may require consultation before a survey runs.
 * Never feed employee free-text comments into an external tool without checking
   the data-processing terms.
@@ -79,7 +90,7 @@ rest is professional ethics.
 
 * **Software**: developer productivity telemetry becomes surveillance the moment
   it is reported per-person. Report at team level and above; say so publicly.
-  See [dora-metrics](dora-metrics.md), [space-framework](space-framework.md).
+  See [dora-metrics](../dora-metrics/), [space-framework](../space-framework/).
 
 * **Executive**: the ethical test for a leadership team is whether it will hear
   a diagnosis that implicates itself. Contract for that outcome explicitly, and
@@ -95,7 +106,9 @@ to change — usually the contract.
 
 ## See also
 
-* [entry-and-contracting](entry-and-contracting.md)
-* [survey-feedback-method](survey-feedback-method.md)
-* [employee-engagement-surveys](employee-engagement-surveys.md)
-* [just-culture](just-culture.md)
+* [entry-and-contracting](../entry-and-contracting/)
+* [survey-feedback-method](../survey-feedback-method/)
+* [employee-engagement-surveys](../employee-engagement-surveys/)
+* [just-culture](../just-culture/)
+* [discredited-instruments](../discredited-instruments/) — consequential
+  decisions made from invalid data.

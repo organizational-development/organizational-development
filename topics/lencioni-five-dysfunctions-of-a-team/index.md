@@ -5,13 +5,13 @@ of five stacked dysfunctions, each enabling the one above it. It is widely used
 with leadership teams because it is memorable and it names the avoidance
 patterns executives recognize in themselves.
 
-**Evidence: Weak.** A business fable, not research: no validation, no sample,
-no measurement. It remains popular because executives recognize themselves in
-it, which is a fact about resonance rather than about accuracy. Its first
-level overlaps heavily with [psychological-safety](psychological-safety.md),
-which covers similar ground with far better evidence, and the commitment
-principle — people commit to decisions they disagree with if they were
-genuinely heard — is consistent with procedural justice research.
+**Evidence: Weak.** A business fable, not research: no validation, no sample, no
+measurement. It remains popular because executives recognize themselves in it,
+which is a fact about resonance rather than about accuracy. Its first level
+overlaps heavily with [psychological-safety](../psychological-safety/), which
+covers similar ground with far better evidence, and the commitment principle —
+people commit to decisions they disagree with if they were genuinely heard — is
+consistent with procedural justice research.
 
 Use when: working with an intact leadership team that is polite, busy, and not
 achieving much together.
@@ -88,18 +88,18 @@ targets, and exhortation — fails when the cause is three levels below. Ask:
 ## Limitations
 
 * No empirical validation; a business fable, not research. See
-  [evidence-based-practice](evidence-based-practice.md).
-* Overlaps heavily with [psychological-safety](psychological-safety.md), which
+  [evidence-based-practice](../evidence-based-practice/).
+* Overlaps heavily with [psychological-safety](../psychological-safety/), which
   has far better evidence for the same first level.
 * Assumes a real team with genuine interdependence. Applying it to a group that
   merely reports to the same person produces frustration.
 * The vulnerability exercises can be intrusive and coercive if run badly,
   particularly where there is a real power gradient in the room. Participation
-  must be genuinely optional. See [od-ethics](od-ethics.md).
+  must be genuinely optional. See [od-ethics](../od-ethics/).
 
 
 ## See also
 
-* [psychological-safety](psychological-safety.md)
-* [drexler-sibbet-team-performance-model](drexler-sibbet-team-performance-model.md)
-* [thomas-kilmann-conflict-modes](thomas-kilmann-conflict-modes.md)
+* [psychological-safety](../psychological-safety/)
+* [drexler-sibbet-team-performance-model](../drexler-sibbet-team-performance-model/)
+* [thomas-kilmann-conflict-modes](../thomas-kilmann-conflict-modes/)

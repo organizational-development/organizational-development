@@ -11,16 +11,16 @@ optimization**.
 
 **Evidence: Moderate to good.** The original coal mining studies were
 case-based, but the core claim has accumulated wide support: technology
-implementations that ignore social arrangements underperform, and this is one
-of the most consistent findings in the information systems and health
-informatics literature. The work design principles overlap with the strongly
-supported [job-characteristics-model](job-characteristics-model.md).
+implementations that ignore social arrangements underperform, and this is one of
+the most consistent findings in the information systems and health informatics
+literature. The work design principles overlap with the strongly supported
+[job-characteristics-model](../job-characteristics-model/).
 
 Use when: introducing new technology, redesigning work, or explaining why a
 technically excellent system produced worse outcomes.
 
-Do not use when: the change is purely social with no technical component,
-though this is rarer than it looks.
+Do not use when: the change is purely social with no technical component, though
+this is rarer than it looks.
 
 
 ## Core principles
@@ -57,7 +57,7 @@ predictably.
 * **Software**: a new deployment platform that centralizes control raises
   technical consistency and lowers team autonomy. If teams previously absorbed
   variance locally, the central team becomes a queue. See
-  [team-topologies](team-topologies.md), [conways-law](conways-law.md).
+  [team-topologies](../team-topologies/), [conways-law](../conways-law/).
 
 * **Executive**: enterprise resource planning and shared service centers are
   sociotechnical decisions presented as cost decisions. The social cost — loss
@@ -84,7 +84,7 @@ predictably.
 
 ## See also
 
-* [systems-thinking](systems-thinking.md)
-* [job-characteristics-model](job-characteristics-model.md)
-* [team-topologies](team-topologies.md)
+* [systems-thinking](../systems-thinking/)
+* [job-characteristics-model](../job-characteristics-model/)
+* [team-topologies](../team-topologies/)
 * Trist & Bamforth (1951); Cherns, "The Principles of Sociotechnical Design".

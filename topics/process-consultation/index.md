@@ -10,13 +10,13 @@ The consultant's expertise is in **process** — how work is done, how people
 interact, how decisions are made — not in content. The client keeps ownership of
 the problem.
 
-**Evidence: Weak as research, strong as practitioner consensus.** No
-controlled evidence that the process consultation stance outperforms expert or
-doctor-patient consulting. It is endorsed near-universally in the OD
-literature, and its central claim — that solutions the client owns survive
-longer than solutions delivered to them — is consistent with the participation
-and internalized motivation literatures. Treat it as a well-argued
-professional stance rather than a demonstrated method.
+**Evidence: Weak as research, strong as practitioner consensus.** No controlled
+evidence that the process consultation stance outperforms expert or
+doctor-patient consulting. It is endorsed near-universally in the OD literature,
+and its central claim — that solutions the client owns survive longer than
+solutions delivered to them — is consistent with the participation and
+internalized motivation literatures. Treat it as a well-argued professional
+stance rather than a demonstrated method.
 
 Use when: the client's diagnosis may be wrong; when the solution must be owned
 locally; when previous expert recommendations were accepted and not implemented.
@@ -77,8 +77,8 @@ Four kinds of question, in descending order of usefulness for this stance:
 * **Confrontational inquiry**: inserting your own idea as a question. "Could it
   be that the deadline is the problem?" Useful, but it is your content now.
 * **Process-oriented inquiry**: turning attention to the interaction itself.
-  "What's happening between us right now?" The most powerful and the most
-  easily mistimed.
+  "What's happening between us right now?" The most powerful and the most easily
+  mistimed.
 
 
 ## Group process observation
@@ -120,13 +120,13 @@ often the entire intervention.
 * Requires the practitioner to tolerate not being the expert, which is
   professionally uncomfortable.
 * Contract for it explicitly at entry, or you will be pulled into the doctor
-  role by week three. See [entry-and-contracting](entry-and-contracting.md).
+  role by week three. See [entry-and-contracting](../entry-and-contracting/).
 
 
 ## See also
 
-* [entry-and-contracting](entry-and-contracting.md)
-* [double-loop-learning](double-loop-learning.md)
-* [action-research](action-research.md)
+* [entry-and-contracting](../entry-and-contracting/)
+* [double-loop-learning](../double-loop-learning/)
+* [action-research](../action-research/)
 * Schein, *Process Consultation Revisited*; *Humble Inquiry*.
 * <https://github.com/joelparkerhenderson/powerful-questions>

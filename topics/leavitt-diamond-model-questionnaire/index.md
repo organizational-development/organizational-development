@@ -10,7 +10,7 @@ a warning**, not a good result. You are looking for large unplanned effects.
 
 Budget thirty minutes. This is a checklist, not a diagnostic.
 
-See [leavitt-diamond-model](leavitt-diamond-model.md).
+See [leavitt-diamond-model](../leavitt-diamond-model/).
 
 **Evidence: Weak.** A conceptual heuristic from 1965, never validated. Use it to
 surface consequences nobody has thought about, then use a real diagnostic.
@@ -128,14 +128,16 @@ examine those three.
 * **High People-identity scores predict resistance that will be misread.** Loss
   of status, competence, or professional identity produces objections that get
   described as "resistance to change" and are actually accurate reports of a
-  real cost. See [bridges-transition-model](bridges-transition-model.md).
+  real cost. See [bridges-transition-model](../bridges-transition-model/).
 
-* **High Structure-authority scores mean this is a power change**, whatever it is
-  being called. Power changes announced as tooling changes are detected quickly
-  and resented durably.
+* **High Structure-authority scores mean this is a power change**, whatever it
+  is being called. Power changes announced as tooling changes are detected
+  quickly and resented durably.
 
 * **This model has no environment term.** It will tell you nothing about whether
   the change is right, only about what else it will move. Pair it with a real
-  diagnostic: [nadler-tushman-congruence-model-questionnaire](nadler-tushman-congruence-model-questionnaire.md)
-  for fit, or [galbraith-star-model-questionnaire](galbraith-star-model-questionnaire.md)
+  diagnostic:
+  [nadler-tushman-congruence-model-questionnaire](../nadler-tushman-congruence-model-questionnaire/)
+  for fit, or
+  [galbraith-star-model-questionnaire](../galbraith-star-model-questionnaire/)
   for structural decisions.

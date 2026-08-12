@@ -84,11 +84,11 @@ resisting; they have no capacity.
 ## Questionnaire
 
 A paired, copy-and-use diagnostic instrument for this model:
-[force-field-analysis-questionnaire](force-field-analysis-questionnaire.md).
+[force-field-analysis-questionnaire](../force-field-analysis-questionnaire/).
 
 
 ## See also
 
-* [lewin-change-model](lewin-change-model.md)
-* [beckhard-harris-change-equation](beckhard-harris-change-equation.md)
-* [immunity-to-change](immunity-to-change.md) — the individual-level analogue.
+* [lewin-change-model](../lewin-change-model/)
+* [beckhard-harris-change-equation](../beckhard-harris-change-equation/)
+* [immunity-to-change](../immunity-to-change/) — the individual-level analogue.

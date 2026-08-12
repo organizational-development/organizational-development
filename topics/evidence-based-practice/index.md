@@ -7,9 +7,9 @@ of evidence, none of which is sufficient alone.
 **Evidence: Not a model — a method for weighing evidence.** The underlying
 claim, that combining research, organizational data, stakeholder input, and
 checked judgment beats intuition alone, is supported by decision research on
-clinical and managerial judgment, where structured methods routinely
-outperform unaided expert prediction. The six-step process itself is a
-procedural convention borrowed from evidence-based medicine.
+clinical and managerial judgment, where structured methods routinely outperform
+unaided expert prediction. The six-step process itself is a procedural
+convention borrowed from evidence-based medicine.
 
 Use when: choosing between competing interventions, or challenging a popular
 practice that a sponsor has already decided on.
@@ -72,8 +72,8 @@ outcomes from it.
 * Distinguish "no evidence of effect" from "evidence of no effect".
 * Beware the consultant's citation chain: a claim repeated in ten blog posts
   that all cite each other is one claim, not ten.
-* Beware benchmark envy: "Google does it" is not evidence that it will work at
-  a 200-bed district hospital.
+* Beware benchmark envy: "Google does it" is not evidence that it will work at a
+  200-bed district hospital.
 
 
 ## Examples by audience
@@ -92,7 +92,9 @@ outcomes from it.
 
 ## See also
 
-* [measurement-and-metrics](measurement-and-metrics.md)
-* [action-research](action-research.md)
+* [measurement-and-metrics](../measurement-and-metrics/)
+* [discredited-instruments](../discredited-instruments/) — the tools this
+  discipline rules out, and what to use instead.
+* [action-research](../action-research/)
 * Barends & Rousseau, *Evidence-Based Management*.
 * <https://cebma.org>

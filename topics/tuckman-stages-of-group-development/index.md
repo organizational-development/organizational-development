@@ -5,12 +5,12 @@ Bruce Tuckman's 1965 model: **forming, storming, norming, performing**, with
 existence and one of the least empirically supported.
 
 **Evidence: Weak.** A 1965 literature review of roughly 50 studies, mostly of
-therapy and training groups rather than work teams. Later research does not
-find that teams reliably pass through these stages in this order; Gersick's
+therapy and training groups rather than work teams. Later research does not find
+that teams reliably pass through these stages in this order; Gersick's
 punctuated equilibrium work suggests a quite different pattern, with an abrupt
-transition near the temporal midpoint. The model also assumes stable
-membership, which most modern teams do not have. One message survives: early
-conflict in a new team is normal.
+transition near the temporal midpoint. The model also assumes stable membership,
+which most modern teams do not have. One message survives: early conflict in a
+new team is normal.
 
 Use when: normalizing early team conflict so a new team does not conclude it is
 broken; giving a leader vocabulary for what to expect.
@@ -39,7 +39,7 @@ weight.
 
 5. **Adjourning** (or *mourning*): disbanding. Real loss for high-performing
    teams, and routinely unmanaged. See
-   [bridges-transition-model](bridges-transition-model.md).
+   [bridges-transition-model](../bridges-transition-model/).
 
 
 ## The evidence problem
@@ -53,7 +53,7 @@ weight.
 * Modern teams rarely have the stable membership the model assumes; people join
   and leave continuously, and "the team" is a moving object.
 
-Evidence: weak. See [evidence-based-practice](evidence-based-practice.md).
+Evidence: weak. See [evidence-based-practice](../evidence-based-practice/).
 
 
 ## What to use it for anyway
@@ -64,13 +64,13 @@ damage, and it is worth the model's continued use.
 
 Beyond that, prefer models with better support:
 
-* [psychological-safety](psychological-safety.md) — what actually predicts team
+* [psychological-safety](../psychological-safety/) — what actually predicts team
   learning.
-* [google-project-aristotle](google-project-aristotle.md) — what predicted
+* [google-project-aristotle](../google-project-aristotle/) — what predicted
   effectiveness in a large sample.
-* [drexler-sibbet-team-performance-model](drexler-sibbet-team-performance-model.md)
+* [drexler-sibbet-team-performance-model](../drexler-sibbet-team-performance-model/)
   — more actionable, question-based, and diagnostic.
-* [lencioni-five-dysfunctions-of-a-team](lencioni-five-dysfunctions-of-a-team.md)
+* [lencioni-five-dysfunctions-of-a-team](../lencioni-five-dysfunctions-of-a-team/)
   — also weakly evidenced, but more directly prescriptive.
 
 
@@ -104,5 +104,5 @@ Rather than waiting for stages, run a chartering session in week one:
 
 ## See also
 
-* [drexler-sibbet-team-performance-model](drexler-sibbet-team-performance-model.md)
-* [psychological-safety](psychological-safety.md)
+* [drexler-sibbet-team-performance-model](../drexler-sibbet-team-performance-model/)
+* [psychological-safety](../psychological-safety/)
