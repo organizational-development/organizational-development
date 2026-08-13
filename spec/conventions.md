@@ -318,26 +318,29 @@ reader must be able to act without following a single link.
 
 Run `bin/audit` before committing. It checks:
 
-1. Every `topics/*/` contains `index.md` and a `README.md` symlink to it.
-2. Every topic `index.md` has exactly one `# ` heading.
-3. Every model topic has an `**Evidence:` label with a permitted strength value.
-4. Every model topic has `Use when:` and `Do not use when:`.
-5. Every diagnostic model has a paired `-questionnaire` topic, a
-   `## Questionnaire` section, and a link back from the questionnaire.
-6. No broken internal links: every `../<topic>/` resolves, every
-   `topics/<topic>/` resolves, every `spec/<file>.md` resolves.
-7. No legacy bare `.md` sibling links.
-8. Every `(#anchor)` in `README.md` resolves to a heading.
-9. Agent files are under 40 KB.
-10. `topics/index.md` lists every topic.
-11. Required top-level files exist.
-12. Stated model counts match the actual number of model topics.
-13. Every model topic has all three audience examples.
-14. No orphan topics: every topic is linked from at least one sibling.
-15. Prose is wrapped at 80 columns.
+1. Topic directory structure.
+2. Exactly one level-one heading per topic.
+3. Evidence labels present and using a permitted strength value.
+4. Model topics declare Use when and Do not use when.
+5. Diagnostic models paired with questionnaires, both directions.
+6. Cross-topic links resolve.
+7. No legacy bare .md sibling links.
+8. README links resolve.
+9. README anchors resolve to headings.
+10. Agent files under 40 KB.
+11. topics/index.md lists every topic.
+12. Required top-level files present.
+13. Stated model count matches reality.
+14. Model topics carry all three audience examples.
+15. Every topic is linked from at least one sibling.
+16. Prose wrapped at 80 columns.
+17. Validation list in conventions.md matches these checks.
 
 The script exits non-zero on any violation and prints the offending file.
 
+**This list must stay 1:1 with the `section` calls in `bin/audit`.** Check 17
+enforces that: adding a check without documenting it here fails the audit, and
+so does documenting one that does not exist.
 
 ## Definition of done
 

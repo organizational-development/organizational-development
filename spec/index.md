@@ -66,9 +66,9 @@ Decisions confirmed with the repository owner:
   lead-ins, heavy linking, `See ...` references — but with enough explanation,
   tables, and worked examples that the guide teaches rather than merely indexes.
 
-* **Conventions**: kebab-case filenames; one topic per file; each spec file
-  carries a short definition, an origin, the model content, a "When to use /
-  when not to use" pair, limitations, and sources.
+* **Conventions**: kebab-case filenames; one topic per directory; each topic
+  file carries a short definition, an origin, the model content, a "When to use
+  / when not to use" pair, limitations, and sources.
 
 * **Evidence labelling**: every model, framework, method, and system file
   carries a `**Evidence: <strength>.**` block placed immediately before the "Use
@@ -83,7 +83,7 @@ Decisions confirmed with the repository owner:
   non-empirical.
 
 * **Questionnaire pairing**: every diagnostic model has a paired
-  `<model>-questionnaire.md` operational instrument, cross-linked from a
+  `topics/<model>-questionnaire/` operational instrument, cross-linked from a
   `## Questionnaire` section in the model file. Questionnaires use a 1–5 rating
   scale, numbered steps, and a closing analysis step that says how to read the
   scores, following the two original questionnaire files.
@@ -114,7 +114,7 @@ descriptive, which is what "single source of truth" requires in practice:
 
 * **[conventions.md](conventions.md)** states every rule once. Other files link
   to it instead of restating it, so there is nothing to drift.
-* **`bin/audit`** turns the rules into 16 mechanical checks that exit non-zero.
+* **`bin/audit`** turns the rules into 17 mechanical checks that exit non-zero.
   A convention nothing enforces decays; this one now fails loudly.
 * **[../AGENTS.md](../AGENTS.md) and [../AGENTS/](../AGENTS/)** give agents the
   procedure without duplicating the rules. `CLAUDE.md` holds no content of its
@@ -260,11 +260,11 @@ Current counts, as verified by `bin/audit`:
 
 Families, in the order used by `topics/index.md` and by the guide:
 
-1. Foundations, process, and ethics — 9 topics
+1. Foundations, process, and ethics — 10 topics
 2. Diagnostic models — 14 topics, each with a questionnaire
 3. Change models — 13 topics
-4. Culture models — 5 topics
-5. Team and individual models — 16 topics
+4. Culture models — 5 topics, one with a questionnaire
+5. Team and individual models — 19 topics, one with a questionnaire
 6. Facilitation and large-group methods — 6 topics
 7. Measurement — 5 topics
 
@@ -292,7 +292,7 @@ departure.
       `../<topic>/` and `topics/<topic>/` directory forms.
 * [x] Write `spec/conventions.md` as the single source of truth, and make every
       other file defer to it rather than restate it.
-* [x] Write `bin/audit` to enforce the conventions mechanically; 16 checks,
+* [x] Write `bin/audit` to enforce the conventions mechanically; 17 checks,
       run in CI on push and pull request.
 * [x] Write `AGENTS.md`, `CLAUDE.md`, and the five `AGENTS/` playbooks, each
       under the 40 KB budget.
@@ -353,6 +353,31 @@ departure.
         convention decays.
       * Checks 14, 15, and 16 added so none of these can recur. `spec/ideas.md`
         is exempt from wrapping as raw pre-synthesis notes.
+* [x] Merge conflict resolution, 2026-08-13. An interactive rebase replaying
+      `fcc650c` onto `23a161d` — two versions of the same "Add topics" work —
+      left 93 conflicts across 84 files. `git status` reported "all conflicts
+      fixed" with zero unmerged paths, because the files had been staged with
+      the markers still in them. Resolved by taking the incoming side, after
+      verifying word-by-word that it was a superset: the six files where the
+      HEAD side had unique words were all deliberate renames, rewrites, and
+      count updates. Verified afterwards by audit, link check, and spot checks
+      that no content was lost.
+* [x] Accuracy pass, 2026-08-13. Scanned every stated number against ground
+      truth and found five drifts, all introduced by earlier work in this
+      sequence:
+      * `README.md` claimed `bin/audit` had 11 checks; it had 16.
+      * `spec/index.md` said "84 topics" after the count reached 88.
+      * Two family counts here were stale: foundations 9 → 10, team and
+        individual 16 → 19.
+      * The validation list in `conventions.md` documented 15 checks against 16
+        in the script, having silently collapsed two link checks into one.
+      * Two references still used the pre-`topics/` naming: "each spec file" and
+        `<model>-questionnaire.md`.
+      Check 17 was added in response to the fourth: it compares the documented
+      check list against the `section` calls in `bin/audit`, item by item, so
+      the conventions file cannot describe a script that does not exist. This
+      makes the single-source-of-truth claim enforceable rather than
+      aspirational for the one file whose whole purpose is to be that source.
 * [ ] Optional: periodic evidence review. Ratings age. Record the date and
       outcome of each review pass here rather than in a commit message. No
       ratings review has been run; the labels date from 2026-08-12.
@@ -420,7 +445,7 @@ Recorded here rather than acted on, so the owner can choose.
 
 10. **Consider a `topics/<name>/examples/` convention** for topics that
     accumulate more worked material than fits in one file — the pattern used in
-    the maturity-models repository. Not needed yet at 84 topics, and worth
+    the maturity-models repository. Not needed yet at 88 topics, and worth
     deciding before it is.
 
 

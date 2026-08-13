@@ -100,12 +100,13 @@ bin/audit           # full report
 bin/audit --quiet   # failures only; use in CI
 ```
 
-Sixteen checks: directory structure, single title per topic, evidence labels
+Seventeen checks: directory structure, single title per topic, evidence labels
 and their permitted values, `Use when` and `Do not use when`, questionnaire
 pairing in both directions, cross-topic links, absence of legacy links, README
 links, README anchors, agent file size, topic index completeness, presence of
 the required top-level files, currency of the stated model count, all three
-audience examples, absence of orphan topics, and 80-column prose wrapping.
+audience examples, absence of orphan topics, 80-column prose wrapping, and
+agreement between this list and the check list in `spec/conventions.md`.
 
 **Run it before every commit.** If a check disagrees with `spec/conventions.md`,
 the check is the bug — fix the script, not the content.

@@ -718,7 +718,7 @@ quarter? If the honest answer is "it stops", the work is not finished.
 
 ### Choosing a diagnostic framework
 
-You do not need twelve models. You need to pick one in five minutes.
+You do not need all fourteen. You need to pick one in five minutes.
 
 | If you need to… | Use | Time |
 | --- | --- | --- |
@@ -4029,7 +4029,7 @@ copy-and-use instrument, marked `Q` below.
 | [spec/conventions.md](spec/conventions.md) | Single source of truth for how the repository is built. |
 | [AGENTS.md](AGENTS.md) | Operational guidance for coding agents. |
 | [AGENTS/](AGENTS/) | Task playbooks: adding topics, questionnaires, evidence labels, style, audit. |
-| `bin/audit` | Validation; 11 checks; exits non-zero on any violation. |
+| `bin/audit` | Validation; 17 checks; exits non-zero on any violation. |
 
 Each topic directory holds `index.md` with `README.md` symlinked to it, so that
 opening the directory on GitHub renders the content.

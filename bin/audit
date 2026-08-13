@@ -245,6 +245,38 @@ for f in $(find topics -name index.md) README.md CONTRIBUTING.md AGENTS.md \
 done
 [ "$FAIL" -eq "$before" ] && pass
 
+# --------------------------------------------------- 17. self-documentation
+# The conventions file is the single source of truth, so its validation list
+# must describe exactly the checks that exist here — no more, no fewer.
+section "17. Validation list in conventions.md matches these checks"
+before=$FAIL
+conv="spec/conventions.md"
+if [ ! -f "$conv" ]; then
+  fail "$conv is missing"
+else
+  documented=$(sed -n '/^## Validation$/,/^## Definition of done$/p' "$conv" |
+               grep -c '^[0-9][0-9]*\. ')
+  actual=$(grep -c '^section "' "$0")
+  if [ "$documented" -ne "$actual" ]; then
+    fail "$conv documents $documented checks; bin/audit defines $actual"
+  else
+    # Compare each numbered line against the matching section title.
+    i=0
+    grep '^section "' "$0" | sed 's/^section "//; s/"$//' |
+      sed 's/^[0-9]*\. //' > /tmp/audit_titles.$$
+    sed -n '/^## Validation$/,/^## Definition of done$/p' "$conv" |
+      grep '^[0-9][0-9]*\. ' | sed 's/^[0-9]*\. //; s/\.$//' > /tmp/audit_doc.$$
+    while IFS= read -r title; do
+      i=$((i + 1))
+      doc=$(sed -n "${i}p" /tmp/audit_doc.$$)
+      [ "$doc" = "$title" ] ||
+        fail "$conv item $i is \"$doc\"; bin/audit check $i is \"$title\""
+    done < /tmp/audit_titles.$$
+    rm -f /tmp/audit_titles.$$ /tmp/audit_doc.$$
+  fi
+fi
+[ "$FAIL" -eq "$before" ] && pass
+
 # ---------------------------------------------------------------------- report
 printf '\n'
 if [ "$FAIL" -eq 0 ]; then
