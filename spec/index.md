@@ -437,9 +437,47 @@ departure.
       website](#downstream-the-website), with the three couplings that break it
       quietly: heading text is a URL, families come from `topics/index.md`, and
       the evidence strength value is parsed rather than merely displayed.
-* [ ] Optional: periodic evidence review. Ratings age. Record the date and
-      outcome of each review pass here rather than in a commit message. No
-      ratings review has been run; the labels date from 2026-08-12.
+* [x] Evidence review pass 1, 2026-08-13. First review of the 72 labels since
+      they were written on 2026-08-12. Method: read every label and its
+      justification; check each questionnaire against the model it
+      operationalizes; check the `README.md` evidence summary table against the
+      topic files; then check the most specific empirical claims, and the
+      ratings most likely to have moved, against current literature.
+      Findings:
+      * **Verified and unchanged.** The summary table agrees with every topic
+        label. All 16 questionnaires carry their model's rating. The after
+        action review claim of a 20 to 25 percent performance improvement
+        matches the debrief meta-analysis it comes from. Learning styles remain
+        refuted. The DORA speed-and-stability finding was reconfirmed in the
+        2025 report.
+      * **One rating changed.** `competing-values-framework` moved from
+        `Moderate to good` to `Moderate as a vocabulary, mixed as an
+        instrument`. The old label praised the OCAI's psychometrics without
+        mentioning that the standard form is ipsative — respondents divide 100
+        points across four types — which manufactures negative correlations
+        between scales and makes factor analysis and cross-unit comparison
+        unsound. This collection already downgrades the TKI for exactly that
+        property, so the old rating was internally inconsistent as well as
+        generous. Validation work with Likert adaptations has also found the
+        diagonal types positively correlated where the framework predicts
+        opposition, which challenges the "competing" premise itself.
+      * **One topic was out of date on fact rather than rating.**
+        `dora-metrics` described four metrics; DORA now publishes five, grouped
+        as throughput and instability, with rework rate added and time to
+        restore service renamed to failed deployment recovery time. The AI
+        finding — higher throughput and higher instability together — is new,
+        practically important for this guide's software audience, and flagged
+        as the least settled result in that file.
+      * **One caveat added.** `psychological-safety` keeps `Strong`, which the
+        meta-analytic evidence supports, but now says that the measures have
+        multiplied faster than the construct has been pinned down, so scores
+        from different instruments are not comparable.
+      No rating was softened. The distribution is unchanged: the competing
+      values move was from one split label to another.
+* [ ] Optional: evidence review pass 2, due 2027-08. Same method. Watch in
+      particular for movement on `transformational-leadership`, where the
+      measurement critique is live, and on `dora-metrics`, where the AI results
+      rest on a small number of annual cohorts.
 * [ ] Optional: make the diagnosis one-pager in `README.md` Part 11 genuinely
       printable, and test it in a real workshop. See suggested improvement 6.
 
@@ -497,10 +535,11 @@ Recorded here rather than acted on, so the owner can choose.
    so that a gradual drift toward generosity becomes visible in the pull request
    rather than only in a careful review.
 
-9. **Schedule an evidence review.** Ratings age as research appears. An annual
-   pass over the 72 labels, recorded here with its date and outcome, would keep
-   the repository's central claim trustworthy. Not yet run; the current labels
-   date from 2026-08-12.
+9. ~~**Schedule an evidence review.**~~ **Done, and now recurring.** Ratings
+   age as research appears, so an annual pass over the 72 labels is recorded in
+   the task list with its date, method, and outcome. Pass 1 ran on 2026-08-13
+   and changed one rating, corrected one topic that had gone out of date on
+   fact rather than on evidence, and added one caveat. Pass 2 is due 2027-08.
 
 10. **Consider a `topics/<name>/examples/` convention** for topics that
     accumulate more worked material than fits in one file — the pattern used in

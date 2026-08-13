@@ -10,13 +10,22 @@ Axes:
 * **Flexibility and discretion** ↔ **Stability and control**
 * **Internal focus and integration** ↔ **External focus and differentiation**
 
-**Evidence: Moderate to good.** Among the better-evidenced culture instruments.
-The OCAI has a substantial psychometric literature and the two-dimensional
-structure has been replicated across many samples. Predictive validity is mixed:
-culture type correlates with some effectiveness measures, but the framework
-makes no causal claim that a given profile produces performance in a given
-context, and it should not be read as though it does. It measures orientation,
-not Schein's third level.
+**Evidence: Moderate as a vocabulary, mixed as an instrument.** The four types
+are a useful and widely recognized vocabulary, and the framework has a large
+psychometric literature by the standards of culture research. The instrument is
+weaker than its popularity suggests. The standard OCAI is ipsative — respondents
+divide 100 points across the four types — which forces the scores to trade off
+against one another, manufactures negative correlations between scales whatever
+the underlying culture, and makes conventional factor analysis and between-unit
+comparison unsound. That is the same objection this collection makes to the TKI;
+see [thomas-kilmann-conflict-modes](../thomas-kilmann-conflict-modes/). Likert
+adaptations behave better psychometrically, and validation work using them has
+found the diagonal types positively correlated where the framework predicts
+opposition, which is a direct challenge to the "competing" premise rather than a
+technical quibble. Predictive validity is mixed: culture type correlates with
+some effectiveness measures, and the framework makes no causal claim that a
+profile produces performance in a given context. It measures orientation, not
+Schein's third level.
 
 Use when: you need a comparable, quantified read on culture, especially to
 compare current vs. preferred, or unit vs. unit, or acquirer vs. acquired.
@@ -88,6 +97,12 @@ the conversation. Useful readings:
 ## Limitations
 
 * Four boxes flatten real complexity; most units are mixtures.
+* **The 100-point split is not innocent.** Because the four scores must sum to
+  a constant, a unit cannot come out high on everything, and a rise in one type
+  is arithmetically a fall in another. That is a property of the response
+  format, not a finding about the culture. Treat a profile as a relative
+  ranking, never as an absolute level, and do not compute correlations between
+  the four scales.
 * Self-report, and vulnerable to what respondents think is the desired answer.
 * Measures perceptions and orientation, not the underlying assumptions that
   drive behavior.

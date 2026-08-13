@@ -13,9 +13,14 @@ performance — particularly in knowledge work with high interdependence.
 literature spanning three decades links it to learning behavior, error
 reporting, information sharing, innovation, and performance, with meta-analytic
 support and effects that hold across sectors including health care and software.
-Two honest caveats: most measurement is self-report, and the relationship with
+Three honest caveats: most measurement is self-report; the relationship with
 performance is strongest where work is interdependent and uncertain, which is
-precisely this guide's audience.
+precisely this guide's audience; and the measures have multiplied faster than
+the construct has been pinned down, with recent systematic review work finding
+no consensus on what belongs inside psychological safety and what merely
+correlates with it. Use Edmondson's original seven items rather than a vendor's
+variant, and do not compare your score against one produced by a different
+instrument.
 
 Use when: the work requires people to speak up, admit not knowing, or challenge
 someone more senior. That is nearly all knowledge work.

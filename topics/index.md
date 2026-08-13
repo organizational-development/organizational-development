@@ -139,7 +139,7 @@ weakest-evidenced family in the collection.
 * [Schein model of organizational culture](schein-model-of-organizational-culture/)
   — artifacts, espoused values, underlying assumptions. *[Moderate]*
 * [Competing values framework](competing-values-framework/) — clan, adhocracy,
-  market, hierarchy. *[Moderate to good]*
+  market, hierarchy. *[Moderate as a vocabulary, mixed as an instrument]*
 * [Westrum organizational culture typology](westrum-organizational-culture-typology/)
   · [Q](westrum-organizational-culture-typology-questionnaire/) — pathological,
   bureaucratic, generative; measured by how information flows. *[Good]*

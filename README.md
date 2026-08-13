@@ -1970,6 +1970,12 @@ they want, describe all four — and that answer is the finding.
 
 **Method:** respondents divide 100 points across the four types on six
 dimensions, twice: **now** and **preferred**. The gap is the conversation.
+
+That forced split is also the instrument's main weakness. Because the four
+scores must total 100, one type can only rise if another falls, so the profile
+is a relative ranking and not a measurement of how much Clan or Market a unit
+actually has. Read it as "which of these dominates here", never as a level, and
+do not compare a unit's raw numbers against a published benchmark.
 Useful readings: leadership and frontline producing different "now" profiles
 means leadership does not know its own organization; different units with
 incompatible profiles means friction at their boundary; everyone wanting more
@@ -3006,15 +3012,23 @@ standard in clinical improvement — rather than month-on-month comparison. Alwa
 include a balancing measure; throughput improvements frequently export harm to
 readmission or to another department.
 
-**Software: DORA metrics.** Two speed, two stability, which the research found
+**Software: DORA metrics.** Throughput and instability, which the research found
 move **together** rather than in tension:
 
-1. **Deployment frequency**
-2. **Lead time for changes** — commit to production
-3. **Change failure rate**
-4. **Time to restore service**
+1. **Deployment frequency** — throughput
+2. **Change lead time** — commit to production; throughput
+3. **Failed deployment recovery time** — throughput; earlier called time to
+   restore service, and before that MTTR
+4. **Change fail rate** — instability
+5. **Rework rate** — unplanned deployments in response to an incident;
+   instability, and the most recent addition
 
 Plus **reliability** — availability and performance against user expectations.
+
+Recent reports add a caveat worth carrying into any AI rollout: AI-assisted
+development correlates with higher throughput *and* higher instability, because
+code arrives faster than review and deployment capacity can absorb it. Read a
+throughput jump against the two instability metrics before calling it a win.
 
 Why this matters to OD: the research established that **Westrum generative
 culture predicts delivery performance, and delivery performance predicts

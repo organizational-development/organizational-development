@@ -21,22 +21,43 @@ Do not use when: comparing teams against each other for performance management.
 This is the standard misuse and it destroys the metrics' value.
 
 
-## The four key metrics
+## The key metrics
 
-Two speed, two stability. The research finding is that they move **together**,
-not in tension — high performers are better at all four simultaneously,
-contradicting the assumption that speed trades against safety.
+Originally four, now five, grouped into **throughput** and **instability**. The
+research finding is that the two groups move **together**, not in tension — the
+best performers are better on both at once, contradicting the assumption that
+speed trades against safety. That result has held across annual cohorts; the
+2025 report still finds a large share of teams high on both.
+
+Throughput:
 
 1. **Deployment frequency** — how often code is deployed to production.
-2. **Lead time for changes** — from code committed to code running in
-   production.
-3. **Change failure rate** — percentage of deployments causing a degradation
-   requiring remediation.
-4. **Time to restore service** (originally MTTR) — how long to recover from a
-   failure.
+2. **Change lead time** — from code committed to code running in production.
+3. **Failed deployment recovery time** — how long to recover from a failed
+   deployment. Earlier reports called this time to restore service, and before
+   that MTTR; the rename narrows it to recovery from a *deployment* failure
+   rather than from any incident.
 
-A fifth, **reliability** (or operational performance), was added later:
-availability and performance against user expectations.
+Instability:
+
+4. **Change fail rate** — the proportion of deployments causing a degradation
+   that requires remediation.
+5. **Rework rate** — the proportion of deployments that are unplanned work in
+   response to a production incident. This is the metric added most recently,
+   and it exists because a team can hold change fail rate down while quietly
+   absorbing a rising volume of corrective deployments.
+
+**Reliability** — availability and performance against user expectations — sits
+alongside these as an operational-performance measure rather than a delivery
+one.
+
+**The AI caveat, and it is current.** Recent reports find that AI-assisted
+development correlates with higher throughput *and* higher instability at the
+same time: code arrives faster than review, testing, and deployment capacity can
+absorb it. Treat a throughput jump after an AI rollout as a reason to look
+immediately at the two instability metrics, not as a result to announce. This is
+correlational, drawn from a small number of annual cohorts, and is the least
+settled finding in the DORA collection.
 
 
 ## Why this matters to OD
