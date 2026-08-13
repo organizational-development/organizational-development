@@ -100,13 +100,14 @@ bin/audit           # full report
 bin/audit --quiet   # failures only; use in CI
 ```
 
-Seventeen checks: directory structure, single title per topic, evidence labels
+Nineteen checks: directory structure, single title per topic, evidence labels
 and their permitted values, `Use when` and `Do not use when`, questionnaire
 pairing in both directions, cross-topic links, absence of legacy links, README
 links, README anchors, agent file size, topic index completeness, presence of
 the required top-level files, currency of the stated model count, all three
-audience examples, absence of orphan topics, 80-column prose wrapping, and
-agreement between this list and the check list in `spec/conventions.md`.
+audience examples, absence of orphan topics, 80-column prose wrapping, and three
+self-documentation checks: the check list in `spec/conventions.md`, the check
+table in `AGENTS/audit.md`, and every "<n> checks" claim in prose.
 
 **Run it before every commit.** If a check disagrees with `spec/conventions.md`,
 the check is the bug — fix the script, not the content.
@@ -137,6 +138,8 @@ others:
 | Add a topic | `topics/index.md`; `README.md` see-also and probably a body section; `spec/index.md` inventory |
 | A README heading | Its anchor in the contents list, and any `(#anchor)` referencing it |
 | A convention | `spec/conventions.md` first, then `bin/audit`, then the affected files |
+| A `bin/audit` check | The list in `spec/conventions.md`; the table *and* fix entries in `AGENTS/audit.md`; the counts in this file and `CONTRIBUTING.md`. Checks 17–19 fail until all four agree |
+| A `README.md` or topic heading | Anchors here, and the published site, which turns headings into URLs — see [spec/index.md](spec/index.md#downstream-the-website) |
 
 **Do not.**
 

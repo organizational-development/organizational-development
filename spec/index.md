@@ -10,6 +10,7 @@ Contents:
 * [Decisions](#decisions)
 * [Findings](#findings)
 * [Repository layout](#repository-layout)
+  * [Downstream: the website](#downstream-the-website)
 * [Deliverable outline](#deliverable-outline)
 * [Topic inventory](#topic-inventory)
 * [Tasks](#tasks)
@@ -114,7 +115,7 @@ descriptive, which is what "single source of truth" requires in practice:
 
 * **[conventions.md](conventions.md)** states every rule once. Other files link
   to it instead of restating it, so there is nothing to drift.
-* **`bin/audit`** turns the rules into 17 mechanical checks that exit non-zero.
+* **`bin/audit`** turns the rules into 19 mechanical checks that exit non-zero.
   A convention nothing enforces decays; this one now fails loudly.
 * **[../AGENTS.md](../AGENTS.md) and [../AGENTS/](../AGENTS/)** give agents the
   procedure without duplicating the rules. `CLAUDE.md` holds no content of its
@@ -207,6 +208,7 @@ topics/<name>/README.md -> index.md
 | What a model says | Its own `topics/<name>/index.md` |
 | How an agent should work here | [../AGENTS.md](../AGENTS.md) |
 | Whether the repository is valid | `bin/audit` |
+| How the published site is built | Its own repository; see [below](#downstream-the-website) |
 
 Files that need a fact link to its canonical location rather than restating it.
 `CLAUDE.md` deliberately contains no guidance of its own; it points at
@@ -217,6 +219,36 @@ Files that need a fact link to its canonical location rather than restating it.
 **Why the symlinks.** Each topic directory has `index.md` as the real file and
 `README.md` as a symlink to it, so that GitHub renders the content when a
 visitor opens the directory, while `index.md` stays canonical for tooling.
+
+
+### Downstream: the website
+
+The guide is published at <https://organizational-development.github.io>, built
+from <https://github.com/organizational-development/organizational-development.github.io>
+with SvelteKit, the Lily Design System, and `@sveltejs/adapter-static`.
+
+**That repository vendors this one.** It holds a copy of `README.md` and of
+every `topics/<name>/index.md` under `src/content/`, refreshed by running
+`pnpm sync` there. Nothing in this repository has to change when the site
+changes, but three things here are load-bearing for it, and breaking them
+breaks the site quietly rather than loudly:
+
+* **Heading text is a URL.** The site splits `README.md` into one page per
+  `## ` part and rewrites every `#anchor` cross-reference to the page that now
+  holds it. It reproduces GitHub's slug algorithm to do so. Renaming a heading
+  moves an anchor; the site's build reports it as a `handleMissingId` warning
+  rather than failing, so it is worth reading the build output after a rename.
+* **Topic families come from `topics/index.md`.** The site's family manifest is
+  keyed to the seven families and their order. A topic added here without being
+  listed there still gets a page, but lands in an "Additional topics" bucket.
+* **The `**Evidence: <strength>.**` block is parsed, not just displayed.** The
+  site reads the leading strength value to rank the evidence table and colour
+  the badge. A new strength value needs adding in three places: this
+  repository's `conventions.md` and `bin/audit`, and the site's
+  `src/lib/content.ts`.
+
+The site is a *consumer*, not a second source of truth. When the two disagree,
+this repository wins and the site is stale — run `pnpm sync` there.
 
 ## Deliverable outline
 
@@ -292,7 +324,7 @@ departure.
       `../<topic>/` and `topics/<topic>/` directory forms.
 * [x] Write `spec/conventions.md` as the single source of truth, and make every
       other file defer to it rather than restate it.
-* [x] Write `bin/audit` to enforce the conventions mechanically; 17 checks,
+* [x] Write `bin/audit` to enforce the conventions mechanically; 19 checks,
       run in CI on push and pull request.
 * [x] Write `AGENTS.md`, `CLAUDE.md`, and the five `AGENTS/` playbooks, each
       under the 40 KB budget.
@@ -369,7 +401,7 @@ departure.
       * `spec/index.md` said "84 topics" after the count reached 88.
       * Two family counts here were stale: foundations 9 → 10, team and
         individual 16 → 19.
-      * The validation list in `conventions.md` documented 15 checks against 16
+      * The validation list in `conventions.md` had 15 checks listed against 16
         in the script, having silently collapsed two link checks into one.
       * Two references still used the pre-`topics/` naming: "each spec file" and
         `<model>-questionnaire.md`.
@@ -378,6 +410,33 @@ departure.
       the conventions file cannot describe a script that does not exist. This
       makes the single-source-of-truth claim enforceable rather than
       aspirational for the one file whose whole purpose is to be that source.
+* [x] Self-documentation audit, 2026-08-13. Checked every claim the repository
+      makes *about itself* against the tree, after two passes the same day had
+      each changed the check count. Three defects, all in the files an agent
+      reads when something has already gone wrong:
+      * **`AGENTS/audit.md` documented 11 checks against 17 in the script.**
+        Checks 12 to 17 had no table row and no fix instructions, which is the
+        worst place for a stale fact: it is the file you open *because* a check
+        just failed. Rows and fix entries written for all of them.
+      * **The documented recount command counted questionnaires.** Every stated
+        distribution is model-only — 72 files, 20 `Weak`, 5 `Strong` — but the
+        published command returned 88 files, 25 `Weak`, 6 `Strong`. Anyone
+        following the documented procedure would have "corrected" the tables to
+        the wrong numbers. Fixed in all four files that carry it, with a note
+        saying why questionnaires are excluded.
+      * **The stale "68 labels" in suggested improvement 9**, left behind when
+        the count reached 72.
+      Checks 18 and 19 added: `AGENTS/audit.md` must document every check, and
+      every "<n> checks" claim in prose must match the script. Check 19 skips
+      past-tense lines so that the historical records above can stay; write
+      history in the past tense and current fact in the present.
+* [x] Record the published website in the specification, 2026-08-13. The site
+      at <https://organizational-development.github.io> vendors this repository
+      and had been documented nowhere here, so nothing said which facts it
+      depends on. Now under [Downstream: the
+      website](#downstream-the-website), with the three couplings that break it
+      quietly: heading text is a URL, families come from `topics/index.md`, and
+      the evidence strength value is parsed rather than merely displayed.
 * [ ] Optional: periodic evidence review. Ratings age. Record the date and
       outcome of each review pass here rather than in a commit message. No
       ratings review has been run; the labels date from 2026-08-12.
@@ -439,7 +498,7 @@ Recorded here rather than acted on, so the owner can choose.
    rather than only in a careful review.
 
 9. **Schedule an evidence review.** Ratings age as research appears. An annual
-   pass over the 68 labels, recorded here with its date and outcome, would keep
+   pass over the 72 labels, recorded here with its date and outcome, would keep
    the repository's central claim trustworthy. Not yet run; the current labels
    date from 2026-08-12.
 

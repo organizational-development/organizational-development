@@ -31,6 +31,14 @@ Run it before every commit. Do not commit a failing tree.
 | 9 | README anchors resolve | Contents entries pointing at renamed headings |
 | 10 | Agent files under 40 KB | Agent context bloat |
 | 11 | `topics/index.md` completeness | Topics that exist but are unlisted |
+| 12 | Required top-level files present | A deleted `CONTRIBUTING.md`, CI workflow, or `topics/README.md` symlink |
+| 13 | Stated model count matches reality | "Across 68 models" after the count reached 72 |
+| 14 | All three audience examples | A topic written for one audience only |
+| 15 | No orphan topics | A topic no sibling links to, reachable only from the index |
+| 16 | Prose wrapped at 80 columns | Unwrapped paragraphs that make diffs unreadable |
+| 17 | Check list in `spec/conventions.md` matches | A check added to the script and not documented |
+| 18 | This table documents every check | This table going stale, which it did once |
+| 19 | Stated check counts match the script | A spelled-out or numeric count in prose left behind when the script grew |
 
 
 ## Fixing each failure
@@ -76,6 +84,43 @@ what makes a playbook usable.
 **11. Unlisted topic.** Add it to `topics/index.md` in the right family, with
 its evidence label in brackets.
 
+**12. Missing required file.** Restore it. The list is deliberately short —
+`README.md`, `AGENTS.md`, `CLAUDE.md`, `CONTRIBUTING.md`, `LICENSE.md`,
+`spec/index.md`, `spec/conventions.md`, `topics/index.md`, the CI workflow, and
+the `topics/README.md` symlink. Each is load-bearing for someone: a reader, an
+agent, a contributor, or CI.
+
+**13. Stale model count.** A count in prose no longer matches the tree. Recount
+with the command under [Beyond the script](#beyond-the-script) and update every
+file the check names. Do not adjust a number by hand from memory.
+
+**14. Missing audience example.** The guide serves health care, software, and
+senior executives, and a topic that speaks to one of them is half-written. Add
+the missing example and make it specific enough to picture — see
+[style-guide.md](style-guide.md#audience-examples).
+
+**15. Orphan topic.** No sibling links to it, so a reader browsing by
+association will never arrive. Add `../<topic>/` links from at least one related
+topic — usually the one a reader would be reading when they need this. If no
+sibling wants to link to it, ask whether it should be a section inside an
+existing topic instead.
+
+**16. Long prose line.** Hard-wrap at 80 columns. Tables, fenced code, URLs, and
+a line that is a single markdown link are exempt, and the check already skips
+them.
+
+**17, 18, 19. Self-documentation drift.** The check list in
+`spec/conventions.md`, the table in this file, and every "<n> checks" claim in
+prose must all agree with the `section` calls in `bin/audit`. Fix the
+documentation, in all three places, rather than the script — unless the script
+is what is wrong. These checks exist because this file once documented eleven
+checks while the script had seventeen, which is the worst place for a stale
+fact: it is what an agent reads *because* a check just failed.
+
+A note on the wording of check 19: it skips lines written in the past tense, so
+that a record like "claimed 11 checks; it had 16" can stay. Write history in the
+past tense and current fact in the present, and the check does the right thing.
+
 
 ## Extending the checks
 
@@ -94,9 +139,12 @@ done
 [ "$FAIL" -eq "$before" ] && pass
 ```
 
-Then update the check count in this file's table, in
-[../AGENTS.md](../AGENTS.md#validation), and in
-[../spec/conventions.md](../spec/conventions.md#validation).
+Then document it in this file — a table row *and* a "Fixing each failure"
+entry — in [../spec/conventions.md](../spec/conventions.md#validation), and in
+the prose counts in [../AGENTS.md](../AGENTS.md#validation) and
+[../CONTRIBUTING.md](../CONTRIBUTING.md#validation). Checks 17, 18, and 19 fail
+until you do, so the audit tells you what you forgot rather than leaving it to
+the next reader to discover.
 
 **Constraints on new checks:**
 
@@ -134,9 +182,13 @@ Some things cannot be mechanically checked and need a periodic human pass:
 * **Do the three evidence tables agree** with the topic files? Recount:
 
   ```sh
-  grep -h -o '^\*\*Evidence: [^.]*\.' topics/*/index.md |
+  find topics -name index.md -not -path '*-questionnaire/*' \
+    -exec grep -h -m1 -o '^\*\*Evidence: [^.]*\.' {} + |
     sed 's/\*\*Evidence: //; s/\.$//' | sort | uniq -c | sort -rn
   ```
+
+  Questionnaires are excluded because each inherits its model's rating;
+  counting them disagrees with the documented model-only distribution.
 
 * **Are there near-duplicate topics** that should be merged?
 * **Is `README.md` still self-contained**, or has content drifted into `topics/`

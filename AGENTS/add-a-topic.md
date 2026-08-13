@@ -124,9 +124,14 @@ If the new topic is a model, three tables now disagree with reality:
 Update all three. Recount rather than incrementing from memory:
 
 ```sh
-grep -h -o '^\*\*Evidence: [^.]*\.' topics/*/index.md |
+find topics -name index.md -not -path '*-questionnaire/*' \
+  -exec grep -h -m1 -o '^\*\*Evidence: [^.]*\.' {} + |
   sed 's/\*\*Evidence: //; s/\.$//' | sort | uniq -c | sort -rn
 ```
+
+Questionnaires are excluded because each inherits its model's rating, so
+counting them would inflate every bucket and disagree with the documented
+distribution, which is model-only.
 
 
 ## 6. Validate

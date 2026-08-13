@@ -335,12 +335,16 @@ Run `bin/audit` before committing. It checks:
 15. Every topic is linked from at least one sibling.
 16. Prose wrapped at 80 columns.
 17. Validation list in conventions.md matches these checks.
+18. AGENTS/audit.md documents every check.
+19. Stated check counts match the script.
 
 The script exits non-zero on any violation and prints the offending file.
 
-**This list must stay 1:1 with the `section` calls in `bin/audit`.** Check 17
-enforces that: adding a check without documenting it here fails the audit, and
-so does documenting one that does not exist.
+**This list must stay 1:1 with the `section` calls in `bin/audit`.** Checks 17
+to 19 enforce that mechanically, in the three places the count is written down:
+this list, the table in [../AGENTS/audit.md](../AGENTS/audit.md), and the
+"<n> checks" claims in prose. Adding a check without documenting it fails the
+audit, and so does documenting one that does not exist.
 
 ## Definition of done
 

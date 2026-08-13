@@ -101,13 +101,14 @@ bin/audit           # full report, section by section
 bin/audit --quiet   # failures only
 ```
 
-Seventeen checks: directory structure and symlinks, single title per topic,
+Nineteen checks: directory structure and symlinks, single title per topic,
 evidence labels and their permitted values, `Use when` and `Do not use when`,
 questionnaire pairing in both directions, cross-topic links, absence of legacy
 links, README links, README anchors, agent file size, topic index completeness,
 presence of the required top-level files, currency of the stated model count,
 all three audience examples, absence of orphan topics, 80-column prose wrapping,
-and agreement between the documented check list and the script.
+and three self-documentation checks that keep the documented check list, the
+`AGENTS/audit.md` table, and every "<n> checks" claim in step with the script.
 
 The same script runs in CI on every pull request.
 
@@ -131,9 +132,14 @@ These files are coupled. When you change one, check the others.
 To recount evidence labels rather than adjusting by hand:
 
 ```sh
-grep -h -o '^\*\*Evidence: [^.]*\.' topics/*/index.md \
-  | sed 's/\*\*Evidence: //; s/\.$//' | sort | uniq -c | sort -rn
+find topics -name index.md -not -path '*-questionnaire/*' \
+  -exec grep -h -m1 -o '^\*\*Evidence: [^.]*\.' {} + |
+  sed 's/\*\*Evidence: //; s/\.$//' | sort | uniq -c | sort -rn
 ```
+
+Questionnaires are excluded because each inherits its model's rating, so
+counting them would inflate every bucket and disagree with the documented
+distribution, which is model-only.
 
 
 ## Pull requests

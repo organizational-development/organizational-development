@@ -124,9 +124,14 @@ A label change is a content change with three downstream effects:
 Recount rather than adjusting by hand:
 
 ```sh
-grep -h -o '^\*\*Evidence: [^.]*\.' topics/*/index.md |
+find topics -name index.md -not -path '*-questionnaire/*' \
+  -exec grep -h -m1 -o '^\*\*Evidence: [^.]*\.' {} + |
   sed 's/\*\*Evidence: //; s/\.$//' | sort | uniq -c | sort -rn
 ```
+
+Questionnaires are excluded because each inherits its model's rating, so
+counting them would inflate every bucket and disagree with the documented
+distribution, which is model-only.
 
 Also check whether the guide's prose about that model needs revising. If
 `README.md` calls something well-supported and the label now says `Weak`, the

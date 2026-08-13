@@ -277,6 +277,72 @@ else
 fi
 [ "$FAIL" -eq "$before" ] && pass
 
+# ------------------------------------------- 18. audit playbook completeness
+# AGENTS/audit.md exists to tell an agent what each check does and how to fix a
+# failure. It drifted once already: the table documented 11 checks while the
+# script had 17, which is the worst possible place for a stale fact, because it
+# is the file someone reads *because* a check failed.
+section "18. AGENTS/audit.md documents every check"
+before=$FAIL
+play="AGENTS/audit.md"
+if [ ! -f "$play" ]; then
+  fail "$play is missing"
+else
+  actual=$(grep -c '^section "' "$0")
+  # Table rows look like: | 7 | No legacy bare `.md` sibling links | ... |
+  rows=$(grep -cE '^\| [0-9]+ \| ' "$play")
+  if [ "$rows" -ne "$actual" ]; then
+    fail "$play documents $rows checks; bin/audit defines $actual"
+  else
+    n=0
+    while [ "$n" -lt "$actual" ]; do
+      n=$((n + 1))
+      grep -qE "^\| $n \| " "$play" || fail "$play has no table row for check $n"
+      # A fix entry may cover several checks at once — "**6, 7, 8. Broken
+      # links.**" — so accept the number anywhere in the leading run of digits.
+      grep -qE "^\*\*[0-9, ]*\b$n\b[.,]" "$play" ||
+        fail "$play has no 'Fixing each failure' entry for check $n"
+    done
+  fi
+fi
+[ "$FAIL" -eq "$before" ] && pass
+
+# --------------------------------------------- 19. stated check count is true
+# Prose repeats the count in five files. Spelled-out forms are checked too,
+# because the house style writes "Seventeen checks", not "17 checks".
+section "19. Stated check counts match the script"
+before=$FAIL
+actual=$(grep -c '^section "' "$0")
+number_word() {
+  case "$1" in
+    10) echo ten ;; 11) echo eleven ;; 12) echo twelve ;; 13) echo thirteen ;;
+    14) echo fourteen ;; 15) echo fifteen ;; 16) echo sixteen ;;
+    17) echo seventeen ;; 18) echo eighteen ;; 19) echo nineteen ;;
+    20) echo twenty ;; *) echo "" ;;
+  esac
+}
+expected_word=$(number_word "$actual")
+# Both files record their own history — "claimed 11 checks; it had 16" — and
+# that is worth keeping, so lines written in the past tense are exempt. The
+# vocabulary is deliberately small: a present-tense claim must not slip through.
+HISTORICAL='claimed|had |once|previously|used to|before the|documented [0-9]'
+for f in README.md AGENTS.md CONTRIBUTING.md AGENTS/audit.md spec/index.md \
+         spec/conventions.md; do
+  [ -f "$f" ] || continue
+  current=$(grep -viE "$HISTORICAL" "$f")
+  wrong=$(printf '%s\n' "$current" | grep -oiE '\b[0-9]+ (mechanical )?checks\b' |
+          grep -oE '[0-9]+' | grep -v "^${actual}$" | head -1)
+  [ -n "$wrong" ] && fail "$f states $wrong checks; bin/audit defines $actual"
+  if [ -n "$expected_word" ]; then
+    wrongw=$(printf '%s\n' "$current" |
+             grep -oiE '\b(ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen|seventeen|eighteen|nineteen|twenty) (mechanical )?checks\b' |
+             awk '{print tolower($1)}' | grep -v "^${expected_word}$" | head -1)
+    [ -n "$wrongw" ] &&
+      fail "$f states \"$wrongw checks\"; bin/audit defines $expected_word ($actual)"
+  fi
+done
+[ "$FAIL" -eq "$before" ] && pass
+
 # ---------------------------------------------------------------------- report
 printf '\n'
 if [ "$FAIL" -eq 0 ]; then

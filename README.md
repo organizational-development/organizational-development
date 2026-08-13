@@ -11,6 +11,10 @@ not to, what the evidence says, and worked examples from all three audiences.
 Deeper reference notes on each individual model live in [topics/](topics/), one
 directory per model, framework, method, and system.
 
+This guide is also published as a website, page by page, with the evidence
+ratings browsable in one ranked table:
+<https://organizational-development.github.io>.
+
 Contents:
 
 * [Introduction](#introduction)
@@ -4029,7 +4033,8 @@ copy-and-use instrument, marked `Q` below.
 | [spec/conventions.md](spec/conventions.md) | Single source of truth for how the repository is built. |
 | [AGENTS.md](AGENTS.md) | Operational guidance for coding agents. |
 | [AGENTS/](AGENTS/) | Task playbooks: adding topics, questionnaires, evidence labels, style, audit. |
-| `bin/audit` | Validation; 17 checks; exits non-zero on any violation. |
+| `bin/audit` | Validation; 19 checks; exits non-zero on any violation. |
+| [The website](https://organizational-development.github.io) | This guide and every topic, published page by page. Built from a vendored copy of this repository. |
 
 Each topic directory holds `index.md` with `README.md` symlinked to it, so that
 opening the directory on GitHub renders the content.
